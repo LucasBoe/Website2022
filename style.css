@@ -1,0 +1,148 @@
+body {
+    background-color: #1e1e24;
+    color: #ffcf99;
+    color: #fff;
+    font-family: 'Neucha', cursive;
+}
+
+#sidebar {
+    margin-left: 70%;
+    padding-top: 30vh;
+    width: 30%;
+    position: fixed;
+}
+
+#content {
+    position: absolute;
+    width: 60%;
+    margin: 5%;
+}
+
+.project-preview {
+    overflow: hidden;
+    height: 50vh;
+    position: relative;
+    transform: perspective(100px);
+    z-index: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.project-preview:hover {
+    z-index: 100;
+    box-shadow: black 10px 10px 50px;
+}
+
+.project-preview .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    text-align: center;
+    padding: 32px;
+    opacity: 0;
+}
+
+.project-preview:hover .overlay {
+    box-shadow: inset 0px 0px 50px rgb(66, 66, 66);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 90%);
+    opacity: 1;
+}
+
+.project-preview .overlay .info {
+    position: absolute;
+    left: 16px;
+    bottom: 0px;
+}
+
+.project-preview .overlay p {
+    margin: 0;
+    text-align: left;
+}
+
+.project-preview .overlay ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    color: #000;
+    transform: translate(-16px,0);
+}
+
+.project-preview .overlay li {
+    border-radius: 100px;
+    background-color: white;
+    padding: 2px 8px 0px;
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size: 10pt;
+}
+
+.project-preview .overlay li::before {
+    content: "#";
+}
+
+.project-preview .center {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.project-preview img {
+    margin: -25% -25%;
+    width: 150%;
+    transition: all 0.5s;
+    vertical-align: middle;
+}
+
+.project-preview:hover img {
+    width: 100%;
+    margin: 0;
+}
+
+.tag {
+    background-color: #1e1e24;
+    color: #92140c;
+    padding: 6px 10px;
+    border: #92140c 1px solid;
+    border-radius: 100px;
+}
+
+.tag:hover {
+    background-color: #ffcf99;
+    border: #ffcf99 1px solid;
+    color: #1e1e24;
+}
+
+.activeTag, .activeTag:hover {
+    background-color: #92140c;
+    border:#92140c 1px solid;
+    color: #1e1e24;
+}
+
+h2 {
+    color: #92140c;
+}
+
+ strong {
+    position: relative;
+    color: black;
+    display: inline;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    background: linear-gradient( 126deg, #fff0 2%, #fff 2.4%, 95%, #fff0 2%);
+}
+
+    strong:before {
+        content: "";
+        background-color: #fff;
+        width: 100%;
+        height: 1em;
+        position: absolute;
+        z-index: -1;
+        filter: url(#marker-shape);
+        left: -0.25em;
+        top: 0em;
+        padding: 0.1em 0.25em;
+    }
