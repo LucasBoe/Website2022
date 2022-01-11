@@ -19,7 +19,7 @@ body {
 }
 
 .project-preview {
-    overflow: hidden;
+    overflow: visible;
     height: 50vh;
     position: relative;
     transform: perspective(100px);
@@ -28,77 +28,95 @@ body {
     background-color: black;
 }
 
-.project-preview:hover {
-    z-index: 100;
-    box-shadow: black 10px 10px 50px;
-}
+    .project-preview:hover {
+        z-index: 100;
+        box-shadow: black 10px 10px 50px;
+    }
 
-.project-preview .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: all 0.5s;
-    text-align: center;
-    padding: 32px;
-    opacity: 0;
-}
+    .project-preview .hoverable {
+        overflow: hidden;
+        height: inherit;
+        transition: all 0.5s ease;
+        background-color: black;
+    }
 
-.project-preview:hover .overlay {
-    box-shadow: inset 0px 0px 50px rgb(66, 66, 66);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 25%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 80%);
-    opacity: 1;
-}
+        .project-preview .hoverable:hover {
+            transform: scale(1.2);
+        }
 
-.project-preview .overlay .title {
-    width: 30vh;
-}
+        .project-preview .hoverable .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transition: opacity 0.5s;
+            text-align: center;
+            padding: 32px;
+            opacity: 0;
+        }
 
-.project-preview .overlay .info {
-    position: absolute;
-    left: 3vh;
-    right: 3vh;
-    bottom: 1vh;
-}
+            .project-preview .hoverable:hover .overlay {
+                box-shadow: inset 0px 0px 50px rgb(66, 66, 66);
+                background: linear-gradient(0deg, rgba(0,0,0,1) 25%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 80%);
+                opacity: 1;
+            }
 
-.project-preview .overlay p {
-    margin: 0;
-    text-align: left;
-    font-size: 1.5vh;
-}
+        .project-preview .overlay .title {
+            width: 30vh;
+        }
 
-.project-preview .overlay ul {
-    display: flex;
-    padding: 0;
-    list-style: none;
-    color: #000;
-    transform: translate(-16px,0);
-}
+        .project-preview .overlay .info {
+            position: absolute;
+            left: 3vh;
+            right: 3vh;
+            bottom: 1vh;
+        }
 
-.project-preview .overlay li {
-    border-radius: 100px;
-    background-color: white;
-    padding: 2px 8px 0px;
-    margin-top: 8px;
-    margin-left: 8px;
-    font-size: 1.3vh;
-}
+        .project-preview .overlay p {
+            margin: 0;
+            text-align: left;
+            font-size: 1.5vh;
+        }
 
-.project-preview .overlay li::before {
-    content: "#";
-}
+        .project-preview .overlay ul {
+            display: flex;
+            padding: 0;
+            list-style: none;
+            color: #000;
+            transform: translate(-16px,0);
+        }
 
-.project-preview .center {
-    height: inherit;
-    display: flex;
-    justify-content: center;
-    transition: all 0.5s;
-}
+        .project-preview .overlay li {
+            border-radius: 100px;
+            background-color: white;
+            padding: 2px 8px 0px;
+            margin-top: 8px;
+            margin-left: 8px;
+            font-size: 1.3vh;
+        }
 
-.project-preview .center img, .project-preview .center video {
-    height: inherit;
-}
+            .project-preview .overlay li::before {
+                content: "#";
+            }
+
+    .project-preview .center {
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        transition: all 0.5s;
+    }
+
+        .project-preview .center::after {
+            content: "";
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+
+        .project-preview .center img, .project-preview .center video {
+            height: inherit;
+        }
 
 .project-preview:hover .center {
     box-shadow: inset 0px 0px 50px rgb(66, 66, 66);
