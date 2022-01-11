@@ -9,8 +9,7 @@ function transforms(x, y, el) {
   
   return "perspective(100px) "
     + "   rotateX("+ calcX +"deg) "
-    + "   rotateY("+ calcY +"deg) "
-    + "   scale(1.2)";
+    + "   rotateY("+ calcY +"deg) ";
 };
 
  function transformElement(el, xyEl) {
@@ -44,31 +43,31 @@ $('document').ready(function(){
 function setFokusElement(element) {
 
     if (ex1Layer != null) {
-        ex1Layer.style.transition = "all 0.5s";
+        ex1Layer.style.transition = "all 0.1s";
         ex1Layer.style.transform = "perspective(100px) "
         + "   rotateX(0deg) "
-        + "   rotateY(0deg) "
-        + "   scale(1)";
+        + "   rotateY(0deg) ";
     }
+
     ex1Layer = element;
 
-    ex1Layer.style.transition = "all 0.5s";
-    
+    ex1Layer.style.transition = "all 0.1s";
+
+    var element = ex1Layer;
     
     setTimeout(function() {
-        if (ex1Layer != null) {
-            ex1Layer.style.transition = "all 0s";
+        if (element != null) {
+            element.style.transition = "all 0s";
         }
-    }, 500);
+    }, 300);
 }
 
 function resetFokusElement(current, left) {
 
-        left.style.transition = "all 0.5s";
+        left.style.transition = "all 0.1s";
         left.style.transform = "perspective(100px) "
     + "   rotateX(0deg) "
-    + "   rotateY(0deg) "
-    + "   scale(1)";
+    + "   rotateY(0deg) ";
     
         ex1Layer = null;
 }
