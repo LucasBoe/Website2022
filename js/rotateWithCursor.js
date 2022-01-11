@@ -24,7 +24,7 @@ mouseOverContainer.onmousemove = function(e) {
   window.requestAnimationFrame(function(){
       if (ex1Layer != null) {
     transformElement(ex1Layer, position);
-    ex1Layer.style.transition = "all 0s"
+    //ex1Layer.style.transition = "all 0s"
     $(ex1Layer).clearQueue();
       }
   });
@@ -54,13 +54,12 @@ function setFokusElement(element) {
 
     ex1Layer.style.transition = "all 0.5s";
     
-    if (ex1Layer != null) {
-        $(ex1Layer).delay(500)
-        $(ex1Layer).queue(function (next) { 
-            this.style.transition = "all 0s";
-        next(); 
-        });
-    }
+    
+    setTimeout(function() {
+        if (ex1Layer != null) {
+            ex1Layer.style.transition = "all 0s";
+        }
+    }, 500);
 }
 
 function resetFokusElement(current, left) {
@@ -71,10 +70,5 @@ function resetFokusElement(current, left) {
     + "   rotateY(0deg) "
     + "   scale(1)";
     
-        $(left).delay(500)
-        $(left).queue(function (next) { 
-            this.style.transition = "all 0s";
-        next(); 
-        });
         ex1Layer = null;
 }
