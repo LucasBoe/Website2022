@@ -1,3 +1,5 @@
+let transitionDuration = 1000;
+
 $(document).ready(function () {
 
   $('span.tag').click(function(){
@@ -38,8 +40,6 @@ $(document).ready(function () {
 
       //store active tags in list
       var activeTags = $(".activeTag");
-
-      var projectPositionsBefore = getChildPositionArray(projects);
       /*let i = 0;
       var projectPositionsBefore = [];
       projects.each(function(){
@@ -79,50 +79,29 @@ $(document).ready(function () {
         })
 
         //update the visibility of the projects
-        if (show == true) {
-          $(this).show();
-          $(this).animate({
-            opacity: 1
-          }, 250, function() {
-            
-          });
-        } else {
-          $(this).animate({
-            opacity: 0
-          }, 250, function() {
-            $(this).hide();
-          });
-          
-        }
+        let isVisbible = $(this).css("display") == "block";
+        $(this).data("visibleBefore", isVisbible);
+        $(this).data("visible", show);
       })
 
-      var projectPositionsAfter = getChildPositionArray(projects);
-      var arrayLength = projectPositionsAfter.length;
-      for (var i = 0; i < arrayLength; i++) {
-        var before = projectPositionsBefore[i];
-        var after = projectPositionsAfter[i];
-        var project = projects[i];
+      //fetch positions before transition
+      var projectPositionsBefore = getChildPositionArray(projects);
 
-        //if (before.top != 0 && after.top != 0)
-        {
+      //update visibility...
+      projects.each(function(){
+        var  visible = $(this).data("visible");
+        $(this).setVisible(visible);
+      });
 
-        project.style.position = "absolute";
-        console.log(before);
-        project.style.left = before.left;
-        project.style.top = before.top;
+      //to fetch target positions
+      var projectPositionsAfter = getChildPositionArray(projects); 
 
-        $(project).animate({
-          left: after.left,
-          top: after.top
-        }, 250, function() {
-          console.log("hrlppp");
-          this.style.position = "relative";
-          this.style.left = 0;
-          this.style.top = 0;
-        });
-       }
-      }
-
+      //set everything visible that was or should be visible
+      projects.each(function(){
+        var  visible = $(this).data("visibleBefore") || $(this).data("visible");
+        $(this).setVisible(visible);
+      });
+      animateProjects(projects, transitionDuration, projectPositionsBefore, projectPositionsAfter);
     }
   })
 
@@ -136,4 +115,47 @@ $(document).ready(function () {
     return projectPositions;
   };
 
+  animateProjects = function(projects, duration, projectPositionsBefore, projectPositionsAfter) {
+    var arrayLength = projectPositionsAfter.length;
+    for (var i = 0; i < arrayLength; i++) {
+
+      var before = projectPositionsBefore[i];
+      var after = projectPositionsAfter[i];
+
+      var project = projects[i];
+
+      project.style.position = "absolute";
+      project.style.left = before.left;
+      project.style.top = before.top;
+  
+      var targetOpacity = 0;
+      if ($(project).data("visible")) {
+        targetOpacity = 1;
+      }
+
+      $(project).animate({
+        left: after.left,
+        top: after.top,
+        opacity: targetOpacity
+      }, duration, function() {
+        this.style.position = "relative";
+        this.style.left = 0;
+        this.style.top = 0;
+        var visible = $(this).data("visible");
+        $(this).setVisible(visible);
+      });
+    }
+  }
+
 });
+
+jQuery.fn.setVisible = function(visible) {
+
+  console.log(visible);
+
+  if (visible) {
+     $(this).show();
+  } else {
+    $(this).hide();
+  }
+};
