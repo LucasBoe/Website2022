@@ -1,11 +1,11 @@
-let constrain = 100;
+let strength = 7;
 let mouseOverContainer = document.getElementById("projects");
-let ex1Layer = document.getElementById("test");
+let ex1Layer;
 
 function transforms(x, y, el) {
   let box = el.getBoundingClientRect();
-  let calcX = -(y - box.y - (box.height / 2)) / constrain;
-  let calcY = (x - box.x - (box.width / 2)) / constrain;
+  let calcX = -(y - box.y - (box.height / 2)) / window.innerWidth * strength;
+  let calcY = (x - box.x - (box.width / 2)) / window.innerHeight * strength;
   
   return "perspective(100px) "
     + "   rotateX("+ calcX +"deg) "
