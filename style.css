@@ -1,5 +1,5 @@
 body {
-    background-color: #1e1e24;
+    background-color: #111;
     color: #ffcf99;
     color: #fff;
     font-family: 'Neucha', cursive;
@@ -47,19 +47,25 @@ body {
 
 .project-preview:hover .overlay {
     box-shadow: inset 0px 0px 50px rgb(66, 66, 66);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 10%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 90%);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 25%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 80%);
     opacity: 1;
+}
+
+.project-preview .overlay .title {
+    width: 30vh;
 }
 
 .project-preview .overlay .info {
     position: absolute;
-    left: 16px;
-    bottom: 0px;
+    left: 3vh;
+    right: 3vh;
+    bottom: 1vh;
 }
 
 .project-preview .overlay p {
     margin: 0;
     text-align: left;
+    font-size: 1.5vh;
 }
 
 .project-preview .overlay ul {
@@ -76,7 +82,7 @@ body {
     padding: 2px 8px 0px;
     margin-top: 8px;
     margin-left: 8px;
-    font-size: 10pt;
+    font-size: 1.3vh;
 }
 
 .project-preview .overlay li::before {
@@ -84,45 +90,42 @@ body {
 }
 
 .project-preview .center {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-
-.project-preview img {
-    margin: -25% -25%;
-    width: 150%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
     transition: all 0.5s;
-    vertical-align: middle;
 }
 
-.project-preview:hover img {
-    width: 100%;
-    margin: 0;
+.project-preview .center img, .project-preview .center video {
+    height: inherit;
+}
+
+.project-preview:hover .center {
+    box-shadow: inset 0px 0px 50px rgb(66, 66, 66);
+    transform: scale(0.7);
 }
 
 .tag {
-    background-color: #1e1e24;
-    color: #92140c;
+    background-color: #1c1c1c;
+    color: #fdfdfd;
     padding: 6px 10px;
-    border: #92140c 1px solid;
+    border: #1c1c1c 1px solid;
     border-radius: 100px;
 }
 
 .tag:hover {
-    background-color: #ffcf99;
-    border: #ffcf99 1px solid;
-    color: #1e1e24;
+    background-color: #2f2c20;
+    border: #fdfdfd 1px solid;
 }
 
 .activeTag, .activeTag:hover {
-    background-color: #92140c;
-    border:#92140c 1px solid;
-    color: #1e1e24;
+    background-color: #fdf87a;
+    border:#fdf87a 1px solid;
+    color: #111;
 }
 
 h2 {
-    color: #92140c;
+    color: #fdf87a;
 }
 
  strong {
