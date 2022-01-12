@@ -1,4 +1,4 @@
-let transitionDuration = 1000;
+let transitionDuration = 250;
 
 $(document).ready(function () {
 
