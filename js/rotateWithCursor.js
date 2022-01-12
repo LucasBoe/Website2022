@@ -1,6 +1,6 @@
-let strength = 7;
-let mouseOverContainer = document.getElementById("projects");
-let ex1Layer;
+var strength = 7;
+var mouseOverContainer = document.getElementById("projects");
+var ex1Layer;
 
 function transforms(x, y, el) {
   let box = el.getBoundingClientRect();

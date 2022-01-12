@@ -6,10 +6,17 @@ body {
 }
 
 #sidebar {
-    margin-left: 70%;
-    padding-top: 30vh;
-    width: 30%;
+    margin-left: 68%;
+    padding-right: 4%;
+    padding-top: 10vh;
+    width: 32%;
     position: fixed;
+}
+
+#sidebar #me {
+    border-radius: 100%;
+    width: 100%;
+    transition: transform 0.1s;
 }
 
 #content {
