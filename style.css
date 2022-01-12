@@ -163,6 +163,7 @@ h2 {
     display: inline;
     margin-left: 0.25em;
     margin-right: 0.25em;
+    z-index: 1;
     background: linear-gradient( 0deg, #fff0 10%, #f8ff84 10.1%, #f8ff84 90%, #fff0 90.1%);
 }
 
