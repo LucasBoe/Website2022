@@ -31,15 +31,15 @@ openProject = function(from, id) {
     $(pWindow).css({width: sWidth,top: sPos.top, left: sPos.left});
 
     preview.css("min-width", "0%");
-    $(pWindow).find(".header").css("height", "40vh");
+    $(pWindow).find(".header").css("height", "auto");
 
     blend.css("background-color", "rgba(0,0,0,0.5);")
 
     $(pWindow).animate({
         opacity: 1,
-        left: "10vw",
+        left: "20vw",
         top: "10vh",
-        width: "80vw"
+        width: "60vw"
       }, duration, function() {
         $(pWindow).find("#close").click(function(){
             closeProject();

@@ -47,25 +47,38 @@
 		#project-window .header .preview {
 			min-width: 100%;
 			transition: min-width 2s ease;
+			max-height: 40vh;
 		}
 
 
+	#project-window .logo  {
+		height: 90%;
+	}
 
 #project-window .logo img {
 	position: relative;
     width: 80%;
-    margin-left: 10%;
-    transform: translate(0,-50%);
     top: 50%;
+    margin: 5% 10%;
+    padding-bottom: 5%;
+    transform: translate(0,-50%);
 }
 
-#project-window .project-body {
-	padding: 4%;
+#project-window .logo-below  {
+	display: flex;
 }
 
-#project-window .project-body img {
-	width: 100%;
-}
+	#project-window .project-body {
+		padding: 4%;
+	}
+
+		#project-window .project-body img {
+			width: 100%;
+		}
+
+		#project-window .row .col {
+			padding: 4%;
+		}
 
 #project-window #close {
 	font-size: 500%;
@@ -85,4 +98,37 @@
 
 .blurred {
 	filter:  blur(10px);
+}
+
+.button {
+    background-color: #1c1c1c;
+    color: #fdfdfd;
+    border: #1c1c1c 1px solid;
+    border-radius: 100px;
+	display: inline-flex;
+	width: fit-content;
+	text-align: center;
+	vertical-align: auto;
+	padding: 2px 8px;
+	text-decoration: none;
+}
+
+.button:hover {
+    background-color: #2f2c20;
+    border: #fdfdfd 1px solid;
+	color: #fff;
+}
+
+.button p {
+	padding: 3px;
+}
+
+
+
+.button .icon {
+	font-size: 36px;
+}
+
+.button p {
+	margin: 2px;
 }
