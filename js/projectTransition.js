@@ -21,7 +21,7 @@ openProject = function(from, id) {
     var clone = $(from).find(".preview").children(0).clone();
     clone.appendTo(preview);
     clone.css("width", "100%")
-    $(from).find(".title").clone().appendTo($(pWindow).find(".logo"));
+    $(from).find(".title").clone().appendTo($(pWindow).find(".logo-holder"));
 
     sPos = $(from).position();
     sWidth = $(from).width() * 1.2;
@@ -67,7 +67,7 @@ closeProject = function() {
       }, duration, function() {
         $(this).hide();
         $(pWindow).find(".preview").empty();
-        $(pWindow).find(".logo").empty();
+        $(pWindow).find(".logo-holder").empty();
         blend.hide();
         setBackgroundBlurred(false);
       })

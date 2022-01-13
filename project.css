@@ -51,11 +51,12 @@
 		}
 
 
-	#project-window .logo  {
-		height: 90%;
+	#project-window .logo-holder  {
+		height: 100%;
+    	transform: translate(0px, -10%);
 	}
 
-#project-window .logo img {
+#project-window .logo-holder img {
 	position: relative;
     width: 80%;
     top: 50%;
@@ -65,7 +66,11 @@
 }
 
 #project-window .logo-below  {
-	display: flex;
+    display: block;
+    width: unset;
+    height: 100%;
+    top: -100%;
+    position: relative;
 }
 
 	#project-window .project-body {
@@ -111,24 +116,23 @@
 	vertical-align: auto;
 	padding: 2px 8px;
 	text-decoration: none;
+	transition: all 0.2s ease;
 }
 
 .button:hover {
     background-color: #2f2c20;
     border: #fdfdfd 1px solid;
 	color: #fff;
+	transform: scale(1.05);
 }
-
-.button p {
-	padding: 3px;
-}
-
-
 
 .button .icon {
-	font-size: 36px;
+	font-size: 24px;
+    padding-top: 6px;
 }
 
 .button p {
-	margin: 2px;
+	
+	padding: 3px;
+	margin: 2px 4px 2px 8px;
 }

@@ -90,27 +90,6 @@ body {
             font-size: 1.5vh;
         }
 
-        .project-preview .overlay ul {
-            display: flex;
-            padding: 0;
-            list-style: none;
-            color: #000;
-            transform: translate(-16px,0);
-        }
-
-        .project-preview .overlay li {
-            border-radius: 100px;
-            background-color: white;
-            padding: 2px 8px 0px;
-            margin-top: 8px;
-            margin-left: 8px;
-            font-size: 1.3vh;
-        }
-
-            .project-preview .overlay li::before {
-                content: "#";
-            }
-
     .project-preview .center {
         height: inherit;
         display: flex;
@@ -152,6 +131,27 @@ body {
     border:#fdf87a 1px solid;
     color: #111;
 }
+
+.project-tags {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    color: #000;
+    transform: translate(-16px,0);
+}
+
+.project-tags li {
+    border-radius: 100px;
+    background-color: white;
+    padding: 2px 8px 0px;
+    margin-top: 8px;
+    margin-left: 8px;
+    font-size: 1.3vh;
+}
+
+    .project-tags li::before {
+        content: "#";
+    }
 
 h2 {
     color: #fdf87a;
