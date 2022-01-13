@@ -1,0 +1,26 @@
+{
+    "atlb": {
+        "name" : "All that lies below",
+        "tags" : ["Game", "2D"],
+        "previewType" : "gif",
+        "previewUrl" : "img/6GiLRb.gif",
+        "logoUrl" : "img/all_that_lies_below_red_blue.png",
+        "describtion" : "<p>a pixelart adventure mining game.</p><p>This <strong>project</strong> was my bachelor project developed in a duo.</p>"
+    },
+    "irina": {
+        "name" : "Irina 28-07-37",
+        "tags" : ["Movie"],
+        "previewType" : "mp4",
+        "previewUrl" : "img/irina_preview.mp4",
+        "logoUrl" : "img/Irina_titleText_on_dark.png",
+        "describtion" : "<p>A young female soldier wakes up without memory on a battlefield among robot parts and human corpses. Wounded and alone, she scours the military base in search of other survivors. But what she finds makes her doubt everything she thought she knew.</p>"
+    },
+    "windwalker": {
+        "name" : "Windwalker",
+        "tags" : ["Game", "3D"],
+        "previewType" : "mp4",
+        "previewUrl" : "img/windwalker_preview.mp4",
+        "logoUrl" : "img/windwalker_title.png",
+        "describtion" : "<p>Windwalker is an 3D exploration game, where you glide through a world of flying islands, uncover it's sectrets and solve small puzzles.</p>"
+    }
+}
