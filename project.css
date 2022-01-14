@@ -50,19 +50,10 @@
 			max-height: 40vh;
 		}
 
-
-	#project-window .logo-holder  {
-		height: 100%;
-    	transform: translate(0px, -10%);
-	}
-
 #project-window .logo-holder img {
-	position: relative;
+    position: relative;
     width: 80%;
-    top: 50%;
-    margin: 5% 10%;
-    padding-bottom: 5%;
-    transform: translate(0,-50%);
+    margin: 0 10%;
 }
 
 #project-window .logo-below  {
@@ -82,8 +73,13 @@
 		}
 
 		#project-window .row .col {
-			padding: 4%;
+			padding: 2% 4%;
 		}
+
+#project-window iframe {
+	width: 100%;
+    height: 100%;
+}
 
 #project-window #close {
 	font-size: 500%;
@@ -114,9 +110,9 @@
 	width: fit-content;
 	text-align: center;
 	vertical-align: auto;
-	padding: 2px 8px;
 	text-decoration: none;
 	transition: all 0.2s ease;
+	padding: 4pt 8pt;
 }
 
 .button:hover {
@@ -127,12 +123,11 @@
 }
 
 .button .icon {
-	font-size: 24px;
-    padding-top: 6px;
+	font-size: x-large;
+	margin: 4pt;
 }
 
 .button p {
 	
-	padding: 3px;
-	margin: 2px 4px 2px 8px;
+	margin: 4pt;
 }

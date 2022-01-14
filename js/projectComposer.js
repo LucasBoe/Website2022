@@ -1,11 +1,16 @@
 /// <reference path="./jquery-3.6.0.js" />
+
+var projectsData;
+
 $(() => {
 
-    $.getJSON("projects.json", (projects) => {
+    $.getJSON("projects.json", (data) => {
 
-        $.each(projects, (key, val) => {
+        projectsData = data;
 
-            var project = projects[key];
+        $.each(projectsData, (key, val) => {
+
+            var project = projectsData[key];
 
             $.ajax({
                 type: "GET",
@@ -15,6 +20,8 @@ $(() => {
                 $(data).appendTo('#projects');
 
                 var instance = $("#projects").children().last();
+
+                instance.attr("id", key);
 
                 //load preview
                 var type = project["previewType"];
@@ -41,18 +48,32 @@ $(() => {
                 });
 
                 //load describtion
-                $(instance).find(".info").prepend(project["describtion"]);
+                $(instance).find(".info").prepend(iterateThroughElementsAndCreate("p", project["describtion"]));
 
             });
 
-            window.dispatchEvent(new CustomEvent("onApply3DEffect"));
-            window.dispatchEvent(new CustomEvent("onAddClick"));
             console.log(key);
         });
 
+        window.dispatchEvent(new CustomEvent("onApply3DEffect"));
+        window.dispatchEvent(new CustomEvent("onAddClick"));
     });
 
     console.log("dispatch");
 
 
 });
+
+function iterateThroughElementsAndCreate(type, content) {
+    var string = "";
+    $(content).each((index) => {
+        string += createElementOpenClose(type, content[index]);
+    })
+    return string;
+}
+
+function createElementOpenClose(typePrefix, content) {
+    return '<' + typePrefix + '>' +
+        content +
+        '</' + typePrefix + '>';
+}

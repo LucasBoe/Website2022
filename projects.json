@@ -1,26 +1,728 @@
 {
     "atlb": {
-        "name" : "All that lies below",
-        "tags" : ["Game", "2D"],
-        "previewType" : "gif",
-        "previewUrl" : "img/6GiLRb.gif",
-        "logoUrl" : "img/all_that_lies_below_red_blue.png",
-        "describtion" : "<p>a pixelart adventure mining game.</p><p>This <strong>project</strong> was my bachelor project developed in a duo.</p>"
+        "name": "All that lies below",
+        "tags": [
+            "Game",
+            "2D"
+        ],
+        "previewType": "gif",
+        "previewUrl": "img/6GiLRb.gif",
+        "logoUrl": "img/all_that_lies_below_red_blue.png",
+        "describtion": [
+            "a pixelart adventure mining game.",
+            "This <strong>project</strong> was my bachelor project developed in a duo."
+        ],
+        "linkouts": {
+            "itch": "https://lucas-b.itch.io/lies-below",
+            "github": "https://github.com/LucxMangaJet/AllThatLiesBelow"
+        },
+        "pageContent": [
+            [
+                {
+                    "type": "h2",
+                    "content": "About:"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "All That Lies Below is a pixelart adventure mining game.",
+                        "Step into the shoes of John, who, in a desperate attempt to pay the families debts, sets out on a journey to discover riches deep underground.",
+                        "This project was my bachelor project developed in a duo."
+                    ]
+                },
+                {
+                    "type": "h2",
+                    "content": "My Part:"
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        "Game Design",
+                        "Game Art",
+                        "Game Code",
+                        "Sound Design"
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/atlb/1.gif",
+                    "describtion": "mining gameplay + stability system at work"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/atlb/2.gif",
+                    "describtion": ""
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "A big goal of the project was to tie interesting mechanics together with an immersive atmosphere and story.",
+                        "For that part, a friend of mine took care of writing texts and a voice actress dubbed that it for us."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "After taking care of the core gameplay we carefully added layers of features and content on top.",
+                        "Instead of going down roads other games have been proven to work, we instead focussed on making this layers support the fantasy of being a miner."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/atlb/3.gif"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/atlb/4.gif"
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "Since the time for our bachelor project was really limited we used the last weeks to add content that makes use of the systems and mechanics we had set up the previous weeks.",
+                        "Differently themed areas with their own visual style, unique objects and small narratives."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "The narrative is about the idea of digging deeper and deeper underground, about the self-conviction that what we do is important, and about the lies we tell ourselves and others because of it.",
+                        "For me, the project is both an opportunity for self-reflection on our own actions and on my view of game design and game development."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/atlb/5.gif"
+                }
+            ]
+        ]
     },
     "irina": {
-        "name" : "Irina 28-07-37",
-        "tags" : ["Movie"],
-        "previewType" : "mp4",
-        "previewUrl" : "img/irina_preview.mp4",
-        "logoUrl" : "img/Irina_titleText_on_dark.png",
-        "describtion" : "<p>A young female soldier wakes up without memory on a battlefield among robot parts and human corpses. Wounded and alone, she scours the military base in search of other survivors. But what she finds makes her doubt everything she thought she knew.</p>"
+        "name": "Irina 28-07-37",
+        "tags": [
+            "Movie"
+        ],
+        "previewType": "mp4",
+        "previewUrl": "img/irina_preview.mp4",
+        "logoUrl": "img/Irina_titleText_on_dark.png",
+        "describtion": [
+            "A young female soldier wakes up without memory on a battlefield among robot parts and human corpses.",
+            "Wounded and alone, she scours the military base in search of other survivors. But what she finds makes her doubt everything she thought she knew."
+        ],
+        "pageContent": [
+            [
+                {
+                    "type": "h2",
+                    "content": "About:"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "A young female soldier wakes up without memory on a battlefield among robot parts and human corpses.",
+                        "Wounded and alone, she scours the military base in search of other survivors.",
+                        "But what she finds makes her doubt everything she thought she knew."
+                    ]
+                },
+                {
+                    "type": "h2",
+                    "content": "My Part:"
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        "Co-Director",
+                        "Co-Author",
+                        "Visual Effects"
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "youtube",
+                    "url": "TqenIA0Nj8g"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/irina/1.jpg",
+                    "describtion": ""
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "The idea for Irina came with the insane plan to make a science fiction film on a low budget.",
+                        "The image of a woman staring stunned at robot parts in her own arm was the starting point for a story that would be about the question of humanity.",
+                        "The film deals with being different, and uses the distinction between humans and robots as an example for all the various forms of exclusion and racism."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "We were aware that a science fiction film has to convince in two elements in particular: the production design and the visual effect.",
+                        "We had rented a bunker that is normally used as a venue for festivities.",
+                        "Emptying the bunker was one thing, but making it look convincingly like a military base was quite another.",
+                        "We needed robots, furnishings, practicals, hoses, cables, etc."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/irina/2.jpg"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/irina/3.jpg",
+                    "describtion": ""
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "In post-production, the visual effects became our biggest challenge.",
+                        "While effects like the fire or the electric flash worked quickly, the robot arm of our protagonist turned out to be tricky.",
+                        "In the end, I had to spend a considerable amount of time learning more complex tracking methods, software and compositing techniques.",
+                        "It turned out as quite a valuable learning experience."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "In the end, the daring project only worked thanks to a great team that contributed all the important things that breathe life into the story during our long day of shooting.",
+                        "Despite all the challenges, mistakes and misjudgments and misjudgments, we are proud of our film, which has nothing to hide, especially on the big screen. Especially on the big screen.",
+                        "Not only did it allow us to try out one of our favorite genres, but we'll take our experience with us into all future projects, no matter how big or small or how difficult to realize they may seem."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/irina/4.jpg"
+                }
+            ]
+        ]
     },
     "windwalker": {
-        "name" : "Windwalker",
-        "tags" : ["Game", "3D"],
-        "previewType" : "mp4",
-        "previewUrl" : "img/windwalker_preview.mp4",
-        "logoUrl" : "img/windwalker_title.png",
-        "describtion" : "<p>Windwalker is an 3D exploration game, where you glide through a world of flying islands, uncover it's sectrets and solve small puzzles.</p>"
+        "name": "Windwalker",
+        "tags": [
+            "Game",
+            "3D"
+        ],
+        "previewType": "mp4",
+        "previewUrl": "img/windwalker_preview.mp4",
+        "logoUrl": "img/windwalker_title.png",
+        "describtion": [
+            "Windwalker is an 3D exploration game, where you glide through a world of flying islands, uncover it's sectrets and solve small puzzles."
+        ],
+        "linkouts": {
+            "itch": "https://lucamartinelli.itch.io/windwalker",
+            "github": "https://github.com/LucxMangaJet/SkyParkour"
+        },
+        "pageContent": [
+            [
+                {
+                    "type": "h2",
+                    "content": "About:"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "Windwalker is an 3D exploration game, where you glide through a world of flying islands, uncover it's sectrets and solve small puzzles."
+                    ]
+                },
+                {
+                    "type": "h2",
+                    "content": "My Part:"
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        "Lead Design (Mechanics, Puzzles, Narrative)",
+                        "Prototyping (w. Unreal Blueprints)",
+                        "2D Art"
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/windwalker/1.png",
+                    "describtion": "the start of the game at vers. 0.5"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/windwalker/2.png"
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "Since we were a bigger team, I invested a lot of time in organising the design workflows and helping out the other designers.",
+                        "Nevertheless I still managed to find some time taking over some parts of the hands-on design myself.",
+                        "In the end I'm happy that I was able to design mechachnics for the puzzles, spend some time with the narrative and cutscnenes and did some level design as well."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "I had great fun prototyping with the blueptrint system in unreal.",
+                        "It's flexibility allowed for fast itterations and a creation process that was very close to the experience all the time.",
+                        "The straightforward useability made it easy to show how the on-paper system actually work in engine."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/windwalker/3.png"
+                }
+            ]
+        ]
+    },
+    "hkw": {
+        "name": "Spiel das HKW",
+        "tags": [
+            "Game",
+            "2D",
+            "Event",
+            "Prototype"
+        ],
+        "previewType": "gif",
+        "previewUrl": "img/hkw/preview.gif",
+        "logoUrl": "img/hkw/title.gif",
+        "describtion": [
+            "As part of a project for the HKW we created several prototypes and polished one of them for an exhibition we also prepared."
+        ],
+        "linkouts": {
+            "github": "https://github.com/LucxMangaJet/HKWArcade"
+        },
+        "pageContent": [
+            [
+                {
+                    "type": "h2",
+                    "content": "About:"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "This was a cooperation project with the HKW, one of the most important cultural institutions in berlin.",
+                        "The goal was to <strong>analyze their workflows and processes in an artistic way.</strong> With a small team of four, we used the media of games to attend the ‘Introspection’.",
+                        "During the process we created <strong>four prototypes</strong>, a <strong>card game</strong> and polished a final game, as well as <strong>prepared the exhibition</strong>, processed our material and constructed an arcade Machine to present our final game in the best way possible."
+                    ]
+                },
+                {
+                    "type": "h2",
+                    "content": "My Part:"
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        "Game Design",
+                        "Prototyping",
+                        "Exhibition preparation",
+                        "Interviews",
+                        "Arcade Machine construction"
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/hkw/1.jpg",
+                    "describtion": "Opening the exhibition"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/hkw/2.jpg",
+                    "describtion": "Our arcade machine with the game"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/hkw/3.jpg",
+                    "describtion": "Playing the card-game with the employess"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/hkw/4.jpg",
+                    "describtion": "Interview results visualized"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/hkw/5.jpg",
+                    "describtion": "My beautiful cardgame instructions page"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/hkw/6.jpg",
+                    "describtion": "Prototypes shown on tablets"
+                }
+            ]
+        ]
+    },
+    "dim": {
+        "name": "D I M : a Light in the Dark",
+        "tags": [
+            "Game",
+            "3D"
+        ],
+        "previewType": "mp4",
+        "previewUrl": "img/dim/preview.mp4",
+        "logoUrl": "img/dim/title.png",
+        "describtion": [
+            "Dim is a atmospheric puzzle game. Explore your way trough the factory by tricking the machines and solving difficult situations."
+        ],
+        "linkouts": {
+            "github": "https://github.com/LucxMangaJet/Dim"
+        },
+        "pageContent": [
+            [
+                {
+                    "type": "h2",
+                    "content": "About:"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "Dim is a atmospheric puzzle game. Explore your way trough the factory by tricking the machines and solving difficult situations."
+                    ]
+                },
+                {
+                    "type": "h2",
+                    "content": "My Part:"
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        "Creative Direction & Vision Keeping",
+                        "Level Design",
+                        "Environmental Design",
+                        "Visual Effects"
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "youtube",
+                    "url": "Jqe_kRK33qQ",
+                    "describtion": "let's play of 'DIM'"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/dim/1.gif"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/dim/2.png"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/dim/3.png"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/dim/4.png"
+                }
+            ]
+        ]
+    },
+    "gamesweek": {
+        "name": "Volunteer Management @gamesweekberlin2019",
+        "tags": [
+            "Event"
+        ],
+        "previewType": "mp4",
+        "previewUrl": "img/gamesweek/preview.mp4",
+        "logoUrl": "img/gamesweek/title.png",
+        "describtion": [
+            "Organizing the team of hundred volunteers. Managing setup for Workshops, stage and exhibition at the gamesweekberlin 2019."
+        ],
+        "linkouts": {
+            "github": "https://github.com/LucxMangaJet/Dim"
+        },
+        "pageContent": [
+            [
+                {
+                    "type": "h2",
+                    "content": "About:"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "he gamesweekberlin is the leading cross-industry communication and networking platform for games business, development and culture in Europe.",
+                        "Over seven days, the umbrella brand combines multiple events for industry representatives and game enthusiasts alike.",
+                        "I had to organize the team of hundred volunteers. Managing setup for workshops, stages and exhibitions at the gamesweekberlin 2019."
+                    ]
+                },
+                {
+                    "type": "h2",
+                    "content": "My Part:"
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        "Shaping volunteer experience",
+                        "Planning volunteer shifts",
+                        "Coordinating setup",
+                        "Coordination for stages, workshops and exhibitions",
+                        "Solving problems"
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "youtube",
+                    "url": "ZMdXoRP9Aa4"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/gamesweek/1.jpg",
+                    "describtion": "Stage 2 on QUO VADIS"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/gamesweek/2.jpg",
+                    "describtion": "Workshop during Womenize"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/gamesweek/3.jpg",
+                    "describtion": "Playing games on stage at the Gamefest"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/gamesweek/4.jpg",
+                    "describtion": "Talking and playing boardgames"
+                }
+            ]
+        ]
+    },
+    "watson": {
+        "name": "A Case for Watson",
+        "tags": [
+            "Game",
+            "3D"
+        ],
+        "previewType": "gif",
+        "previewUrl": "img/watson/preview.gif",
+        "logoUrl": "img/watson/title.png",
+        "describtion": [
+            "A first person narrative driven detective game. Play doctor Watson, getting the opportunity to solve a crime on his own, without the help of his genius partner: Sherlock Holmes."
+        ],
+        "linkouts": {
+            "github": "https://github.com/LucxMangaJet/Sherlock",
+            "itch": "https://lucamartinelli.itch.io/a-case-for-watson"
+        },
+        "pageContent": [
+            [
+                {
+                    "type": "h2",
+                    "content": "About:"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "A Case for Watson is a first person narrative driven detective game.",
+                        "The player takes the role of the famous doctor Watson, who ends up having the opportunity to solve a crime on his own, without the help of his genius partner: Sherlock Holmes.",
+                        "Save important answers, take drawings of the environment and then walk your way through the crime by confronting the characters with the evidences you've collected.",
+                        "Will you be able to unravel the mystery? Will you be able to prove your skills as a detective?"
+                    ]
+                },
+                {
+                    "type": "h2",
+                    "content": "My Part:"
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        "Creative Direction & Vision Keeping",
+                        "Game Design",
+                        "Level Design",
+                        "UX & UI Design",
+                        "Environment Design"
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "youtube",
+                    "url": "7jY1jODxCVg"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/watson/1.png"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/watson/2.jpg"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/watson/3.png"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/watson/4.png"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/watson/5.png"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/watson/6.png"
+                }
+            ]
+        ]
+    },
+    "cw": {
+        "name": "Corona World",
+        "tags": [
+            "Game",
+            "2D"
+        ],
+        "previewType": "mp4",
+        "previewUrl": "img/cw/preview.mp4",
+        "logoUrl": "img/cw/title.png",
+        "describtion": [
+            "Shortly after the lockdown started, the people from browser ballet reached out to me with the idea to make a game about Covid19."
+        ],
+        "linkouts": {
+            "github": "https://github.com/LucxMangaJet/Sherlock"
+        },
+        "pageContent": [
+            [
+                {
+                    "type": "h2",
+                    "content": "About:"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "Shortly after the lockdown started, the people from browser ballet reached out to me with the idea to make a game about Covid19.",
+                        "Of course the game had to be done quickly so the topic was contemporary and new, so I gathered together a small team."
+                    ]
+                },
+                {
+                    "type": "h2",
+                    "content": "My Part:"
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        "Creative Direction & Project Lead",
+                        "2D Grafic Design",
+                        "Environmental Design"
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "youtube",
+                    "url": "hb5x-kVA0uA"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/cw/1.png"
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "The girls and guys from the browser ballet team are known for their satiric content so the game had to fit their special kind of humor as well.",
+                        "They already brought a simple concept to the table which helped us to base all our design on it.",
+                        "We had the freedom to add a lot of our own ideas which we considered suitable and which ensured to make the game a coherent experience."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "I spend a lot of time on the project overseeing the general direction but also had to put in a lot of work in the visual style.",
+                        "Since I'm not that experienced in creating new artstyles for games, I had to invest some time in understanding and developing our the visual language of the game",
+                        "The final style lives on a small brink between communicating interacivity as well as importance and presenting the general mood they wished for."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/cw/2.png"
+                }
+            ]
+        ]
     }
 }

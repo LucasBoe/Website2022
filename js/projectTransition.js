@@ -1,7 +1,6 @@
 $(() => window.addEventListener("onAddClick", () => attachClickBehaviour()));
 
 function attachClickBehaviour() {
-  console.log("onAddClick");
 
   $(".project-preview").each((e) => console.log(e));
 
@@ -22,10 +21,21 @@ function attachClickBehaviour() {
     const blend = $("#project-popup-blend");
     const preview = $(pWindow).find(".preview");
 
+    var itchLink = undefined;
+    var githubLink = undefined;
+    const hasLinkouts = projectsData[id]["linkouts"] !== undefined;
+
+    if (hasLinkouts) { itchLink = projectsData[id]["linkouts"]["itch"] }
+    if (hasLinkouts) { githubLink = projectsData[id]["linkouts"]["github"] }
+
+    populateLinkout("#LinkoutItch", itchLink);
+    populateLinkout("#LinkoutGithub", githubLink);
+
     pWindow.show();
     blend.show();
 
-    $("#project-holder").load('atlb.html');
+    populatePageContent("#project-holder", projectsData[id]["pageContent"]);
+
     let clone = $(from).find(".preview").children(0).clone();
     clone.appendTo(preview);
     clone.css("width", "100%")
@@ -76,6 +86,7 @@ function attachClickBehaviour() {
       $(this).hide();
       $(pWindow).find(".preview").empty();
       $(pWindow).find(".logo-holder").empty();
+      $("#project-holder").empty();
       blend.hide();
       setBackgroundBlurred(false);
     })
@@ -90,4 +101,49 @@ function attachClickBehaviour() {
       $("#sidebar").addClass("blurred")
     }
   };
+
+  function populateLinkout(element, link) {
+    if (link !== undefined) {
+      $(element).show();
+      $(element).find("a").attr("href", link);
+    } else {
+      $(element).hide();
+    }
+  }
+
+  function populatePageContent(parent, contentData) {
+    if (contentData !== undefined) {
+      var content = '<div class="row">';
+      $(contentData).each((index) => {
+        content += '<div class="col col-md-6">';
+        $(contentData[index]).each((index2) => {
+          content += createElementFromData(contentData[index][index2]);
+        });
+        content += '</div>';
+      });
+      content += '</div>';
+      $(parent).append($(content));
+    }
+  }
+
+  function createElementFromData(data) {
+    const type = data["type"];
+    switch (type) {
+      case "img":
+        var describtion = "";
+        if (data["describtion"] !== undefined) {
+          describtion = '<i>' + data["describtion"] + '</i>';
+        }
+        return '<img src="' + data["url"] + '">' + describtion;
+
+      case "youtube":
+        return '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/' + data['url'] + '?rel=0" allowfullscreen></iframe></div>';
+      case "p":
+        return iterateThroughElementsAndCreate(type, data["content"]);
+      case "li":
+        return '<ul>' + iterateThroughElementsAndCreate(type, data["content"]) + '</ul>';
+      default:
+        return createElementOpenClose(type, data["content"]);
+    }
+  }
 };
