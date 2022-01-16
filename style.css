@@ -28,6 +28,15 @@ body {
         margin: 1vh 0 2vh;
     }
 
+    #sidebar #line {
+        font-family: 'Cousine', monospace;
+        font-size: x-large;
+    }
+
+    #sidebar #line i {
+        opacity: 0;
+    }
+
 #content {
     position: relative;
     max-width: 100%;
@@ -184,11 +193,11 @@ body {
         content: "#";
     }
 
-h2 {
+strong {
     color: #fdf87a;
 }
 
- h2 {
+strong {
     position: relative;
     color: black;
     display: inline;
@@ -198,7 +207,7 @@ h2 {
     background: linear-gradient( 0deg, #fff0 10%, #f8ff84 10.1%, #f8ff84 90%, #fff0 90.1%);
 }
 
-    h2:before {
+strong:before {
         content: "";
         background-color: #f8ff84;
         width: 110%;
@@ -207,7 +216,7 @@ h2 {
         z-index: -1;
         filter: url(#marker-shape);
         left: -5%;
-        transform: rotate(1deg);
+        transform: rotate(1deg) translateY(20%);
     }
 
 
