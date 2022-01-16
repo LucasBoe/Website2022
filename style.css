@@ -2,27 +2,58 @@ body {
     background-color: #111;
     color: #ffcf99;
     color: #fff;
-    font-family: 'Neucha', cursive;
+    font-family: 'Lexend Deca', cursive;
+}
+
+.center {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 #sidebar {
-    margin-left: 68%;
-    padding-right: 4%;
-    padding-top: 10vh;
-    width: 32%;
-    position: fixed;
+    width: 100%;
+    position: relative;
 }
 
-#sidebar #me {
-    border-radius: 100%;
-    width: 100%;
-    transition: transform 0.1s;
-}
+    #sidebar h1 {
+        text-align: center;
+    }
+
+    #sidebar #me {
+        border-radius: 100%;
+        width: 100%;
+        transition: transform 0.1s;
+        margin: 1vh 0 2vh;
+    }
 
 #content {
-    position: absolute;
-    width: 60%;
-    margin: 2% 4%;
+    position: relative;
+    max-width: 100%;
+    padding-top: 4vh;
+    margin: 0;
+}
+
+@media (min-width: 992px) {
+    
+    #sidebar {
+        margin-left: 68%;
+        padding-right: 4%;
+        padding-top: 7vh;
+        width: 32%;
+        position: fixed;
+    }
+
+        #sidebar h1 {
+            font-size: 2vw;
+        }
+
+    #content {
+        position: absolute;
+        width: 60%;
+        margin: 2% 4%;
+    }
 }
 
 #projects {
@@ -85,7 +116,7 @@ body {
         }
 
         .project-preview .overlay p {
-            margin: 0;
+            margin: 1pt ​0;
             text-align: left;
             font-size: 1.5vh;
         }
@@ -178,3 +209,9 @@ h2 {
         left: -5%;
         transform: rotate(1deg);
     }
+
+
+.icon {
+    font-size: x-large;
+    margin: 4pt;
+}

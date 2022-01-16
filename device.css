@@ -1,0 +1,48 @@
+@media (min-width: 992px) {
+    .mobile-only {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .d-only {
+        display:none;
+    }
+}
+
+.d-only .tooltip-icon-button {
+    display: inline-block;
+	text-decoration: none;
+
+    color: #fdf87a;
+}
+
+
+.d-only .tooltip-icon-button span {
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 4pt 4pt;
+    font-family: 'Lexend Deca';
+    font-size: 0;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%, 20pt);
+    text-shadow: 1pt 1pt 1pt black;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    transition: all 0.25s ease;
+}
+
+.d-only .tooltip-icon-button:hover  {
+    transform: scale(1.1);
+    color: #fff;
+}
+
+.d-only .tooltip-icon-button:hover span {
+    width: max-content;
+    font-size: medium;
+}
