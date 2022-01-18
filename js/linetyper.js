@@ -35,20 +35,17 @@ function Tick() {
 
     switch (state) {
         case states.ReduceToMin:
-            var remove = 0;
-            if (Math.random() > 0.5)
-                remove = 1;
 
-            var len = text.length - remove;
-            text = text.substring(0, len);
-
-            if (text == currentLine.substring(0, len)) {
+            if (text == currentLine.substring(0, text.length)) {
                 setState(states.AddToMax);
+            } else {
+                var len = text.length - 1;
+                text = text.substring(0, len);
             }
             break;
 
         case states.AddToMax:
-            var len = text.length + 1;
+            var len = text.length + getZeroOrOne();
             text = currentLine.substring(0, len);
 
             if (len >= currentLine.length) {
@@ -88,4 +85,11 @@ function setState(newState) {
     }
 
     state = newState;
+}
+
+function getZeroOrOne() {
+    if (Math.random() > 0.5)
+        return 1;
+
+    return 0;
 }
