@@ -31,6 +31,8 @@ body {
     #sidebar #line {
         font-family: 'Cousine', monospace;
         font-size: x-large;
+        padding: 10pt 0;
+        height: 3em;
     }
 
     #sidebar #line i {
@@ -222,5 +224,6 @@ strong:before {
 
 .icon {
     font-size: x-large;
-    margin: 4pt;
+    margin: 2pt;
+    line-height: 1.2em;
 }
