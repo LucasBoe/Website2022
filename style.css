@@ -75,6 +75,7 @@ a {
         padding-left: 4%;
         padding-top: 3vh;
         width: 36%;
+        min-height: 100vh;
         position: absolute;
         
         -ms-overflow-style: none;  /* IE and Edge */
@@ -120,6 +121,12 @@ a {
     background-color: black;
 }
 
+    @media (max-width: 992px) {
+        .project-preview {
+            width: 100%;
+        }
+    }
+
     .project-preview:hover {
         z-index: 1;
         box-shadow: black 10px 10px 50px;
@@ -145,13 +152,20 @@ a {
             transition: opacity 0.5s;
             text-align: center;
             padding: 32px;
+            background: linear-gradient(0deg, rgba(0,0,0,1) 25%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 80%);
             opacity: 0;
         }
 
+            @media (max-width: 992px) { 
+                .project-preview .hoverable .overlay {
+                    opacity: 1;
+                }
+            }
+
+
             .project-preview .hoverable:hover .overlay {
-                box-shadow: inset 0px 0px 50px rgb(66, 66, 66);
-                background: linear-gradient(0deg, rgba(0,0,0,1) 25%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 80%);
                 opacity: 1;
+                box-shadow: inset 0px 0px 50px rgb(66, 66, 66);
             }
 
         .project-preview .overlay .title {
