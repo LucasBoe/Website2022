@@ -1,6 +1,7 @@
 #project-popup-blend {
 	content: "";
 	position: fixed;
+    top: 0;
 	width: 100vw;
 	height: 100vh;
 	z-index: 100;
@@ -95,6 +96,14 @@
 #project-window #close:hover {
 	opacity: 1;
 	transform: scale(1.1);
+}
+
+
+@media (max-width: 992px) {
+	#project-window {
+		width: 90vw !important;
+		left: 5vw !important;
+	}
 }
 
 .blurred {
