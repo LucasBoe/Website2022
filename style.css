@@ -3,7 +3,8 @@ body {
     color: #ffcf99;
     color: #fff;
     font-family: 'Lexend Deca', cursive;
-    height: 100vh;
+    width: 98vw;
+    overflow-x: hidden;
 }
 .center {
     margin: auto;
@@ -14,6 +15,8 @@ body {
 
 #sidebar {
     width: 100%;
+    z-index: 10;
+    overflow: visible;
     position: relative;
 }
 
@@ -59,19 +62,15 @@ body {
 }
 
 @media (min-width: 992px) {
-
-    body {
-        overflow: hidden;
-    }
     
     #sidebar {
-        margin-left: 68%;
+        margin-left: 64%;
         padding-right: 4%;
+        padding-left: 4%;
         padding-top: 7vh;
-        width: 32%;
+        width: 36%;
         height: 100vh;
         position: absolute;
-        overflow-y: scroll;
         
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
@@ -91,8 +90,6 @@ body {
         width: 68%;
         height: 100%;
         padding: 4vh 4%;
-        overflow-y: scroll;
-        overflow-x: visible;
 
         -ms-overflow-style: none;  /* IE and Edge */
         scrollbar-width: none;  /* Firefox */
@@ -119,7 +116,7 @@ body {
 }
 
     .project-preview:hover {
-        z-index: 100;
+        z-index: 1;
         box-shadow: black 10px 10px 50px;
     }
 

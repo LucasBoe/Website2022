@@ -73,12 +73,25 @@
     .d-only {
         display:none;
     }
+
+    .mobile-m-2 {
+        margin: 2vw;
+    }
     
     .skillbox {
         display: block;
     }
     
     .skillgroup {
-        display: inline-table;
+        display: flex;
+        justify-content: end;
+    }
+
+    .skillgroup ul {
+        width:60%;
+    }
+
+    .skillgroup h6 {
+        text-align: right;
     }
 }
