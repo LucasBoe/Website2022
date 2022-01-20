@@ -6,6 +6,11 @@ body {
     width: 98vw;
     overflow-x: hidden;
 }
+
+a {
+    text-decoration: none;
+}
+
 .center {
     margin: auto;
     display: flex;
@@ -52,6 +57,7 @@ body {
 
     #sidebar #skillgroup-text-container {
         padding-top: 12pt;
+        height: 10em;
     }
 
 #content {
@@ -67,9 +73,8 @@ body {
         margin-left: 64%;
         padding-right: 4%;
         padding-left: 4%;
-        padding-top: 7vh;
+        padding-top: 3vh;
         width: 36%;
-        height: 100vh;
         position: absolute;
         
         -ms-overflow-style: none;  /* IE and Edge */
@@ -102,7 +107,7 @@ body {
 }
 
 #projects {
-    padding-top: 2%;
+    padding: 2% 0 10%;
 }
 
 .project-preview {
@@ -260,4 +265,41 @@ strong:before {
     font-size: x-large;
     margin: 2pt;
     line-height: 1.2em;
+}
+
+.button {
+    background-color: #1c1c1c;
+    color: #fdfdfd;
+    border: #1c1c1c 1px solid;
+    border-radius: 100px;
+	display: inline-flex;
+	width: 100%;
+	text-align: center;
+	vertical-align: auto;
+	text-decoration: none;
+	transition: all 0.2s ease;
+	padding: 4pt 4pt 4pt 14pt;
+	margin: 4pt;
+}
+
+.button:hover {
+    background-color: #2f2c20;
+    border: #fdfdfd 1px solid;
+	color: #fff;
+	transform: scale(1.05);
+}
+
+.button p {
+	
+	margin: 4pt;
+}
+
+.button span{
+	display: none;
+	position: absolute;
+	transform: translate(-5vw);
+}
+
+.button:hover span{
+	display:initial;
 }
