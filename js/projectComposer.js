@@ -51,17 +51,11 @@ $(() => {
                 $(instance).find(".info").prepend(iterateThroughElementsAndCreate("p", project["describtion"]));
 
             });
-
-            console.log(key);
         });
 
         window.dispatchEvent(new CustomEvent("onApply3DEffect"));
         window.dispatchEvent(new CustomEvent("onAddClick"));
     });
-
-    console.log("dispatch");
-
-
 });
 
 function iterateThroughElementsAndCreate(type, content) {

@@ -4,7 +4,6 @@ var ex1Layer;
 
 $(() => window.addEventListener("onApply3DEffect", () => {
 
-    console.log("onApply3DEffect");
 
     function transforms(x, y, el) {
         let box = el.getBoundingClientRect();

@@ -49,7 +49,6 @@ function Tick() {
             text = currentLine.substring(0, len);
 
             if (len >= currentLine.length) {
-                console.log(len, currentLine.length);
                 setState(states.Wait);
             }
             break;

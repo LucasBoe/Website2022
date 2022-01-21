@@ -1,11 +1,7 @@
 $(() => window.addEventListener("onAddClick", () => attachClickBehaviour()));
 
 function attachClickBehaviour() {
-
-  $(".project-preview").each((e) => console.log(e));
-
   $(".project-preview").click(function () {
-    console.log("click");
     openProject($(this), $(this).attr("id"));
     return false;
   });
@@ -64,6 +60,7 @@ function attachClickBehaviour() {
         return false;
       });
       setBackgroundBlurred(true);
+      window.dispatchEvent(new CustomEvent("onProjectOpened", pWindow));
     })
   };
 

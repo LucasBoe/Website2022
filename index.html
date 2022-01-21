@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/flag.min.css">
   <link href="style.css" rel="stylesheet">
   <link href="project.css" rel="stylesheet">
+  <link href="image-fullscreen.css" rel="stylesheet">
   <link href="device.css" rel="stylesheet">
   <link href="icons.css" rel="stylesheet">
   <svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
@@ -341,9 +342,22 @@
       <div id="project-holder" class="project-body container-fluid">
 
       </div>
-      <ion-icon name="close-outline" id="close"></ion-icon>
+      <i class="cil-x overlay-button" id="close"></i>
     </div>
 
+  </div>
+
+  <div id="image-fullscreen-overlay">
+    <div class="wrapper">
+      <div class="image-container">
+        <img src="img/gamesweek/1.jpg">
+        <div class="button-container">
+          <i class="image-button overlay-button cil-arrow-left" id="button-previous"></i>
+          <i class="image-button overlay-button cil-arrow-right" id="button-next"></i>
+          <i class="image-button overlay-button cil-x " id="button-back"></i>
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>
@@ -351,8 +365,8 @@
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 
+<script src="js/image-fullscreen.js"></script>
 <script src="js/projectTransition.js"></script>
 <script src="js/rotateWithCursor.js"></script>
 
