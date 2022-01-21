@@ -44,7 +44,7 @@ $(() => {
                 //load tags
                 var tagParent = $(instance).find(".project-tags");
                 $.each(project["tags"], function (index, tag) {
-                    $(tagParent).append($(['<li>', tag, '</li>'].join("\n")))
+                    $(tagParent).append($(['<li>', tag, '</li>'].join("")))
                 });
 
                 //load describtion
