@@ -2,7 +2,7 @@ body {
     background-color: #111;
     color: #ffcf99;
     color: #fff;
-    font-family: 'Lexend Deca', cursive;
+    font-family: 'Lexend Deca', sans-serif;
     width: 98vw;
     overflow-x: hidden;
 }
@@ -128,7 +128,7 @@ a {
     }
 
     .project-preview:hover {
-        z-index: 1;
+        z-index: 100;
         box-shadow: black 10px 10px 50px;
     }
 
@@ -139,8 +139,10 @@ a {
         background-color: black;
     }
 
-        .project-preview .hoverable:hover {
-            transform: scale(1.2);
+        @media (min-width: 992px) {
+            .project-preview .hoverable:hover {
+                transform: scale(1.2);
+            }
         }
 
         .project-preview .hoverable .overlay {
