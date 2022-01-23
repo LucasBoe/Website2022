@@ -1,5 +1,5 @@
 :root {
-    --highlight-color: dc3545;
+    --highlight-color: #dc3545;
   }
 
 body {
@@ -111,7 +111,7 @@ a {
 }
 
 #projects {
-    padding: 2% 0 10%;
+    padding: 0 0 10%;
 }
 
 .project-preview {

@@ -6,6 +6,12 @@ $(() => window.addEventListener("onApply3DEffect", () => {
 
 
     function transforms(x, y, el) {
+
+        if (el == undefined) {
+            console.log("no error");
+            return "";
+        }
+
         let box = el.getBoundingClientRect();
         let calcX = -(y - box.y - (box.height / 2)) / window.innerWidth * strength;
         let calcY = (x - box.x - (box.width / 2)) / window.innerHeight * strength;
@@ -16,7 +22,9 @@ $(() => window.addEventListener("onApply3DEffect", () => {
     };
 
     function transformElement(el, xyEl) {
-        el.style.transform = transforms.apply(null, xyEl);
+        if (el !== undefined) {
+            el.style.transform = transforms.apply(null, xyEl);
+        }
     }
 
     mouseOverContainer.onmousemove = function (e) {
@@ -24,7 +32,7 @@ $(() => window.addEventListener("onApply3DEffect", () => {
         let position = xy.concat([ex1Layer]);
 
         window.requestAnimationFrame(function () {
-            if (ex1Layer != null) {
+            if (ex1Layer !== undefined) {
                 transformElement(ex1Layer, position);
                 //ex1Layer.style.transition = "all 0s"
                 $(ex1Layer).clearQueue();

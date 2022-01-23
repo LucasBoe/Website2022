@@ -490,6 +490,7 @@
             "Dim is a atmospheric puzzle game. Explore your way trough the factory by tricking the machines and solving difficult situations."
         ],
         "linkouts": {
+            "itch": "https://lucamartinelli.itch.io/dim",
             "github": "https://github.com/LucxMangaJet/Dim"
         },
         "pageContent": [
@@ -562,9 +563,6 @@
         "describtion": [
             "Organizing the team of hundred volunteers. Managing setup for Workshops, stage and exhibition at the gamesweekberlin 2019."
         ],
-        "linkouts": {
-            "github": "https://github.com/LucxMangaJet/Dim"
-        },
         "pageContent": [
             [
                 {
