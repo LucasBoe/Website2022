@@ -18,7 +18,7 @@
     display: inline-block;
 	text-decoration: none;
     transform: scale(1);
-    color: #fdf87a;
+    color: var(--highlight-color);
 }
 
 .skillgroup {
@@ -65,7 +65,7 @@
     }
     
     .skillgroup {
-        color: #fdf87a;
+        color: var(--highlight-color);
     }
 }
     

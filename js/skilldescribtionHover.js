@@ -12,7 +12,6 @@ $(() => {
 function trySetHighlight(element) {
     currentSkillgroupHovered = element;
     var html = $(element).find("ul").html();
-    console.log(html);
     $("#skillgroup-text-container").html(html);
 }
 
