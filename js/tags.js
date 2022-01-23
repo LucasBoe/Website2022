@@ -54,7 +54,7 @@ $(document).ready(function () {
         })
 
         //update the visibility of the projects
-        let isVisbible = $(this).css("display") == "block";
+        var isVisbible = $(this).css("display") == "block";
         $(this).data("visibleBefore", isVisbible);
         $(this).data("visible", show);
       })

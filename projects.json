@@ -10,7 +10,7 @@
         "logoUrl": "img/all_that_lies_below_red_blue.png",
         "describtion": [
             "a pixelart adventure mining game.",
-            "This <strong>project</strong> was my bachelor project developed in a duo."
+            "This project was my bachelor project developed in a duo."
         ],
         "linkouts": {
             "itch": "https://lucas-b.itch.io/lies-below",
@@ -27,7 +27,7 @@
                     "content": [
                         "All That Lies Below is a pixelart adventure mining game.",
                         "Step into the shoes of John, who, in a desperate attempt to pay the families debts, sets out on a journey to discover riches deep underground.",
-                        "This project was my bachelor project developed in a duo."
+                        "This project was my <strong>bachelor project</strong> developed in a duo."
                     ]
                 },
                 {
@@ -48,22 +48,93 @@
                 {
                     "type": "img",
                     "url": "img/atlb/1.gif",
-                    "describtion": "mining gameplay + stability system at work"
+                    "describtion": "mining mechanic + stability system creating the core gameplay loop"
                 }
             ],
             [
                 {
+                    "type": "h2",
+                    "content": "Design Process"
+                }
+            ],
+            [],
+            [
+                {
                     "type": "img",
-                    "url": "img/atlb/2.gif",
-                    "describtion": ""
+                    "url": "img/atlb/underground-miro.jpg",
+                    "describtion": "desinging our underground"
                 }
             ],
             [
                 {
                     "type": "p",
                     "content": [
-                        "A big goal of the project was to tie interesting mechanics together with an immersive atmosphere and story.",
-                        "For that part, a friend of mine took care of writing texts and a voice actress dubbed that it for us."
+                        "After getting the first prototype running we sat together in order to design our underground.",
+                        "To 'prototype' the layout, we used miro's sticky notes.",
+                        "Of course tilebased games taking place undergrounds already existet but that made it even more important for us to find out what the best way for our game was.",
+                        "The following points were in fokus:"
+                    ]
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        "tilesize - How big is one tile compared to the player?",
+                        "rocks - Which directions should the rocks block, should they spawn in layers, or which rules should their placement follow?",
+                        "caves - How do the caves need to feel/look like, in order to fullfill the mining fantasy?",
+                        "riches - In which form do riches spawn? Do they (only) spawn close to rocks?",
+                        "tools - which tools can the player use to move vertically? What are alternatives to the ladder?"
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "In order fullfill the mining fantasy we started designing the stability system.",
+                        "From our players we anticipated the behaviour of digging a straight tunnel. With this sutation in mind we started defining some rules:"
+                    ]
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        "Tunnels that are not supported should crumble.",
+                        "The crumbling should be forshadowed and not happen instantly to give the player time to understand and react.",
+                        "The crumbling tiles should then fall down, creating a danger for the player.",
+                        "The crumbling should result in burried tunnels by placing the falling tiles on the ground when landing.",
+                        "The crumbling should leave cave-like shapes that are stable. No endless chain-reactions."
+                    ]
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "After defining the rules we wanted, the tried a number based system, where each tiles stability was based on the surrounding tiles.",
+                        "Tiles witch a low stability we start to crumble and fall down.",
+                        "The stability system ended up being reworked and improved multiple times to ensure the desired experience in all situations."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/atlb/stability-miro.jpg",
+                    "describtion": "designing the stability system"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/atlb/patterns.png",
+                    "describtion": "the tunnel & mine shapes of different playtests"
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "To evaluate changes and understand if our systems were creating the right expriences we did regular playtests.",
+                        "The shapes the players were digging told us lot about what the dynamics of our system really were.",
+                        "The resulting shapes helped us to identify and eliminate dominant strategies in the beginning as well as the world generation parameters.",
+                        "It turned out to be a great indicator for short- and long-term motivations and goals and was critical for balancing narrative content placement."
                     ]
                 }
             ],
@@ -72,7 +143,9 @@
                     "type": "p",
                     "content": [
                         "After taking care of the core gameplay we carefully added layers of features and content on top.",
-                        "Instead of going down roads other games have been proven to work, we instead focussed on making this layers support the fantasy of being a miner."
+                        "Instead of going down roads other games have been proven to work, we focussed on making this layers support the fantasy of being a miner.",
+                        "Since the time for our bachelor project was really limited we used the last weeks to add content that makes use of the systems and mechanics we had set up the previous weeks.",
+                        "We created differently themed areas with their own visual style, unique objects and small narratives."
                     ]
                 }
             ],
@@ -85,15 +158,18 @@
             [
                 {
                     "type": "img",
-                    "url": "img/atlb/4.gif"
+                    "url": "img/atlb/world-game-structure.png"
                 }
             ],
             [
                 {
                     "type": "p",
                     "content": [
-                        "Since the time for our bachelor project was really limited we used the last weeks to add content that makes use of the systems and mechanics we had set up the previous weeks.",
-                        "Differently themed areas with their own visual style, unique objects and small narratives."
+                        "The areas where layered vertically from the surface further and further down.",
+                        "Therefore the further down the layer, the later the players will reach them.",
+                        "Even though the game was not linear the layers and their conent were the essential bricks that helped us build the narrative- and mechanical progression.",
+                        "Each layer thereby fullfilled a different role in teaching as well as challenging the player.",
+                        "With this structure at hand we suddenly had a lot more control while still keeping the open and explorative nature the core loops need."
                     ]
                 }
             ],
