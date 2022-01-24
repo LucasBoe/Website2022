@@ -7,8 +7,7 @@ $(() => window.addEventListener("onApply3DEffect", () => {
 
     function transforms(x, y, el) {
 
-        if (el == undefined) {
-            console.log("no error");
+        if (el == null) {
             return "";
         }
 
@@ -22,7 +21,7 @@ $(() => window.addEventListener("onApply3DEffect", () => {
     };
 
     function transformElement(el, xyEl) {
-        if (el !== undefined) {
+        if (el !== null) {
             el.style.transform = transforms.apply(null, xyEl);
         }
     }

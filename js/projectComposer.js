@@ -4,7 +4,7 @@ var projectsData;
 
 $(() => {
 
-    $.getJSON("projects.json", (data) => {
+    $.getJSON("/json/projects.json", (data) => {
 
         projectsData = data;
 

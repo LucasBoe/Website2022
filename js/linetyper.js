@@ -15,7 +15,7 @@ const states = {
 
 $(() => {
 
-    $.getJSON("lines.json", (data) => {
+    $.getJSON("json/lines.json", (data) => {
         lines = data;
         text = $("#line").text();
         state = states.ReduceToMin;
