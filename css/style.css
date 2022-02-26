@@ -35,8 +35,21 @@ a {
     #sidebar #me {
         border-radius: 100%;
         width: 100%;
-        transition: transform 0.1s;
+        height: 100%;
         margin: 1vh 0 2vh;
+        position: relative;
+    }
+
+    #sidebar #me .overlay {
+        position: absolute;
+    }
+
+    #sidebar #me img {
+        width: 100%;
+        border-radius: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
     }
 
     #sidebar .linebox {
