@@ -69,20 +69,20 @@
                 {
                     "type": "p",
                     "content": [
-                        "After getting the first prototype running we sat together in order to design our underground.",
+                        "After we got the first prototype up and running, we sat down to design our base underground.",
                         "To 'prototype' the layout, we used miro's sticky notes.",
-                        "Of course tilebased games taking place undergrounds already existet but that made it even more important for us to find out what the best way for our game was.",
+                        "Of course tile based games taking place undergrounds already existed but that made it even more important for us to figure out what the best way was for our game.",
                         "The following points were in fokus:"
                     ]
                 },
                 {
                     "type": "li",
                     "content": [
-                        "tilesize - How big is one tile compared to the player?",
-                        "rocks - Which directions should the rocks block, should they spawn in layers, or which rules should their placement follow?",
-                        "caves - How do the caves need to feel/look like, in order to fullfill the mining fantasy?",
-                        "riches - In which form do riches spawn? Do they (only) spawn close to rocks?",
-                        "tools - which tools can the player use to move vertically? What are alternatives to the ladder?"
+                        "tile size - How big is one tile compared to the player?",
+                        "Rocks - Which directions should the rocks block, should they spawn in layers, or which rules should their placement follow?",
+                        "Caves  - What do the caves need to feel/look like to fulfill the mining fantasy?",
+                        "Riches - In which form do riches spawn? Do they (only) spawn close to rocks?",
+                        "Tools - which tools can the player use to move vertically? What are alternatives to the ladder?"
                     ]
                 }
             ],
@@ -90,26 +90,26 @@
                 {
                     "type": "p",
                     "content": [
-                        "In order fullfill the mining fantasy we started designing the stability system.",
-                        "From our players we anticipated the behaviour of digging a straight tunnel. With this sutation in mind we started defining some rules:"
+                        "To fulfill the mining fantasy, we started designing the stability system.",
+                        "From our players we anticipated the behavior of digging a straight tunnel. With this expectation in mind, we began to define some rules:"
                     ]
                 },
                 {
                     "type": "li",
                     "content": [
                         "Tunnels that are not supported should crumble.",
-                        "The crumbling should be forshadowed and not happen instantly to give the player time to understand and react.",
-                        "The crumbling tiles should then fall down, creating a danger for the player.",
-                        "The crumbling should result in burried tunnels by placing the falling tiles on the ground when landing.",
+                        "The crumbling should be forshadowed and not immediate, to give the player time to understand and react.",
+                        "The crumbling tiles should then fall down and pose a hazard to the player.",
+                        "Crumbling should leave cave-like shapes that are stable. No endless chain reactions.",
                         "The crumbling should leave cave-like shapes that are stable. No endless chain-reactions."
                     ]
                 },
                 {
                     "type": "p",
                     "content": [
-                        "After defining the rules we wanted, the tried a number based system, where each tiles stability was based on the surrounding tiles.",
-                        "Tiles witch a low stability we start to crumble and fall down.",
-                        "The stability system ended up being reworked and improved multiple times to ensure the desired experience in all situations."
+                        "Once we had the rules we wanted, we tried a number-based system where the stability of each tile depends on the surrounding tiles.",
+                        "Tiles with low stability start to crumble and fall off.",
+                        "The stability system was eventually revised and improved several times to ensure the desired experience in all situations."
                     ]
                 }
             ],
@@ -131,10 +131,10 @@
                 {
                     "type": "p",
                     "content": [
-                        "To evaluate changes and understand if our systems were creating the right expriences we did regular playtests.",
-                        "The shapes the players were digging told us lot about what the dynamics of our system really were.",
-                        "The resulting shapes helped us to identify and eliminate dominant strategies in the beginning as well as the world generation parameters.",
-                        "It turned out to be a great indicator for short- and long-term motivations and goals and was critical for balancing narrative content placement."
+                        "To evaluate the changes and understand whether our systems were generating the right experiences, we conducted regular playtests.",
+                        "The shapes that players dug up told us a lot about the actual dynamics of our system.",
+                        "The resulting shapes helped us identify and eliminate dominant strategies at the outset, as well as the parameters of world generation.",
+                        "This turned out to be a great indicator of short- and long-term motivations and goals, and was critical for balancing the placement of narrative content."
                     ]
                 }
             ],
@@ -142,10 +142,10 @@
                 {
                     "type": "p",
                     "content": [
-                        "After taking care of the core gameplay we carefully added layers of features and content on top.",
-                        "Instead of going down roads other games have been proven to work, we focussed on making this layers support the fantasy of being a miner.",
-                        "Since the time for our bachelor project was really limited we used the last weeks to add content that makes use of the systems and mechanics we had set up the previous weeks.",
-                        "We created differently themed areas with their own visual style, unique objects and small narratives."
+                        "After taking care of the core gameplay, we carefully added layers of features and content on top.",
+                        "Instead of taking paths that have been proven in other games, we focused on making sure these layers supported the fantasy of being a miner.",
+                        "Since time was very limited for our bachelor project, we used the last few weeks to add content that used the systems and mechanics we had developed in the weeks before.",
+                        "We created different themed areas with their own visual style, unique objects and little stories."
                     ]
                 }
             ],
@@ -165,11 +165,11 @@
                 {
                     "type": "p",
                     "content": [
-                        "The areas where layered vertically from the surface further and further down.",
-                        "Therefore the further down the layer, the later the players will reach them.",
-                        "Even though the game was not linear the layers and their conent were the essential bricks that helped us build the narrative- and mechanical progression.",
-                        "Each layer thereby fullfilled a different role in teaching as well as challenging the player.",
-                        "With this structure at hand we suddenly had a lot more control while still keeping the open and explorative nature the core loops need."
+                        "The areas were layered vertically from the surface further and further down.",
+                        "The further down the levels are, the later players will reach them.",
+                        "Even though the game was not linear, the levels and their content were the essential building blocks that helped us build the narrative and mechanical progression.",
+                        "Each level fulfilled a different role in this by both teaching and challenging the player.",
+                        "With this structure in hand, we suddenly had a lot more control without losing the open-ended and exploratory nature that core loops need."
                     ]
                 }
             ],
@@ -178,7 +178,7 @@
                     "type": "p",
                     "content": [
                         "The narrative is about the idea of digging deeper and deeper underground, about the self-conviction that what we do is important, and about the lies we tell ourselves and others because of it.",
-                        "For me, the project is both an opportunity for self-reflection on our own actions and on my view of game design and game development."
+                        "For me, the project is both an opportunity for self-reflection on our own actions and on my view of game design and development."
                     ]
                 }
             ],
@@ -364,8 +364,8 @@
                     "type": "p",
                     "content": [
                         "Since we were a bigger team, I invested a lot of time in organising the design workflows and helping out the other designers.",
-                        "Nevertheless I still managed to find some time taking over some parts of the hands-on design myself.",
-                        "In the end I'm happy that I was able to design mechachnics for the puzzles, spend some time with the narrative and cutscnenes and did some level design as well."
+                        "Nevertheless, I still managed to find some time taking over some parts of the hands-on design myself.",
+                        "In the end I'm happy that I was able to design mechanics for the puzzles, spend some time with the narrative and cutscenes and did some level design as well."
                     ]
                 }
             ],
@@ -373,9 +373,9 @@
                 {
                     "type": "p",
                     "content": [
-                        "I had great fun prototyping with the blueptrint system in unreal.",
-                        "It's flexibility allowed for fast itterations and a creation process that was very close to the experience all the time.",
-                        "The straightforward useability made it easy to show how the on-paper system actually work in engine."
+                        "I had great fun prototyping with the blueprint system in unreal.",
+                        "It's flexibility allowed for fast iterations and a creation process that was very close to the experience all the time.",
+                        "The straightforward usability made it easy to show how the on-paper system actually work in engine."
                     ]
                 }
             ],
@@ -786,8 +786,8 @@
                     "type": "p",
                     "content": [
                         "I spend a lot of time on the project overseeing the general direction but also had to put in a lot of work in the visual style.",
-                        "Since I'm not that experienced in creating new artstyles for games, I had to invest some time in understanding and developing our the visual language of the game",
-                        "The final style lives on a small brink between communicating interacivity as well as importance and presenting the general mood they wished for."
+                        "Since I'm not that experienced in creating new art styles for games, I had to invest some time in understanding and developing our the visual language of the game.",
+                        "The final style lives on a small brink between communicating interactivity as well as importance and presenting the general mood they wished for."
                     ]
                 }
             ],
