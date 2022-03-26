@@ -5,9 +5,10 @@
             "Game",
             "2D"
         ],
+        "thumbnailUrl" : "img/atlb/thumbnail.png",
         "previewType": "gif",
-        "previewUrl": "img/6GiLRb.gif",
-        "logoUrl": "img/all_that_lies_below_red_blue.png",
+        "previewUrl": "img/atlb/6GiLRb.gif",
+        "logoUrl": "img/atlb/all_that_lies_below_red_blue.png",
         "describtion": [
             "a pixelart adventure mining game.",
             "This project was my bachelor project developed in a duo."
@@ -195,9 +196,10 @@
         "tags": [
             "Movie"
         ],
+        "thumbnailUrl" : "img/irina/thumbnail.jpeg",
         "previewType": "mp4",
-        "previewUrl": "img/irina_preview.mp4",
-        "logoUrl": "img/Irina_titleText_on_dark.png",
+        "previewUrl": "img/irina/irina_preview.mp4",
+        "logoUrl": "img/irina/Irina_titleText_on_dark.png",
         "describtion": [
             "A young female soldier wakes up without memory on a battlefield among robot parts and human corpses.",
             "Wounded and alone, she scours the military base in search of other survivors. But what she finds makes her doubt everything she thought she knew."
@@ -311,9 +313,10 @@
             "Game",
             "3D"
         ],
+        "thumbnailUrl" : "img/windwalker/thumbnail.png",
         "previewType": "mp4",
-        "previewUrl": "img/windwalker_preview.mp4",
-        "logoUrl": "img/windwalker_title.png",
+        "previewUrl": "img/windwalker/windwalker_preview.mp4",
+        "logoUrl": "img/windwalker/windwalker_title.png",
         "describtion": [
             "Windwalker is an 3D exploration game, where you glide through a world of flying islands, uncover it's sectrets and solve small puzzles."
         ],
@@ -395,6 +398,7 @@
             "Event",
             "Prototype"
         ],
+        "thumbnailUrl" : "img/hkw/thumbnail.jpg",
         "previewType": "gif",
         "previewUrl": "img/hkw/preview.gif",
         "logoUrl": "img/hkw/title.gif",
@@ -483,6 +487,7 @@
             "Game",
             "3D"
         ],
+        "thumbnailUrl" : "img/dim/thumbnail.jpg",
         "previewType": "mp4",
         "previewUrl": "img/dim/preview.mp4",
         "logoUrl": "img/dim/title.png",
@@ -557,6 +562,7 @@
         "tags": [
             "Event"
         ],
+        "thumbnailUrl" : "img/gamesweek/thumbnail.png",
         "previewType": "mp4",
         "previewUrl": "img/gamesweek/preview.mp4",
         "logoUrl": "img/gamesweek/title.png",
@@ -634,6 +640,7 @@
             "Game",
             "3D"
         ],
+        "thumbnailUrl" : "img/watson/thumbnail.jpg",
         "previewType": "gif",
         "previewUrl": "img/watson/preview.gif",
         "logoUrl": "img/watson/title.png",
@@ -724,6 +731,7 @@
             "Game",
             "2D"
         ],
+        "thumbnailUrl" : "img/cw/thumbnail.jpg",
         "previewType": "mp4",
         "previewUrl": "img/cw/preview.mp4",
         "logoUrl": "img/cw/title.png",

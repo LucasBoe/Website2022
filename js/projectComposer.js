@@ -23,6 +23,10 @@ $(() => {
 
                 instance.attr("id", key);
 
+                //load thumbnail
+                var thumbnail = $(instance).find(".thumbnail");
+                thumbnail.append($(['<img src="', project["thumbnailUrl"], '">'].join("\n")))
+
                 //load preview
                 var type = project["previewType"];
                 var preview = $(instance).find(".preview");
@@ -37,6 +41,7 @@ $(() => {
                         '" type="video/mp4">',
                         '</video>'].join("\n")))
                 }
+
 
                 //load logo
                 $(instance).find(".overlay img").attr("src", project["logoUrl"]);

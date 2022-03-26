@@ -167,6 +167,22 @@ a {
                 }
             } }
 
+    .project-preview .hoverable .preview {
+        display: none;
+    }
+
+    .project-preview .hoverable:hover .preview {
+        display: unset;
+    }
+
+    .project-preview .hoverable .thumbnail {
+        display: unset;
+    }
+
+    .project-preview .hoverable:hover .thumbnail {
+        display: none;
+    }
+
         .project-preview .hoverable .overlay {
             position: absolute;
             top: 0;

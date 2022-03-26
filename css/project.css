@@ -51,6 +51,10 @@
 			max-height: 40vh;
 		}
 
+		#project-window .logo-holder {
+			 padding: 5% !important;
+		}
+
 #project-window .logo-holder img {
     position: relative;
     width: 80%;
