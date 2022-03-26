@@ -161,6 +161,12 @@ a {
             }
         }
 
+        @media not all and (min-resolution:.001dpcm) { @supports (-webkit-appearance:none) and (display:flow-root) {
+                .project-preview .hoverable:hover {
+                    transform: scale(1);
+                }
+            } }
+
         .project-preview .hoverable .overlay {
             position: absolute;
             top: 0;
