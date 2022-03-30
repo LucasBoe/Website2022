@@ -172,11 +172,11 @@ a {
     }
 
     .project-preview .hoverable:hover .preview {
-        display: unset;
+        display: flex;
     }
 
     .project-preview .hoverable .thumbnail {
-        display: unset;
+        display: flex;
     }
 
     .project-preview .hoverable:hover .thumbnail {
