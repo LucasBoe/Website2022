@@ -139,6 +139,8 @@ function attachClickBehaviour() {
         return iterateThroughElementsAndCreate(type, data["content"]);
       case "li":
         return '<ul>' + iterateThroughElementsAndCreate(type, data["content"]) + '</ul>';
+      case "h2":
+        return '<h2 id ="' + data["content"] + '"> ' + data["content"] + '</h2>'
       default:
         return createElementOpenClose(type, data["content"]);
     }

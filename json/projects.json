@@ -5,7 +5,7 @@
             "Game",
             "2D"
         ],
-        "thumbnailUrl" : "img/atlb/thumbnail.png",
+        "thumbnailUrl": "img/atlb/thumbnail.png",
         "previewType": "gif",
         "previewUrl": "img/atlb/6GiLRb.gif",
         "logoUrl": "img/atlb/all_that_lies_below_red_blue.png",
@@ -196,7 +196,7 @@
         "tags": [
             "Movie"
         ],
-        "thumbnailUrl" : "img/irina/thumbnail.jpeg",
+        "thumbnailUrl": "img/irina/thumbnail.jpeg",
         "previewType": "mp4",
         "previewUrl": "img/irina/irina_preview.mp4",
         "logoUrl": "img/irina/Irina_titleText_on_dark.png",
@@ -313,7 +313,7 @@
             "Game",
             "3D"
         ],
-        "thumbnailUrl" : "img/windwalker/thumbnail.png",
+        "thumbnailUrl": "img/windwalker/thumbnail.png",
         "previewType": "mp4",
         "previewUrl": "img/windwalker/windwalker_preview.mp4",
         "logoUrl": "img/windwalker/windwalker_title.png",
@@ -343,8 +343,9 @@
                 {
                     "type": "li",
                     "content": [
-                        "Lead Design (Mechanics, Puzzles, Narrative)",
-                        "Prototyping (w. Unreal Blueprints)",
+                        "<b>Game Design:</b> (read <a href='#Game Design'>here</a>)<br> - Mechanic Design<br> - Puzzle Design<br> - Narrative Design<br> - Prototyping (w. Unreal Blueprints)<br>‎",
+                        "<b>Lead Game Design:</b> (read <a href='#The proccess and team management learnings'>here</a>)<br> - Pillar & DNA planning<br> - Sprint planning<br> - Process development<br>‎",
+                        "Trailers & Cutscenes",
                         "2D Art"
                     ]
                 }
@@ -358,17 +359,39 @@
             ],
             [
                 {
+                    "type": "h2",
+                    "content": "Game Design"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "In addition to coordinative and conceptual work, I was very interested in being hands-on in the Unreal engine.",
+                        "I had the opportunity to do level design at various stages. Early on, I went from concept to blockout, using sightlines and forshadowing to create an initial tutorial section. Then later in designing the level surrounding some of my puzzles. ",
+                        "Adding the light puzzles came as a late solution to diversify the gameplay and give the player a reason to move through the space."
+                    ]
+                }
+            ],
+            [
+                {
                     "type": "img",
-                    "url": "img/windwalker/2.png"
+                    "url": "img/windwalker/4.png",
+                    "describtion": "blockout and asset version of the tutorial"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/windwalker/5.jpg",
+                    "describtion": "demo level for the light puzzle mechanics"
                 }
             ],
             [
                 {
                     "type": "p",
                     "content": [
-                        "Since we were a bigger team, I invested a lot of time in organising the design workflows and helping out the other designers.",
-                        "Nevertheless, I still managed to find some time taking over some parts of the hands-on design myself.",
-                        "In the end I'm happy that I was able to design mechanics for the puzzles, spend some time with the narrative and cutscenes and did some level design as well."
+                        "I used the designs to create a playable demo for the new mechanic within a day, to show the team how this mechanic could help tie up loose ends.",
+                        "By improving player feedback for the lighting system, I was able to incorporate some time shaders and sounds that I really enjoyed. ",
+                        "I designed puzzles for each island and a final one that unlocks the ending, which includes a final puzzle that leads to the final cutscene and credits."
                     ]
                 }
             ],
@@ -376,16 +399,88 @@
                 {
                     "type": "p",
                     "content": [
-                        "I had great fun prototyping with the blueprint system in unreal.",
-                        "It's flexibility allowed for fast iterations and a creation process that was very close to the experience all the time.",
-                        "The straightforward usability made it easy to show how the on-paper system actually work in engine."
+                        "In the end, it was time to fill the world with narrative. We were all pretty sure of the direction we wanted this to go, but the execution was another matter.",
+                        "A handful of murals were going to explain the major plot points, and when I got rigged petrified stone people from the art team, I gleefully began placing them all over the world to tell stories of the various stages of civilization's decline."
                     ]
                 }
             ],
             [
                 {
                     "type": "img",
-                    "url": "img/windwalker/3.png"
+                    "url": "img/windwalker/6.png",
+                    "describtion": "stone people as storrytelling vehicles"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/windwalker/8.jpg",
+                    "describtion": "concept for our loops and verbs developed by the design team"
+                }
+            ],
+            [
+                {
+                    "type": "h2",
+                    "content": "The proccess and team management learnings"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "At the beginning, the challenge was to create an environment where everyone could help shape the game with their ideas, while making sure we were all aiming for a coherent experience. It was important for us to distribute the responsibility for decisions among everyone involved in the potential execution."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "In my role as Lead Designer, I envisioned the design process as taking feedback from other departments as well as other members of the design team to ensure alignment.",
+                        "On the one hand, I worked closely with the producer to define time limits and sprint goals; on the other hand, I tried to be a reflector for the other designers, working with them to analyze and elaborate on their design concepts.",
+                        "We discovered pretty early on that because of our different personalities and strong opinions, even on topics that turned out to be completely irrelevant, we had to spend hours discussing various issues related to the future game we wanted to develop."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/windwalker/7.jpg",
+                    "describtion": "some internal planning and feedback for design"
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "The team was split between the goal of developing a playable version as early as possible and the goal of making the best decisions now to end up developing on best concept later.",
+                        "I felt that not enough attention was paid to design, while we were talking about artistic decisions and narrative inspiration way too early, especially considering the development time of two months.",
+                        "We were constantly adapting our processes to the new team dynamics and the problems that the previous process caused. One of the changes that stuck almost to the end was the introduction of feature pairs."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "Two people from different departments working together on a feature proved effective in tackling game-defining changes without requiring discussions with the entire team.",
+                        "One of the dynamics of moving closer to deadlines and milestones was a clearer understanding that the short sprint period needed to be used to create something that would move the game forward, as too many discussions about 'woulds' and 'coulds' carried the real risk of ending up with an unfinished project."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/windwalker/9.jpg",
+                    "describtion": "example on how proposals were visualized and planned with for finishing the game"
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "In the end, we found a fairly productive process of proposing changes, naming the effort, and the team volunteering to decide which proposals to work on.",
+                        "Anyone could suggest something, but not nearly everyone did.",
+                        "It's hard to say if this process would have worked in the beginning, but it certainly worked very well for the final process."
+                    ]
                 }
             ]
         ]
@@ -398,7 +493,7 @@
             "Event",
             "Prototype"
         ],
-        "thumbnailUrl" : "img/hkw/thumbnail.jpg",
+        "thumbnailUrl": "img/hkw/thumbnail.jpg",
         "previewType": "gif",
         "previewUrl": "img/hkw/preview.gif",
         "logoUrl": "img/hkw/title.gif",
@@ -487,7 +582,7 @@
             "Game",
             "3D"
         ],
-        "thumbnailUrl" : "img/dim/thumbnail.jpg",
+        "thumbnailUrl": "img/dim/thumbnail.jpg",
         "previewType": "mp4",
         "previewUrl": "img/dim/preview.mp4",
         "logoUrl": "img/dim/title.png",
@@ -562,7 +657,7 @@
         "tags": [
             "Event"
         ],
-        "thumbnailUrl" : "img/gamesweek/thumbnail.png",
+        "thumbnailUrl": "img/gamesweek/thumbnail.png",
         "previewType": "mp4",
         "previewUrl": "img/gamesweek/preview.mp4",
         "logoUrl": "img/gamesweek/title.png",
@@ -640,7 +735,7 @@
             "Game",
             "3D"
         ],
-        "thumbnailUrl" : "img/watson/thumbnail.jpg",
+        "thumbnailUrl": "img/watson/thumbnail.jpg",
         "previewType": "gif",
         "previewUrl": "img/watson/preview.gif",
         "logoUrl": "img/watson/title.png",
@@ -731,7 +826,7 @@
             "Game",
             "2D"
         ],
-        "thumbnailUrl" : "img/cw/thumbnail.jpg",
+        "thumbnailUrl": "img/cw/thumbnail.jpg",
         "previewType": "mp4",
         "previewUrl": "img/cw/preview.mp4",
         "logoUrl": "img/cw/title.png",
