@@ -541,9 +541,77 @@
             ],
             [
                 {
+                    "type": "p",
+                    "content": [
+                        "In addition to interviews we conducted with various HKW employees, we decided that the best way to get to know them was to develop prototypes and see how they reacted while playing."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "For the prototypes, we tried to be as diverse as possible, taking into account different genres, platforms, and audiences."
+                    ]
+                }
+            ],
+            [
+                {
                     "type": "img",
-                    "url": "img/hkw/2.jpg",
-                    "describtion": "Our arcade machine with the game"
+                    "url": "img/hkw/7.jpg"
+                }
+            ],
+            [
+                {
+                    "type": "h2",
+                    "content": "Prototype 1 - Adventure Game"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "We started by developing a simple adventure game that focused heavily on representing physical space and told an authentic story from our perspective at HKW.",
+                        "It was meant to serve as an introduction and included a message to approach us for an interview or playtest of future prototypes. ",
+                        "We decided to go with a story-focused adventure, as that was the most accessible thing we could think of."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/hkw/8.jpg"
+                }
+            ],
+            [
+                {
+                    "type": "h2",
+                    "content": "Prototype 2 - Platformer"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "The next prototype was a platformer about a fox who works at HKW and goes home to his family in the Tiergarten.",
+                        "It still had a low barrier to entry, no hard jumps or death conditions, but it included some small toy-like simulations and much more focus on the user experience, as polish was something that helped our playtesters a lot. The toys, however, were not something our audience appreciated."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/hkw/9.jpg"
+                }
+            ],
+            [
+                {
+                    "type": "h2",
+                    "content": "Prototype 3 - Tycoon Game"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "Next on our list was a Tycoon game, which is about organizing events like those that are common at HKW. ",
+                        "We created a little simulation peppered with lots of little jokes about hkw's problems, which seemed to go over well with the staff.",
+                        "It especially helped us eliminate more 3D games from the list of possibilities."
+                    ]
                 }
             ],
             [
@@ -551,6 +619,39 @@
                     "type": "img",
                     "url": "img/hkw/3.jpg",
                     "describtion": "Playing the card-game with the employess"
+                }
+            ],
+            [
+                {
+                    "type": "h2",
+                    "content": "Prototype 4 - Social Card Game"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "The last direction we wanted to try was a card game.",
+                        "The people working there really lacked opportunities for face-to-face interaction between departments. ",
+                        "We developed and discussed social mechanisms like collecting and trading cards with other players.",
+                        "Individual goals and the freedom of how trading should work opened up the space for conversations."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "Ultimately, though, the final product had to be a digital game, and we settled on a simple platformer with a linear story and lots of jokes about the hkw themselves. ",
+                        "Visually, the game included key features of the real hkw buildings. ",
+                        "To get the most out of the concept, we decided to build our own arcade machine to showcase it.",
+                        "The exhibition featured all the prototypes, the finished game on the machine, and a large flowchart we had created from the interviews of how the things that engaged the staff related to each other."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/hkw/2.jpg",
+                    "describtion": "Our arcade machine with the game"
                 }
             ],
             [
@@ -565,13 +666,6 @@
                     "type": "img",
                     "url": "img/hkw/5.jpg",
                     "describtion": "My beautiful cardgame instructions page"
-                }
-            ],
-            [
-                {
-                    "type": "img",
-                    "url": "img/hkw/6.jpg",
-                    "describtion": "Prototypes shown on tablets"
                 }
             ]
         ]
