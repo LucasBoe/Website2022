@@ -1,5 +1,15 @@
 $(() => window.addEventListener("onAddClick", () => attachClickBehaviour()));
 
+PROJECT_IS_OPEN = false;
+
+$(document).mousedown(function (e) {
+  var container = $("#project-window");
+  if (!container.is(e.target) && container.has(e.target).length === 0 && PROJECT_IS_OPEN && !HAS_IMAGE_IN_FULLSCREEN) {
+    closeProject();
+    return false;
+  }
+});
+
 function attachClickBehaviour() {
   $(".project-preview").click(function () {
     openProject($(this), $(this).attr("id"));
@@ -55,10 +65,14 @@ function attachClickBehaviour() {
       top: "10vh",
       width: "60vw"
     }, duration, function () {
-      $(pWindow).find("#close").click(function () {
+
+      PROJECT_IS_OPEN = true;
+
+      $(".closeProject").click(function () {
         closeProject();
         return false;
       });
+
       setBackgroundBlurred(true);
       window.dispatchEvent(new CustomEvent("onProjectOpened", pWindow));
     })
@@ -68,7 +82,7 @@ function attachClickBehaviour() {
 
     var pWindow = $("#project-window");
     var blend = $("#project-popup-blend");
-    $(pWindow).find("#close").off("click");
+    $(pWindow).find(".closeProject").off("click");
     $(pWindow).find(".preview").css("min-width", "100%");
     $(pWindow).find(".header").css("height", "60vh");
 
@@ -80,6 +94,7 @@ function attachClickBehaviour() {
       top: sPos.top + sHeight * 0.1,
       width: sWidth / 1.2,
     }, duration, function () {
+      PROJECT_IS_OPEN = false;
       $(this).hide();
       $(pWindow).find(".preview").empty();
       $(pWindow).find(".logo-holder").empty();
