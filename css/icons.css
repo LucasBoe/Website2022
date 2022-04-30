@@ -1,16 +1,17 @@
 @font-face {
-  src:  url('../fonts/icomoon.eot?4iwosh');
-  src:  url('../fonts/icomoon.eot?4iwosh#iefix') format('embedded-opentype'),
-  url('../fonts/icomoon.ttf?4iwosh') format('truetype'),
-  url('../fonts/icomoon.woff?4iwosh') format('woff'),
-  url('../fonts/icomoon.svg?4iwosh#icomoon') format('svg');
+  src: url('../fonts/icomoon.eot?4iwosh');
+  src: url('../fonts/icomoon.eot?4iwosh#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?4iwosh') format('truetype'),
+    url('../fonts/icomoon.woff?4iwosh') format('woff'),
+    url('../fonts/icomoon.svg?4iwosh#icomoon') format('svg');
   font-family: 'icomoon';
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -28,21 +29,26 @@
 .icon-excel:before {
   content: "\e900";
 }
+
 .icon-svn:before {
   content: "\e903";
   font-size: large;
   display: inline-block;
-  transform: translateY(-2pt);
+  transform: translateY(4pt);
 }
+
 .icon-maya:before {
   content: "\e904";
 }
+
 .icon-substance:before {
   content: "\e905";
 }
+
 .icon-gamemaker:before {
   content: "\e906";
 }
+
 .icon-miro:before {
   content: "\e907";
 }
@@ -50,103 +56,107 @@
 .text-icon-gml {
   font-size: small;
   display: inline-block;
-  transform: translateY(-6pt);
 }
 
 .text-icon-csharp {
   font-size: medium;
   display: inline-block;
-  transform: translateY(-4pt);
 }
 
-a:hover .icon-gamemaker, a:hover .text-icon-gml {
+.iconbox:hover .cib-unity,
+.iconbox:hover .cib-unreal-engine {
+  color: white;
+}
+
+.iconbox:hover .icon-gamemaker,
+.iconbox:hover .text-icon-gml {
   color: #89d43c;
 }
 
-a:hover .icon-excel {
-  color:green;
+.iconbox:hover .icon-excel {
+  color: green;
 }
 
-a:hover .cib-slack {
+.iconbox:hover .cib-slack {
   color: #2f8ab7;
 }
 
-a:hover .icon-miro {
+.iconbox:hover .icon-miro {
   color: #ffc531;
 }
 
-a:hover .cib-git {
+.iconbox:hover .cib-git {
   color: #f05033;
 }
 
-a:hover .icon-svn  {
-color: #809cc8;
+.iconbox:hover .icon-svn {
+  color: #809cc8;
 }
 
-a:hover .cib-visual-studio  {
-  color:#9a6bd1 ;
-}
-
-a:hover .text-icon-csharp {
+.iconbox:hover .cib-visual-studio {
   color: #9a6bd1;
 }
 
-a:hover .cib-python  {
+.iconbox:hover .text-icon-csharp {
+  color: #9a6bd1;
+}
+
+.iconbox:hover .cib-python {
   color: #3771a3;
 }
 
-a:hover .cib-java  {
+.iconbox:hover .cib-java {
   color: #ea2d2f;
 }
 
-a:hover .cib-lua  {
+.iconbox:hover .cib-lua {
   color: #5454fb;
 }
 
-a:hover .cib-adobe-photoshop  {
+.iconbox:hover .cib-adobe-photoshop {
   color: #31a8ff;
 }
 
-a:hover .cib-adobe-after-effects  {
+.iconbox:hover .cib-adobe-after-effects {
   color: #9999ff;
 }
 
-a:hover .cib-adobe-premiere  {
+.iconbox:hover .cib-adobe-premiere {
   color: #9999ff;
 }
 
-a:hover .cib-blender  {
+.iconbox:hover .cib-blender {
   color: #f4792b;
 }
 
-a:hover .icon-maya {
+.iconbox:hover .icon-maya {
   color: #4dacb0;
 }
 
-a:hover .icon-substance  {
+.iconbox:hover .icon-substance {
   color: #e03028;
 }
 
-a:hover .cib-visual-studio-code  {
+.iconbox:hover .cib-visual-studio-code {
   color: #007acc;
 }
 
-a:hover .cib-javascript  {
+.iconbox:hover .cib-javascript {
   color: #f7df1e;
 }
 
-a:hover .cib-jquery  {
+.iconbox:hover .cib-jquery {
   color: #1169ae;
 }
 
-a:hover .cib-html5  {
+.iconbox:hover .cib-html5 {
   color: #e44d26;
 }
 
-a:hover .cib-css3  {
+.iconbox:hover .cib-css3 {
   color: #264de4;
 }
 
-a:hover .cib-php  {
+.iconbox:hover .cib-php {
   color: #8993c1;
 }

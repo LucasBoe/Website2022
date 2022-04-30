@@ -1,0 +1,64 @@
+#wrapper {
+      height: 100vh;
+      overflow-x: hidden;
+      overflow-y: auto;
+      perspective: 10px;
+}
+
+section {
+      transform-style: preserve-3d;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      color: white;
+      z-index: 10;
+}
+
+.background {
+      width: 100%;
+      position: absolute;
+}
+
+.foreground {
+      width: 100%;
+}
+
+.parallax--3 {
+      transform: translateZ(3px) scale(70%);
+}
+
+.parallax--2 {
+      transform: translateZ(2px) scale(80%);
+}
+
+.parallax--1 {
+      transform: translateZ(1px) scale(90%);
+}
+
+.parallax-1 {
+      transform: translateZ(-1px) scale(110%);
+}
+
+.parallax-2 {
+      transform: translateZ(-2px) scale(120%);
+}
+
+.parallax-3 {
+      transform: translateZ(-3px) scale(130%);
+}
+
+.parallax::after {
+      content: " ";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      transform: translateZ(-1px) scale(1.5);
+      background-size: 100%;
+      z-index: -1;
+}
+
+.on-scroll-transform-projects {
+      transition: all 0.1s;
+}

@@ -1,4 +1,3 @@
-
 .textbox {
     overflow: hidden;
     /* color: #fff; */
@@ -12,84 +11,90 @@
     left: 0;
     z-index: 1;
     transition: all 0.25s ease;
+    pointer-events: none;
+}
+
+.icon .textbox {
+    transform: translate(-40%, 20pt);
+    width: max-content;
+    font-size: 0;
+}
+
+.iconbox .textbox {
+    transform: translate(-40%, -4pt);
+    width: max-content;
+    font-size: 0;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 100px;
+    padding: 0;
+    box-shadow: black 0 0 0px;
+}
+
+
+.icon:hover .textbox,
+.iconbox:hover .textbox {
+    font-size: medium;
+    padding: 2px 12px;
+    color: white;
 }
 
 .tooltip-icon-button {
     display: inline-block;
-	text-decoration: none;
+    text-decoration: none;
     transform: scale(1);
     color: var(--highlight-color);
 }
 
-.skillgroup {
-    display: flex;
-    text-decoration: none;
-    transform: scale(1);
-    color: #fff;
+.skillgroup span {
+    transform: translate(-50pt, 20pt);
+    font-size: 0;
+    left: 0;
+    width: 200pt;
+    top: 2em;
 }
 
-.skillgroup:hover {
-    color: #fff;
-}
-
-.skillgroup:hover .icons {
+.tooltip-icon-button:hover {
     transform: scale(1.1);
+    color: #fff;
 }
 
-    .tooltip-icon-button span {
-        transform: translate(-40%, 20pt);
-        width: max-content;
-        font-size: 0;
-    }  
-    
-    .skillgroup span {
-        transform: translate(-50pt, 20pt);
-        font-size: 0;
-        left: 0;
-        width: 200pt;
-        top: 2em;
-    }
 
-    .tooltip-icon-button:hover  {
-        transform: scale(1.1);
-        color: #fff;
-    }
 
-    .tooltip-icon-button:hover span {
-        font-size: medium;
-    }
-
-@media (min-width: 992px) {
+@media screen and (orientation:landscape) {
     .mobile-only {
         display: none;
     }
-    
-    .skillgroup {
-        color: var(--highlight-color);
+
+    .desktop-no-padding-right {
+        padding-right: 0;
     }
 }
-    
-@media (max-width: 992px) {
+
+@media screen and (orientation:portrait) {
     .d-only {
-        display:none;
+        display: none;
     }
 
     .mobile-m-2 {
         margin: 2vw;
     }
-    
+
+    .mobile-w-100 {
+        flex: auto;
+    }
+
 
     .skillbox {
         display: block;
     }
-    
+
     .skillgroup {
         display: flex;
         justify-content: end;
     }
 
     .skillgroup ul {
-        width:60%;
+        width: 60%;
     }
 
     .skillgroup h6 {

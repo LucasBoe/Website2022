@@ -19,7 +19,7 @@ function attachClickBehaviour() {
   let sWidth = 0;
   let sHeight = 0;
   let sPos = { left: 0, top: 0 };
-  const duration = 500;
+  const duration = 350;
 
   openProject = function (from, id) {
 

@@ -1,4 +1,4 @@
-let transitionDuration = 250;
+let transitionDuration = 100;
 
 $(document).ready(function () {
 
@@ -59,24 +59,25 @@ $(document).ready(function () {
         $(this).data("visible", show);
       })
 
+      //update visibility...
+      projects.each(function () {
+        var visible = $(this).data("visible") || $(this).data("visibleBefore");
+        $(this).setElementActive(visible);
+      });
+
       //fetch positions before transition
-      var projectPositionsBefore = getChildPositionArray(projects);
+      var projectPositionsInbetween = getChildPositionArray(projects);
 
       //update visibility...
       projects.each(function () {
         var visible = $(this).data("visible");
-        $(this).setVisible(visible);
+        $(this).setElementActive(visible);
       });
 
-      //to fetch target positions
+      //fetch target positions
       var projectPositionsAfter = getChildPositionArray(projects);
 
-      //set everything visible that was or should be visible
-      projects.each(function () {
-        var visible = $(this).data("visibleBefore") || $(this).data("visible");
-        $(this).setVisible(visible);
-      });
-      animateProjects(projects, transitionDuration, projectPositionsBefore, projectPositionsAfter);
+      animateProjects(projects, transitionDuration, projectPositionsInbetween, projectPositionsAfter);
     }
   })
 
@@ -90,41 +91,49 @@ $(document).ready(function () {
     return projectPositions;
   };
 
-  animateProjects = function (projects, duration, projectPositionsBefore, projectPositionsAfter) {
-    var arrayLength = projectPositionsAfter.length;
+  animateProjects = function (projects, duration, projectPositionsInbetween, projectPositionsAfter) {
+
+    //set everything active
+    projects.each(function () {
+      $(this).setElementActive(true);
+    });
+
+    var arrayLength = projects.length;
     for (var i = 0; i < arrayLength; i++) {
 
-      var before = projectPositionsBefore[i];
+      var inbetween = projectPositionsInbetween[i];
       var after = projectPositionsAfter[i];
 
-      var project = projects[i];
+      var end = {
+        top: (after.top - inbetween.top), left: (after.left - inbetween.left)
+      };
 
-      project.style.position = "absolute";
-      project.style.left = before.left;
-      project.style.top = before.top;
+      var project = projects[i];
 
       var targetOpacity = 0;
       if ($(project).data("visible")) {
         targetOpacity = 1;
       }
 
+      $(project).css("transition", "transform 0.25s ease")
+      $(project).css("transform", "translate(" + +end.left + "px ," + +end.top + "px )");
+
+
       $(project).animate({
-        left: after.left,
-        top: after.top,
-        opacity: targetOpacity
+        opacity: targetOpacity,
       }, duration, function () {
-        this.style.position = "relative";
-        this.style.left = 0;
-        this.style.top = 0;
         var visible = $(this).data("visible");
-        $(this).setVisible(visible);
+
+        var z = -9999;
+        if (visible) z = 0;
+        $(this).css("z-index", z)
       });
     }
   }
 
 });
 
-jQuery.fn.setVisible = function (visible) {
+jQuery.fn.setElementActive = function (visible) {
 
   if (visible) {
     $(this).show();

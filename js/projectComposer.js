@@ -21,7 +21,7 @@ $(() => {
 
                 var instance = $("#projects").children().last();
 
-                instance.attr("id", key);
+                $(instance).children().last().attr("id", key);
 
                 //load thumbnail
                 var thumbnail = $(instance).find(".thumbnail");

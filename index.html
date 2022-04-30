@@ -10,11 +10,14 @@
   <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/free.min.css">
   <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/brand.min.css">
   <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/flag.min.css">
+  <link rel="stylesheet" href="/css/helpers.css">
+  <link rel="stylesheet" href="/css/parallax.css">
   <link href="/css/style.css" rel="stylesheet">
   <link href="/css/project.css" rel="stylesheet">
   <link href="/css/image-fullscreen.css" rel="stylesheet">
   <link href="/css/device.css" rel="stylesheet">
   <link href="/css/icons.css" rel="stylesheet">
+  <link href="/css/patterns.css" rel="stylesheet">
   <link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png">
@@ -42,70 +45,178 @@
 
 <body>
 
-  <div id="sidebar" class="container-flex align-items-center">
+  <nav id="navbar-example2" class="navbar">
+    <ul class="nav nav-pills">
+      <li class="nav-item"> <a class="nav-link" href="#header">About</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#procject-section">Projects</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#approach">Approach</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#skills">Skills</a> </li>
+    </ul>
+  </nav>
 
-    <!-- impressum -->
-    <div id="imprint" style="position: absolute; right: 2vw;">
-      <a href="imprint.html">
-        <div class="button" style="background-color: rgba(0,0,0,0); font-size: x-small"> Impressum</div>
-      </a>
-    </div>
+  <div id="wrapper" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="500"
+    class="scrollspy-example" tabindex="0">
+    <section id="header">
+      <div class="background parallax-3">
+        <img class="pattern ptt-right" src="img/patterns/p1.png">
+      </div>
 
-    <div class="row mobile-only">
-      <div style="width: 100%; height: 24pt"></div>
-      <h1>Lucas Bödeker</h1>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-8">
-        <div id="me" class="d-only">
-          <img src="img/profilepicture/background.png">
-          <img id="eyes" src="img/profilepicture/eyes.png" class="overlay">
-          <img src="img/profilepicture/foreground.png" class="overlay">
-        </div>
-        <div id="me" class="mobile-only">
-          <img src="img/me.png">
+      <div class="background parallax-3">
+        <div
+          style="background: radial-gradient(circle, rgba(238, 119, 82,0.3) 0%, rgba(234, 89, 104,0.3) 30%, rgba(234, 89, 104,0) 50%); width: 200vw; height: 300vh; transform: translateX(-75vw);">
         </div>
       </div>
-    </div>
 
-    <include data="components/linkouts.html"></include>
+      <!-- impressum -->
+      <div id="imprint" class="pt-3" style="position: absolute; right: 2vw;">
+        <a href="imprint.html">
+          <div class="button" style="background-color: rgba(0,0,0,0); font-size: x-small"> Impressum</div>
+        </a>
+      </div>
+      <div class="container pt-300 parallax--2">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col pt-200">
+            <div class="linebox">
+              <h2>Hi, I'm Lucas Bödeker.</h2>
+              <h2 id="line">Game Designer & enthusiast for interactive experiences with a broad skillset!</h2>
+            </div>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-4 onScroll-rotate" srollStart="0" srollEnd="400" rotMin="0" rotMax="20" rotOff="-10"
+            rotSign="-1">
+            <div>
+              <div id="me" class="d-only">
+                <img src="img/profilepicture/background.png">
+                <img id="eyes" src="img/profilepicture/eyes.png" class="overlay">
+                <img src="img/profilepicture/foreground.png" class="overlay">
+              </div>
+              <div id="me" class="mobile-only">
+                <img src="img/me.png">
+              </div>
+              <div class="d-only">
+                <include data="components/linkouts.html"></include>
+              </div>
+            </div>
 
-    <div class="row mobile-m-2 pt-3 pb-3">
-      <div class="col">
-        <div class="linebox">
-          <h2 id="line">Game Designer & enthusiast for interactive experiences with a broad skillset!</h2>
+          </div>
+        </div>
+        <div class="row mobile-only">
+          <div class="divider-100"></div>
+          <include data="components/linkouts.html"></include>
         </div>
       </div>
-    </div>
 
-    <div class="pt-5">
+    </section>
 
-      <include data="components/skills.html"></include>
+    <section id="procject-section">
+      <div class="on-scroll-transform-projects">
+        <div class="container project-container">
+          <div class="row project-tabs onScroll-makeOpaque">
+            <div class="col-6">
+              <div class="project-tab project-tab-active" target="projects">
+                <h2>PROJECTS</h2>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="project-tab" target="prototypes">
+                <h2>PROTOTYPES</h2>
+              </div>
+            </div>
+            <div class="col-12 project-tab-divider color-background"></div>
+          </div>
+          <div class="divider-50"></div>
+          <div class="container-fluid">
+            <div class="row p-row">
+              <div class="col p-col">
+                <div class="vstack gap-2 tagarea onScroll-makeOpaque">
+                  <p>filter with tags:</p>
+                  <span class="tag">Game</span>
+                  <span class="tag">Movie</span>
+                  <span class="tag">Event</span>
+                  <span class="tag">3D</span>
+                  <span class="tag">2D</span>
+                </div>
+                <div class="row g-5 justify-content-center" id="projects">
+                </div>
+              </div>
+              <div class="col p-col p-col-hidden">
+                <div class="row" id="prototypes">
+                  <h4><i>coming soon!</i></h4>
+                  <p>
+                    Find some prototypes of mine now on...
+                  </p>
+                  <a target="_blank" rel="noopener noreferrer" href="https://lucas-b.itch.io/"
+                    class="button red-button">my Itch.io profile
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-      <br>
-    </div>
+    <section id="approach" class="px-0 color-background">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+          </div>
+        </div>
+        <div class="row gx-5 approach-line">
+          <h3>// APPROACH</h3>
+          <div class="col approach-box">
+            <div class="approach-icon-container">
+              <i class="cil-happy"></i>
+            </div>
+            <h4>
+              Have fun creating fun!</h4>
+            <p>
+              I strongly believe that the design process itself has a powerful impact on the game experience.</p>
+            <p>Crunch is not a way to become more productive. Fun is!</p>
+          </div>
+
+          <div class="col approach-box">
+            <div class="approach-icon-container">
+              <i class="cil-lightbulb"></i>
+            </div>
+            <h4> Ideas are nothing!</h4>
+            <p>
+              The only way to find out if a design idea works is to build it.</p>
+            <p>My design process is based on prototyping and evaluation to make informed decisions that lead to great
+              game experiences.</p>
+          </div>
+
+          <div class="col approach-box">
+            <div class="approach-icon-container">
+              <i class="cil-highligt"></i>
+            </div>
+            <h4>Reinvent the wheel!</h4>
+            <p>
+              Sometimes you have to try to reinvent the wheel to find out that what you needed all along were skis.
+            </p>
+            <p>Repetition prevents the industry from evolving and you from learning something new yourself.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="divider-100"></div>
+
+    <section id="skills">
+      <div class="container px-0">
+        <include data="components/skills.html"></include>
+      </div>
+    </section>
+
+
+
+
+    <div class="divider-100"></div>
+
   </div>
 
-  <div id="content" class="container">
-    <div class="row g-5">
-      <div class="col-auto" style="padding-right: 0;">
-        tags:
-      </div>
-      <div class="col">
-        <span class="tag">Game</span>
-        <span class="tag">Movie</span>
-        <span class="tag">Event</span>
-        <span class="tag">3D</span>
-        <span class="tag">2D</span>
-      </div>
-
-      <div class="col-md-auto d-only">
-        <h1 class="name">Lucas Bödeker</h1>
-      </div>
-    </div>
-
-    <div class="row mt-3" id="projects"></div>
-  </div>
 
   <include data="components/projectPopup.html"></include>
   <include data="components/imageFullscreenPopup.html"></include>
@@ -119,16 +230,19 @@
 
 <script src="js/includePreprocessor.js"></script>
 
+
 <script src="js/image-fullscreen.js"></script>
 <script src="js/projectTransition.js"></script>
 <script src="js/rotateWithCursor.js"></script>
 
 <script src="js/projectComposer.js"></script>
+<script src="js/projectPrototypeSectionSwitch.js"></script>
 
 <script src="js/tags.js"></script>
 <script src="js/rotateMeToMouse.js"></script>
 <script src="js/linetyper.js"></script>
 <script src="js/stopSidebarFromScrolling.js"></script>
 <script src="js/skilldescribtionHover.js"></script>
+<script src="js/transformByScroll.js"></script>
 
 </html>
