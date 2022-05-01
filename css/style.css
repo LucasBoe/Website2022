@@ -594,3 +594,7 @@ strong:before {
     background: var(--highlight-color);
     color: #111;
 }
+
+.container-header {
+    padding-top: 20vh;
+}
