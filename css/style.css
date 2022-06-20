@@ -68,7 +68,7 @@ a {
     font-weight: bold;
 }
 
-.linebox #line {
+.linebox h2 {
     font-family: 'Cousine', monospace;
     margin: 0%;
 }
