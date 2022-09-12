@@ -184,6 +184,40 @@ a {
     opacity: 0;
 }
 
+#prototypeWrapper {
+    height: 0;
+}
+
+#prototypeWrapper p {
+    margin-bottom: 4pt;
+}
+
+#prototypeWrapper .row {
+    margin-bottom: 2vh;
+}
+
+#prototypeWrapper li {
+    list-style: none;
+    margin-bottom: 4pt;
+}
+
+#prototypeWrapper .prototype-list-element {
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.5s ease;
+}
+
+#prototypeWrapper .prototype-list-element:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#prototypeWrapper .prototype-list-element img {
+    width: 100%;
+}
+
+
+
+
+
 #projects {
     padding: 0 0 10%;
 }
@@ -459,12 +493,11 @@ strong:before {
     border: #1c1c1c 1px solid;
     border-radius: 100px;
     display: inline-flex;
-    width: 100%;
     text-align: center;
     vertical-align: auto;
     text-decoration: none;
     transition: all 0.2s ease;
-    padding: 4pt 4pt 4pt 14pt;
+    padding: 4pt 14pt;
     margin: 4pt;
 }
 

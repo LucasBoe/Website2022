@@ -6,6 +6,10 @@
   height: 100%;
 }
 
+.pl-0 {
+  padding-left: 0 !important;
+}
+
 .pt-10 {
   padding-top: 10px;
 }

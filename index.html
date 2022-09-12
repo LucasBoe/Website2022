@@ -57,6 +57,7 @@
   <div id="wrapper" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="500"
     class="scrollspy-example" tabindex="0">
     <section id="header">
+
       <div class="background parallax-3">
         <img class="pattern ptt-right" src="img/patterns/p1.png">
       </div>
@@ -129,7 +130,7 @@
           <div class="divider-50"></div>
           <div class="container-fluid">
             <div class="row p-row">
-              <div class="col p-col">
+              <div class="col p-col" id="projectWrapper">
                 <div class="vstack gap-2 tagarea onScroll-makeOpaque">
                   <p>filter with tags:</p>
                   <span class="tag">Game</span>
@@ -141,15 +142,21 @@
                 <div class="row g-5 justify-content-center" id="projects">
                 </div>
               </div>
-              <div class="col p-col p-col-hidden">
+              <div class="col p-col p-col-hidden mb-5" id="prototypeWrapper">
                 <div class="row" id="prototypes">
-                  <h4><i>coming soon!</i></h4>
                   <p>
-                    Find some prototypes of mine now on...
+                    To understand the strengths and weaknesses of a design, my <a
+                      href="https://l-boe.de/#approach">approach</a> is based on prototyping and continuous testing.
                   </p>
-                  <a target="_blank" rel="noopener noreferrer" href="https://lucas-b.itch.io/"
-                    class="button red-button">my Itch.io profile
-                  </a>
+                  <p>
+                    This list is by no means complete, but it is much <strong>closer to reality</strong> than seeing
+                    only the finished projects.
+                  </p>
+                  <p>More projects can be found on...
+                    <a target="_blank" rel="noopener noreferrer" href="https://lucas-b.itch.io/"
+                      class="button red-button">my Itch.io profile
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -168,7 +175,7 @@
           <h3>// APPROACH</h3>
           <div class="col approach-box">
             <div class="approach-icon-container">
-              <i class="cil-happy"></i>
+              <p>🥳</p>
             </div>
             <h4>
               Have fun creating fun!</h4>
@@ -179,7 +186,7 @@
 
           <div class="col approach-box">
             <div class="approach-icon-container">
-              <i class="cil-lightbulb"></i>
+              <p>💡</p>
             </div>
             <h4> Ideas are nothing!</h4>
             <p>
@@ -190,7 +197,7 @@
 
           <div class="col approach-box">
             <div class="approach-icon-container">
-              <i class="cil-highligt"></i>
+              <p>🏗️</p>
             </div>
             <h4>Reinvent the wheel!</h4>
             <p>
@@ -211,9 +218,6 @@
         <include data="components/skills.html"></include>
       </div>
     </section>
-
-
-
 
     <div class="divider-100"></div>
 
@@ -238,6 +242,7 @@
 <script src="js/rotateWithCursor.js"></script>
 
 <script src="js/projectComposer.js"></script>
+<script src="js/prototypeComposer.js"></script>
 <script src="js/projectPrototypeSectionSwitch.js"></script>
 
 <script src="js/tags.js"></script>

@@ -2,24 +2,24 @@ $(() => {
     $(".project-tab").click(function () {
         if (!$(this).hasClass("project-tab-active")) {
 
-            var target = $(this).attr("target");
-
-            var x = "0";
-            if (target == "prototypes")
-                x = "-50%"
+            var isProto = $(this).attr("target") == "prototypes";
+            var id = isProto ? "#prototypeWrapper" : "#projectWrapper";
 
             $(".p-col").each(function () {
-                if ($($(this).find(".row")).is("#" + target))
-                    $(this).css({
-                        "opacity": "1"
-                    })
-                else $(this).css({
-                    "opacity": "0"
+
+                var visible = $(this).is(id);
+                $(this).css({
+                    "opacity": visible ? "1" : "0"
                 })
+
+                if (visible)
+                    $(this).css({ "height": "auto" })
+                else
+                    $(this).delay(500).css({ "height": "0" })
             });
 
             $(".p-row").css({
-                "transform": "translateX( " + x + ")"
+                "transform": "translateX( " + (isProto ? "-50%" : "0") + ")"
             })
 
             $(".project-tab").each(function () {

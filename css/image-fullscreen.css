@@ -1,5 +1,6 @@
 #image-fullscreen-overlay {
     position: fixed;
+    top: 0;
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.5);
@@ -7,51 +8,53 @@
     display: none;
 }
 
-    #image-fullscreen-overlay .wrapper {
-        min-width: 1000px;
-        max-width: 70%;
-        min-height: 5vh;
-        margin: 2vw auto;
-    }
+#image-fullscreen-overlay .wrapper {
+    min-width: 1000px;
+    max-width: 60%;
+    min-height: 5vh;
+    margin: 2vw auto;
+}
 
-        #image-fullscreen-overlay .wrapper .image-container {
-            background-color: black;
-            position: relative;
-        }
-    
-            #image-fullscreen-overlay .wrapper .image-container img {
-                width: 100%;
-                box-shadow: 0 0 50px black;
-            }
+#image-fullscreen-overlay .wrapper .image-container {
+    background-color: black;
+    position: relative;
+    transform: scale(0.5);
+    transition: transform 0.2s ease;
+}
 
-        #image-fullscreen-overlay .wrapper .button-container {
-            position: absolute;
-            top: 0;
-            width: 120%;
-            height: 50%;
-            left: -10%;
-        }
+#image-fullscreen-overlay .wrapper .image-container img {
+    width: 100%;
+    box-shadow: 0 0 50px black;
+}
 
-        #image-fullscreen-overlay .wrapper .button-container #button-previous {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            opacity: 0;
-        }
+#image-fullscreen-overlay .wrapper .button-container {
+    position: absolute;
+    top: 0;
+    width: 120%;
+    height: 50%;
+    left: -10%;
+}
 
-        #image-fullscreen-overlay .wrapper .button-container #button-next {
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            opacity: 0;
-        }
+#image-fullscreen-overlay .wrapper .button-container #button-previous {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
 
-        #image-fullscreen-overlay .wrapper .button-container #button-back {
-            position: relative;
-            top: 5%;
-            right: -85%;
-        }
+#image-fullscreen-overlay .wrapper .button-container #button-next {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+}
 
-            #image-fullscreen-overlay .wrapper .button-container .image-button{
-                font-size: 64pt;
-            }
+#image-fullscreen-overlay .wrapper .button-container #button-back {
+    position: relative;
+    top: 5%;
+    right: -85%;
+}
+
+#image-fullscreen-overlay .wrapper .button-container .image-button {
+    font-size: 64pt;
+}

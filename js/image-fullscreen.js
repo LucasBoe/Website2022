@@ -1,6 +1,8 @@
-$(() => window.addEventListener("onProjectOpened", () => attachClickBehaviourToImages()));
+$(() => window.addEventListener("onProjectOpened", () => attachClickBehaviourToImages("#project-window")));
+$(() => window.addEventListener("onLoadedPrototypes", () => attachClickBehaviourToImages("#prototypeWrapper")))
 
 HAS_IMAGE_IN_FULLSCREEN = false;
+TRANSITION_DURATION = 200;
 
 $(document).mouseup(function (e) {
     var container = $("#image-container");
@@ -10,20 +12,34 @@ $(document).mouseup(function (e) {
     }
 });
 
-function attachClickBehaviourToImages() {
-    $("#project-window").find("img").each(function () {
+function attachClickBehaviourToImages(imageContainer) {
+    $(imageContainer).find("img").each(function () {
         $(this).click(() => openInFullscreen(this));
     });
 }
 
 function openInFullscreen(image) {
+
+
+    console.log("openInFullscreen");
+
     HAS_IMAGE_IN_FULLSCREEN = true;
-    $("#image-fullscreen-overlay").fadeIn(500);
+
+
+    console.log($("#image-fullscreen-overlay"));
+
+    $("#image-fullscreen-overlay").fadeIn(TRANSITION_DURATION);
     $("#image-fullscreen-overlay").find("img").attr("src", $(image).attr("src"));
     $("#image-fullscreen-overlay").find("#button-back").click(() => closeImageFullscreen());
+    $("#image-fullscreen-overlay").find(".image-container").css({
+        "transform": "scale( " + 1 + ")"
+    });
 }
 
 function closeImageFullscreen() {
     HAS_IMAGE_IN_FULLSCREEN = false;
-    $("#image-fullscreen-overlay").fadeOut(500);
+    $("#image-fullscreen-overlay").fadeOut(TRANSITION_DURATION);
+    $("#image-fullscreen-overlay").find(".image-container").css({
+        "transform": "scale( " + 0.5 + ")"
+    });
 }

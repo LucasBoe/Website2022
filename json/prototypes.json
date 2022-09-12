@@ -1,0 +1,330 @@
+{
+    "dynamic-view": {
+        "name": "Dynamic RTS Fog-of-war",
+        "description": [
+            "This prototype is more of a technical demo for a dynamic RTS fog of war system where trees, slopes, and other factors affect the shape of the cone of vision.",
+            "Interested in the implications for the design and inspired by the fog of war in Age of Empires IV that no one seemed to write about. (If anyone finds anything to the game design behind it, please message me)."
+        ],
+        "thumbnailUrl": "img/prototypes/dynamic-view.jpg",
+        "linkouts": [
+            {
+                "text": "See my reddit post",
+                "link": "https://www.reddit.com/r/Unity3D/comments/x4uibe/i_created_a_dynamic_rts_fogofwar_system_where/"
+            }
+        ]
+    },
+    "mole": {
+        "name": "Mole: 2D Immersive Sim",
+        "description": [
+            "While many immersive sims or even regular sneak games took place mainly in the third dimension, the goal with Mole was to build some core features for a sneak game based on a dynamic physics system that create an immersive sim."
+        ],
+        "thumbnailUrl": "img/prototypes/mole.jpg",
+        "linkouts": [
+            {
+                "text": "See some gameplay footage",
+                "link": "https://drive.google.com/file/d/1yghISvwhIgMDqzwWHynXuDOm40dXlu5j/view?usp=sharing"
+            }
+        ]
+    },
+    "houses": {
+        "name": "Endless City",
+        "description": [
+            "With no real direction other than my passion for the architecture of 19th century Europe, I began to build a generator that would create dynamic meshes based on various parameters that would combine to create a cityscape."
+        ],
+        "thumbnailUrl": "img/prototypes/houses.jpg",
+        "linkouts": [
+            {
+                "text": "See my reddit post",
+                "link": "https://www.reddit.com/r/Unity3D/comments/vr3eai/created_a_small_procedural_1800_city_generator/"
+            }
+        ]
+    },
+    "idea": {
+        "name": "Game Idea Generator",
+        "description": [
+            "This project was meant to replace an Execel table for generating game ideas and also became a nice finger exercise for my web development skills."
+        ],
+        "thumbnailUrl": "img/prototypes/idea.jpg",
+        "linkouts": []
+    },
+    "locomotive": {
+        "name": "LocoMotiv: Train Conductor Gameplay",
+        "description": [
+            "Here the player takes on the role of a train driver who must face a world full of steep hills, dark tunnels and shady passengers.",
+            "This prototype was meant to prove the features for handling the locomotive and thus establish one of the core loops."
+        ],
+        "thumbnailUrl": "img/prototypes/locomotiv.jpg",
+        "linkouts": [
+            {
+                "text": "See some gameplay footage",
+                "link": "https://drive.google.com/file/d/1Ww_qJG3U68iyVUevR1HMIEse7E9sJKSB/view?usp=sharing"
+            }
+        ]
+    },
+    "Landlords": {
+        "name": "Landlords - Chessboard",
+        "description": [
+            "A new attempt to approach the concept of the medieval landlord, this time reduced the graphics to a minimum to focus on the underlying systems.",
+            "The goal was to find a systemic answer to the questions of basic interactions and core progression that resulted in a good player story."
+        ],
+        "thumbnailUrl": "img/prototypes/landlords.jpg",
+        "linkouts": []
+    },
+    "banana": {
+        "name": "Non-Combat-Rogue Like",
+        "description": [
+            "While the first concept was based on a dream, the premise is quite simple. While wizards fight against the player in a labyrinth of rooms connected by portals, the player can't defend him/herself.",
+            "Instead, you have to collect other units to fight for you, which in turn can be influenced by various items and buffs. The player thus takes on a role similar to that of a healer in a raid group, or a support in a MOBA."
+        ],
+        "thumbnailUrl": "img/prototypes/banana.jpg",
+        "linkouts": []
+    },
+    "gitberger": {
+        "name": "Git Berger",
+        "description": [
+            "This atypical narrative game uses a GIT mimicked interface to tell a story. In the course of the game, various programs are unlocked that provide further text modules in the GIT client.",
+            "The dialog then takes place via the GIT commit messages from the player himself, but also other Charaketeren when they respond."
+        ],
+        "thumbnailUrl": "img/prototypes/gitberger.jpg",
+        "linkouts": []
+    },
+    "nextaction": {
+        "name": "Next Action",
+        "description": [
+            "In an attempt to make a small digital world explorable on a mobile phone. With small clues, puzzles and dialogs."
+        ],
+        "thumbnailUrl": "img/prototypes/next-action.jpg",
+        "linkouts": []
+    },
+    "tinyrocket": {
+        "name": "tiny Rocket",
+        "description": [
+            "This prototype uses the gravity of small planets as a crucial mechanic for solving puzzles. Small swing by maneuvers help the two-dimensional rocket reach the target instead of getting lost in the vastness of space.",
+            "Unfortunately, much of the difficulty here comes from the small-scale finetuning of the launch direction, rather than the clever maneuvers."
+        ],
+        "thumbnailUrl": "https://img.itch.zone/aW1hZ2UvMTI5NDU4MS83NTMyMjEwLmdpZg==/347x500/afPNy7.gif",
+        "linkouts": [
+            {
+                "text": "Play on Itch.io",
+                "link": "https://lucas-b.itch.io/tiny-rocket"
+            },
+            {
+                "text": "View code on github.com",
+                "link": "https://github.com/LucasBoe/Planets"
+            }
+        ]
+    },
+    "legendarytomb": {
+        "name": "Legendary Tomb",
+        "description": [
+            "When you can dig in any direction from the burial chamber, you have to learn to use your tools properly to make sure you don't accidentally drill into a water source.",
+            "And you should also identify the cavity behind the side wall in time before you destroy valuable artifacts by blasting."
+        ],
+        "thumbnailUrl": "img/prototypes/legendary-tomb.jpg",
+        "linkouts": [
+            {
+                "text": "View code on github.com",
+                "link": "https://github.com/LucasBoe/LegendaryTomb"
+            }
+        ]
+    },
+    "Lightning": {
+        "name": "Lightning",
+        "description": [
+            "In this game, the player is not only continuously pursued by lightning and thus gradually loses various extremities.",
+            "He should also learn to use the lightning strikes strategically to eliminate the other Vikings, because the lightning has a slight delay and strikes where the player was standing just a few seconds ago."
+        ],
+        "thumbnailUrl": "img/prototypes/lightning.jpg",
+        "linkouts": [
+            {
+                "text": "View code on github.com",
+                "link": "https://github.com/LucasBoe/Lightning"
+            }
+        ]
+    },
+    "Postman": {
+        "name": "Postman",
+        "description": [
+            "Instead of a normal controller, the player controls only a bicycle in this game. The twist: the only way to interact with the environment is by throwing newspapers while cycling through the friendly suburb."
+        ],
+        "thumbnailUrl": "img/prototypes/postman.jpg",
+        "linkouts": [
+            {
+                "text": "View code on github.com",
+                "link": "https://github.com/LucasBoe/Postman"
+            }
+        ]
+    },
+    "Bobo": {
+        "name": "Bobo Robot",
+        "description": [
+            "In this concept, the player controls a robot that has to avoid various obstacles. The concept is made interesting by the additional puzzle layer.",
+            "A regular energy pulse runs through each level. The sequence of these pulses can be adjusted so that individual obstacles now become aids. This turns it into a puzzle game with action elements."
+        ],
+        "thumbnailUrl": "img/prototypes/bobo.jpg",
+        "linkouts": []
+    },
+    "landlordsArea": {
+        "name": "Landlords - Area",
+        "description": [
+            "As a new attempt to approach the concept of a medieval landlord, in this variant the interactions no longer take place with units directly, but only with territories.",
+            "Thus, the player simply assigns future inhabitants of the city to an area and the simulation begins. In the course of a game, however, the simulation became too large, so that the overview for the player was no longer given."
+        ],
+        "thumbnailUrl": "img/prototypes/landlords-area.jpg",
+        "linkouts": []
+    },
+    "swords": {
+        "name": "Swords Of Esperance",
+        "description": [
+            "In this basic framework of a narrative roguelike, the player goes through different eccounters depending on how the previous encounter went.",
+            "The goal was to create a constant imbalance by awarding points for each encounter based on its positive or negative effect on certain benchmarks, such as the size of one's army or its health, which would keep the game exciting."
+        ],
+        "thumbnailUrl": "img/prototypes/esperance.jpg",
+        "linkouts": [
+            {
+                "text": "Play on Itch.io",
+                "link": "https://lucas-b.itch.io/swordsofesperance"
+            }
+        ]
+    },
+    "bombsAndGoblins": {
+        "name": "Bombs & Goblins",
+        "description": [
+            "What if the only way to light up the environment is by setting off bombs that will destroy what is being explored a few seconds later?",
+            "For this chaotic race against time, you need both quick reflexes and a good memory to avoid steering your bomb into the same dead end several times."
+        ],
+        "thumbnailUrl": "img/prototypes/goblins.jpg",
+        "linkouts": [
+            {
+                "text": "Play on Itch.io",
+                "link": "https://lucas-b.itch.io/bombsgoblins"
+            }
+        ]
+    },
+    "chicken": {
+        "name": "Chicken Catapult Constructor",
+        "description": [
+            "A physics sandbox with only a few elements but a clear goal: build a catapult that can hurl the farthest."
+        ],
+        "thumbnailUrl": "img/prototypes/chicken.jpg",
+        "linkouts": [
+            {
+                "text": "Play on Itch.io",
+                "link": "https://lucas-b.itch.io/chicken-catapult-constructor"
+            }
+        ]
+    },
+    "landlords2d": {
+        "name": "Landlords 3D",
+        "description": [
+            "The goal was to put the player in the shoes of a medieval landlord. The prototype focused on building gameplay and featured a mix of direct and indirect control of individual units.",
+            "Unfortunately, both the simulation and interactive aspects got in the way of the actual fantasy."
+        ],
+        "thumbnailUrl": "img/prototypes/landlords-3d.jpg",
+        "linkouts": []
+    },
+    "10sec": {
+        "name": "10 Seconds to KILL yourself",
+        "description": [
+            "This time-limited physics puzzle game is an unusual combination that also approaches death in a comedic way."
+        ],
+        "thumbnailUrl": "https://img.itch.zone/aW1nLzIxODUzNzUuZ2lm/original/L1WRL2.gif",
+        "linkouts": [
+            {
+                "text": "Play on Itch.io",
+                "link": "https://lucas-b.itch.io/10s-to-kill-yourself"
+            }
+        ]
+    },
+    "kinds": {
+        "name": "Hex Kings",
+        "description": [
+            "A small turn-based tactics game on hex fields. BUT the individual moves can be hours apart, so one player can make a move that the other responds to much later."
+        ],
+        "thumbnailUrl": "img/prototypes/hexkings.jpg",
+        "linkouts": []
+    },
+    "eggscape": {
+        "name": "Eggscape",
+        "description": [
+            "Use the gyroscope to steer a fragile egg through a kitchen in this mobile game. Through its interesting shape and varied level design, we brought classic marble balancing games to the mobile device."
+        ],
+        "thumbnailUrl": "img/prototypes/eggscape.jpg",
+        "linkouts": [
+            {
+                "text": "Download from Google Play Store",
+                "link": "https://play.google.com/store/apps/details?id=com.EggcellentGames.GameEggscape"
+            }
+        ]
+    },
+    "wasntMe": {
+        "name": "Wasn't Me",
+        "description": [
+            "What if all interactions were allowed in a point & click adventure game?",
+            "That is the core idea of this prototype. Thus, the search for the right interaction sequence turns into a sandbox in which the limits have to be tested."
+        ],
+        "thumbnailUrl": "img/prototypes/wasntMe.jpg",
+        "linkouts": [
+            {
+                "text": "Play on Itch.io",
+                "link": "https://lucas-b.itch.io/wasnt-me"
+            }
+        ]
+    },
+    "blastingSim": {
+        "name": "Blasting Simulator 2019",
+        "description": [
+            "At its core is a simple physics simulation applied to a simplified high-rise building.",
+            "By freely placing explosives, the player can influence how controlled or how spectacular the blast will be.",
+            "The experience is rounded off by the slow motion effect and the classical music."
+        ],
+        "thumbnailUrl": "img/prototypes/blasting.jpg",
+        "linkouts": [
+            {
+                "text": "Play on Itch.io",
+                "link": "https://lucas-b.itch.io/blasting-simulator-2019"
+            }
+        ]
+    },
+    "cityOfThunder": {
+        "name": "City of Thunder",
+        "description": [
+            "An audiovisual experience in which the events of an airship crash can be observed.",
+            "Interestingly, players can decide for themselves what they want to watch, when they want to watch it, and from what distance."
+        ],
+        "thumbnailUrl": "img/prototypes/thunder.jpg",
+        "linkouts": [
+            {
+                "text": "Play on Itch.io",
+                "link": "https://lucas-b.itch.io/city-of-thunder"
+            }
+        ]
+    },
+    "pills": {
+        "name": "Take your pills.",
+        "description": [
+            "In this prototype, reality (environment and story) is directly influenced by the decisions of the players.",
+            "A few rules that can be followed or resisted lead to a closer look behind the curtain, which is constantly changing."
+        ],
+        "thumbnailUrl": "img/prototypes/pills.jpg",
+        "linkouts": [
+            {
+                "text": "Play on Itch.io",
+                "link": "https://tapmeh.itch.io/mixedreality"
+            }
+        ]
+    },
+    "crusade": {
+        "name": "Orange Crusade",
+        "description": [
+            "A small, tiny game that tries to criticize the Crusades with few interactions and a single screen."
+        ],
+        "thumbnailUrl": "img/prototypes/orange.jpg",
+        "linkouts": [
+            {
+                "text": "Play on Itch.io",
+                "link": "https://lucas-b.itch.io/orange-crusade"
+            }
+        ]
+    }
+}

@@ -14,7 +14,7 @@ $(() => {
 
             $.ajax({
                 type: "GET",
-                url: 'projectTemplate.html',
+                url: 'components/projectTemplate.html',
                 async: false
             }).done((data) => {
                 $(data).appendTo('#projects');
@@ -52,8 +52,8 @@ $(() => {
                     $(tagParent).append($(['<li>', tag, '</li>'].join("")))
                 });
 
-                //load describtion
-                $(instance).find(".info").prepend(iterateThroughElementsAndCreate("p", project["describtion"]));
+                //load description
+                $(instance).find(".info").prepend(iterateThroughElementsAndCreate("p", project["description"]));
 
             });
         });

@@ -9,7 +9,7 @@
         "previewType": "gif",
         "previewUrl": "img/atlb/6GiLRb.gif",
         "logoUrl": "img/atlb/all_that_lies_below_red_blue.png",
-        "describtion": [
+        "description": [
             "a pixelart adventure mining game.",
             "This project was my bachelor project developed in a duo."
         ],
@@ -49,7 +49,7 @@
                 {
                     "type": "img",
                     "url": "img/atlb/1.gif",
-                    "describtion": "mining mechanic + stability system creating the core gameplay loop"
+                    "description": "mining mechanic + stability system creating the core gameplay loop"
                 }
             ],
             [
@@ -63,7 +63,7 @@
                 {
                     "type": "img",
                     "url": "img/atlb/underground-miro.jpg",
-                    "describtion": "desinging our underground"
+                    "description": "desinging our underground"
                 }
             ],
             [
@@ -118,14 +118,14 @@
                 {
                     "type": "img",
                     "url": "img/atlb/stability-miro.jpg",
-                    "describtion": "designing the stability system"
+                    "description": "designing the stability system"
                 }
             ],
             [
                 {
                     "type": "img",
                     "url": "img/atlb/patterns.png",
-                    "describtion": "the tunnel & mine shapes of different playtests"
+                    "description": "the tunnel & mine shapes of different playtests"
                 }
             ],
             [
@@ -200,7 +200,7 @@
         "previewType": "mp4",
         "previewUrl": "img/irina/irina_preview.mp4",
         "logoUrl": "img/irina/Irina_titleText_on_dark.png",
-        "describtion": [
+        "description": [
             "A young female soldier wakes up without memory on a battlefield among robot parts and human corpses.",
             "Wounded and alone, she scours the military base in search of other survivors. But what she finds makes her doubt everything she thought she knew."
         ],
@@ -241,7 +241,7 @@
                 {
                     "type": "img",
                     "url": "img/irina/1.jpg",
-                    "describtion": ""
+                    "description": ""
                 }
             ],
             [
@@ -275,7 +275,7 @@
                 {
                     "type": "img",
                     "url": "img/irina/3.jpg",
-                    "describtion": ""
+                    "description": ""
                 }
             ],
             [
@@ -317,7 +317,7 @@
         "previewType": "mp4",
         "previewUrl": "img/windwalker/windwalker_preview.mp4",
         "logoUrl": "img/windwalker/windwalker_title.png",
-        "describtion": [
+        "description": [
             "Windwalker is an 3D exploration game, where you glide through a world of flying islands, uncover it's sectrets and solve small puzzles."
         ],
         "linkouts": {
@@ -354,7 +354,7 @@
                 {
                     "type": "img",
                     "url": "img/windwalker/1.png",
-                    "describtion": "the start of the game at vers. 0.5"
+                    "description": "the start of the game at vers. 0.5"
                 }
             ],
             [
@@ -375,14 +375,14 @@
                 {
                     "type": "img",
                     "url": "img/windwalker/4.png",
-                    "describtion": "blockout and asset version of the tutorial"
+                    "description": "blockout and asset version of the tutorial"
                 }
             ],
             [
                 {
                     "type": "img",
                     "url": "img/windwalker/5.jpg",
-                    "describtion": "demo level for the light puzzle mechanics"
+                    "description": "demo level for the light puzzle mechanics"
                 }
             ],
             [
@@ -408,14 +408,14 @@
                 {
                     "type": "img",
                     "url": "img/windwalker/6.png",
-                    "describtion": "stone people as storrytelling vehicles"
+                    "description": "stone people as storrytelling vehicles"
                 }
             ],
             [
                 {
                     "type": "img",
                     "url": "img/windwalker/8.jpg",
-                    "describtion": "concept for our loops and verbs developed by the design team"
+                    "description": "concept for our loops and verbs developed by the design team"
                 }
             ],
             [
@@ -444,7 +444,7 @@
                 {
                     "type": "img",
                     "url": "img/windwalker/7.jpg",
-                    "describtion": "some internal planning and feedback for design"
+                    "description": "some internal planning and feedback for design"
                 }
             ],
             [
@@ -470,7 +470,7 @@
                 {
                     "type": "img",
                     "url": "img/windwalker/9.jpg",
-                    "describtion": "example on how proposals were visualized and planned with for finishing the game"
+                    "description": "example on how proposals were visualized and planned with for finishing the game"
                 }
             ],
             [
@@ -497,7 +497,7 @@
         "previewType": "gif",
         "previewUrl": "img/hkw/preview.gif",
         "logoUrl": "img/hkw/title.gif",
-        "describtion": [
+        "description": [
             "As part of a project for the HKW we created several prototypes and polished one of them for an exhibition we also prepared."
         ],
         "linkouts": {
@@ -536,7 +536,7 @@
                 {
                     "type": "img",
                     "url": "img/hkw/1.jpg",
-                    "describtion": "Opening the exhibition"
+                    "description": "Opening the exhibition"
                 }
             ],
             [
@@ -618,7 +618,7 @@
                 {
                     "type": "img",
                     "url": "img/hkw/3.jpg",
-                    "describtion": "Playing the card-game with the employess"
+                    "description": "Playing the card-game with the employess"
                 }
             ],
             [
@@ -651,21 +651,21 @@
                 {
                     "type": "img",
                     "url": "img/hkw/2.jpg",
-                    "describtion": "Our arcade machine with the game"
+                    "description": "Our arcade machine with the game"
                 }
             ],
             [
                 {
                     "type": "img",
                     "url": "img/hkw/4.jpg",
-                    "describtion": "Interview results visualized"
+                    "description": "Interview results visualized"
                 }
             ],
             [
                 {
                     "type": "img",
                     "url": "img/hkw/5.jpg",
-                    "describtion": "My beautiful cardgame instructions page"
+                    "description": "My beautiful cardgame instructions page"
                 }
             ]
         ]
@@ -680,7 +680,7 @@
         "previewType": "mp4",
         "previewUrl": "img/dim/preview.mp4",
         "logoUrl": "img/dim/title.png",
-        "describtion": [
+        "description": [
             "Dim is a atmospheric puzzle game. Explore your way trough the factory by tricking the machines and solving difficult situations."
         ],
         "linkouts": {
@@ -717,7 +717,7 @@
                 {
                     "type": "youtube",
                     "url": "Jqe_kRK33qQ",
-                    "describtion": "let's play of 'DIM'"
+                    "description": "let's play of 'DIM'"
                 }
             ],
             [
@@ -755,7 +755,7 @@
         "previewType": "mp4",
         "previewUrl": "img/gamesweek/preview.mp4",
         "logoUrl": "img/gamesweek/title.png",
-        "describtion": [
+        "description": [
             "Organizing the team of hundred volunteers. Managing setup for Workshops, stage and exhibition at the gamesweekberlin 2019."
         ],
         "pageContent": [
@@ -797,28 +797,28 @@
                 {
                     "type": "img",
                     "url": "img/gamesweek/1.jpg",
-                    "describtion": "Stage 2 on QUO VADIS"
+                    "description": "Stage 2 on QUO VADIS"
                 }
             ],
             [
                 {
                     "type": "img",
                     "url": "img/gamesweek/2.jpg",
-                    "describtion": "Workshop during Womenize"
+                    "description": "Workshop during Womenize"
                 }
             ],
             [
                 {
                     "type": "img",
                     "url": "img/gamesweek/3.jpg",
-                    "describtion": "Playing games on stage at the Gamefest"
+                    "description": "Playing games on stage at the Gamefest"
                 }
             ],
             [
                 {
                     "type": "img",
                     "url": "img/gamesweek/4.jpg",
-                    "describtion": "Talking and playing boardgames"
+                    "description": "Talking and playing boardgames"
                 }
             ]
         ]
@@ -833,7 +833,7 @@
         "previewType": "gif",
         "previewUrl": "img/watson/preview.gif",
         "logoUrl": "img/watson/title.png",
-        "describtion": [
+        "description": [
             "A first person narrative driven detective game. Play doctor Watson, getting the opportunity to solve a crime on his own, without the help of his genius partner: Sherlock Holmes."
         ],
         "linkouts": {
@@ -924,7 +924,7 @@
         "previewType": "mp4",
         "previewUrl": "img/cw/preview.mp4",
         "logoUrl": "img/cw/title.png",
-        "describtion": [
+        "description": [
             "Shortly after the lockdown started, the people from browser ballet reached out to me with the idea to make a game about Covid19."
         ],
         "linkouts": {
