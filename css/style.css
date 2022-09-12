@@ -392,11 +392,40 @@ a {
     font-weight: 900;
 }
 
-.tagarea {
-    position: fixed;
-    align-items: center;
-    left: -10vh;
-    top: 36vh;
+.button {
+    background-color: #1c1c1c;
+    color: #fdfdfd;
+    border: #1c1c1c 1px solid;
+    border-radius: 100px;
+    display: inline-flex;
+    text-align: center;
+    vertical-align: auto;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    padding: 4pt 14pt;
+    margin: 4pt;
+}
+
+.button:hover {
+    background-color: #2f2020;
+    border: #fdfdfd 1px solid;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.button p {
+
+    margin: 4pt;
+}
+
+.button span {
+    display: none;
+    position: absolute;
+    transform: translate(-5vw);
+}
+
+.button:hover span {
+    display: initial;
 }
 
 .tagarea p {
@@ -404,6 +433,7 @@ a {
 }
 
 .tag {
+    display: block;
     background-color: rgba(0 0 0 / 50%);
     color: #fdfdfd;
     padding: 6px 10px;
@@ -487,42 +517,6 @@ strong:before {
     line-height: 1.2em;
 }
 
-.button {
-    background-color: #1c1c1c;
-    color: #fdfdfd;
-    border: #1c1c1c 1px solid;
-    border-radius: 100px;
-    display: inline-flex;
-    text-align: center;
-    vertical-align: auto;
-    text-decoration: none;
-    transition: all 0.2s ease;
-    padding: 4pt 14pt;
-    margin: 4pt;
-}
-
-.button:hover {
-    background-color: #2f2020;
-    border: #fdfdfd 1px solid;
-    color: #fff;
-    transform: scale(1.05);
-}
-
-.button p {
-
-    margin: 4pt;
-}
-
-.button span {
-    display: none;
-    position: absolute;
-    transform: translate(-5vw);
-}
-
-.button:hover span {
-    display: initial;
-}
-
 .overlay-button {
     background: rgba(0, 0, 0, 0.3);
     border-radius: 100%;
@@ -586,6 +580,20 @@ strong:before {
     background: var(--highlight-color);
     color: #111;
 }
+
+@media screen and (orientation:portrait) {
+
+    .navbar {
+        bottom: auto;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: x-large;
+        padding: 0 1vw;
+    }
+}
+
 
 .container-header {
     padding-top: 20vh;

@@ -127,7 +127,7 @@ function attachClickBehaviour() {
     if (contentData !== undefined) {
       var content = '<div class="row">';
       $(contentData).each((index) => {
-        content += '<div class="col col-md-6">';
+        content += '<div class="col-12 col-xl-6">';
         $(contentData[index]).each((index2) => {
           content += createElementFromData(contentData[index][index2]);
         });

@@ -75,6 +75,11 @@
         </a>
       </div>
       <div class="container container-header parallax--2">
+        <div class="mobile-only">
+          <div id="me" style="width: 50%; left: 25%">
+            <img src="img/me.png">
+          </div>
+        </div>
         <div class="row">
           <div class="col-1"></div>
           <div class="col pt-200">
@@ -92,9 +97,6 @@
                 <img src="img/profilepicture/background.png">
                 <img id="eyes" src="img/profilepicture/eyes.png" class="overlay">
                 <img src="img/profilepicture/foreground.png" class="overlay">
-              </div>
-              <div id="me" class="mobile-only">
-                <img src="img/me.png">
               </div>
               <div class="d-only">
                 <include data="components/linkouts.html"></include>
@@ -133,11 +135,12 @@
               <div class="col p-col" id="projectWrapper">
                 <div class="vstack gap-2 tagarea onScroll-makeOpaque">
                   <p>filter with tags:</p>
-                  <span class="tag">Game</span>
-                  <span class="tag">Movie</span>
-                  <span class="tag">Event</span>
-                  <span class="tag">3D</span>
-                  <span class="tag">2D</span>
+                  <span class="tag button">Game</span>
+                  <span class="tag button">Movie</span>
+                  <span class="tag button">Event</span>
+                  <span class="tag button">3D</span>
+                  <span class="tag button">2D</span>
+                  <div class="pt-75 mobile-only"></div>
                 </div>
                 <div class="row g-5 justify-content-center" id="projects">
                 </div>
@@ -173,7 +176,7 @@
         </div>
         <div class="row gx-5 approach-line">
           <h3>// APPROACH</h3>
-          <div class="col approach-box">
+          <div class="col-12 col-lg approach-box">
             <div class="approach-icon-container">
               <p>🥳</p>
             </div>
@@ -184,7 +187,7 @@
             <p>Crunch is not a way to become more productive. Fun is!</p>
           </div>
 
-          <div class="col approach-box">
+          <div class="col-12 col-lg approach-box">
             <div class="approach-icon-container">
               <p>💡</p>
             </div>
@@ -195,7 +198,7 @@
               game experiences.</p>
           </div>
 
-          <div class="col approach-box">
+          <div class="col-12 col-lg approach-box">
             <div class="approach-icon-container">
               <p>🏗️</p>
             </div>
