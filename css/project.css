@@ -77,6 +77,10 @@
 	padding: 4%;
 }
 
+#project-window .project-body h3 {
+	padding-top: 3vh;
+}
+
 #project-window .project-body img {
 	width: 100%;
 }

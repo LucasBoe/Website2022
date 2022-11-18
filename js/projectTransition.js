@@ -29,13 +29,17 @@ function attachClickBehaviour() {
 
     var itchLink = undefined;
     var githubLink = undefined;
+    var websiteLink = undefined;
+
     const hasLinkouts = projectsData[id]["linkouts"] !== undefined;
 
     if (hasLinkouts) { itchLink = projectsData[id]["linkouts"]["itch"] }
     if (hasLinkouts) { githubLink = projectsData[id]["linkouts"]["github"] }
+    if (hasLinkouts) { websiteLink = projectsData[id]["linkouts"]["website"] }
 
     populateLinkout("#LinkoutItch", itchLink);
     populateLinkout("#LinkoutGithub", githubLink);
+    populateLinkout("#LinkoutWebsite", websiteLink);
 
     pWindow.show();
     blend.show();
@@ -142,11 +146,11 @@ function attachClickBehaviour() {
     const type = data["type"];
     switch (type) {
       case "img":
-        var describtion = "";
-        if (data["describtion"] !== undefined) {
-          describtion = '<i>' + data["describtion"] + '</i>';
+        var description = "";
+        if (data["description"] !== undefined) {
+          description = '<i>' + data["description"] + '</i>';
         }
-        return '<img src="' + data["url"] + '">' + describtion;
+        return '<img src="' + data["url"] + '">' + description;
 
       case "youtube":
         return '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/' + data['url'] + '?rel=0" allowfullscreen></iframe></div>';

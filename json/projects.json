@@ -1,4 +1,200 @@
 {
+    "memory": {
+        "name": "The Memory Machine",
+        "tags": [
+            "Game",
+            "3D"
+        ],
+        "thumbnailUrl": "img/memory/thumbnail.jpg",
+        "previewType": "mp4",
+        "previewUrl": "img/memory/memory_preview.mp4",
+        "logoUrl": "img/memory/logo.png",
+        "description": [
+            ""
+        ],
+        "linkouts": {
+            "website": "https://memorymachine.de/landing-page"
+        },
+        "pageContent": [
+            [
+                {
+                    "type": "h2",
+                    "content": "About:"
+                }
+            ]
+        ]
+    },
+    "polaris": {
+        "name": "Polaris App",
+        "tags": [
+            "Game",
+            "2D",
+            "3D",
+            "Event"
+        ],
+        "thumbnailUrl": "img/polaris/thumbnail.jpg",
+        "previewType": "mp4",
+        "previewUrl": "img/polaris/polaris_preview.mp4",
+        "logoUrl": "img/polaris/logo.png",
+        "description": [
+            ""
+        ],
+        "linkouts": {
+            "website": "https://polaris-con.de/"
+        },
+        "pageContent": [
+            [
+                {
+                    "type": "h2",
+                    "content": "About:"
+                }
+            ]
+        ]
+    },
+    "x5": {
+        "name": "X5 Series",
+        "tags": [
+            "Game",
+            "2D",
+            "Event"
+        ],
+        "thumbnailUrl": "img/x5/x5_thumbnail.png",
+        "previewType": "mp4",
+        "previewUrl": "img/x5/x5_preview.mp4",
+        "logoUrl": "img/x5/sc_logo.png",
+        "description": [
+            "The successful 2D browser MMO from Super Crowd. ",
+            "When covid rolled in, Super Crowd developed their version of a digital event solution."
+        ],
+        "linkouts": {
+            "website": "https://super-crowd.com/"
+        },
+        "pageContent": [
+            [
+                {
+                    "type": "h2",
+                    "content": "About:"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "The successful 2D browser MMO from Super Crowd. ",
+                        "When covid rolled in, Super Crowd developed their version of a digital event solution.",
+                        "I joined the company as a game designer and in the process took over responsibility for the department as lead."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "h4",
+                    "content": "My responsibilities: Lead Game Design"
+                },
+                {
+                    "type": "li",
+                    "content": [
+                        "Realigning the vision with Design Pillars",
+                        "Establishing workflows",
+                        "Streamlining the content pipeline",
+                        "Managing the small design department"
+                    ]
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "Read more about some example projects in the sections below."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "h3",
+                    "content": "DreamHack Beyond"
+                }
+            ],
+            [],
+            [
+                {
+                    "type": "img",
+                    "url": "img/x5/dreamhack.jpg",
+                    "description": "\"the tavern\" @ dreamhack beyond"
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "..."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "h3",
+                    "content": "MAG ONLINE 2021"
+                }
+            ],
+            [],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "..."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/x5/mag.png",
+                    "description": "claiming spots for your team @ mag online 2021"
+                }
+            ],
+            [
+                {
+                    "type": "h3",
+                    "content": "Hamburg Games Conference 2022"
+                }
+            ],
+            [],
+            [
+                {
+                    "type": "img",
+                    "url": "img/x5/hgc.jpg",
+                    "description": "the video call overlay @ hgc 2022"
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "..."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "h3",
+                    "content": "Indie Arena Booth Online 2022"
+                }
+            ],
+            [],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "..."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/x5/iab.jpg",
+                    "description": "coloring a spot @ indie arena booth online 2022"
+                }
+            ]
+        ]
+    },
     "atlb": {
         "name": "All that lies below",
         "tags": [
@@ -54,7 +250,7 @@
             ],
             [
                 {
-                    "type": "h2",
+                    "type": "h3",
                     "content": "Design Process"
                 }
             ],
@@ -359,7 +555,7 @@
             ],
             [
                 {
-                    "type": "h2",
+                    "type": "h3",
                     "content": "Game Design"
                 },
                 {
@@ -420,7 +616,7 @@
             ],
             [
                 {
-                    "type": "h2",
+                    "type": "h3",
                     "content": "The proccess and team management learnings"
                 },
                 {
@@ -563,7 +759,7 @@
             ],
             [
                 {
-                    "type": "h2",
+                    "type": "h3",
                     "content": "Prototype 1 - Adventure Game"
                 },
                 {
@@ -583,7 +779,7 @@
             ],
             [
                 {
-                    "type": "h2",
+                    "type": "h3",
                     "content": "Prototype 2 - Platformer"
                 },
                 {
@@ -602,7 +798,7 @@
             ],
             [
                 {
-                    "type": "h2",
+                    "type": "h3",
                     "content": "Prototype 3 - Tycoon Game"
                 },
                 {
@@ -623,7 +819,7 @@
             ],
             [
                 {
-                    "type": "h2",
+                    "type": "h3",
                     "content": "Prototype 4 - Social Card Game"
                 },
                 {

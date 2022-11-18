@@ -83,7 +83,7 @@
         "name": "Git Berger",
         "description": [
             "This atypical narrative game uses a GIT mimicked interface to tell a story. In the course of the game, various programs are unlocked that provide further text modules in the GIT client.",
-            "The dialog then takes place via the GIT commit messages from the player himself, but also other Charaketeren when they respond."
+            "The dialog then takes place via the GIT commit messages from the player himself, but also other characters when they respond."
         ],
         "thumbnailUrl": "img/prototypes/gitberger.jpg",
         "linkouts": []
