@@ -1,8 +1,8 @@
 
 $(() => {
     $(document).mousemove(function (evt) {
-        var center_x = $('#me').offset().left + $('#me').width() / 2;
-        var center_y = $('#me').offset().top + $('#me').height() / 2;
+        var center_x = $('#eyes').offset().left + $('#me').width() / 2;
+        var center_y = $('#eyes').offset().top + $('#me').height() / 2;
         var mouse_x = evt.pageX;
         var mouse_y = evt.pageY;
         var left = calculateOffset(mouse_x - center_x);
