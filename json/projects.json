@@ -20,7 +20,63 @@
                 {
                     "type": "h2",
                     "content": "About:"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "\"Memory Machine\" is an exploratory prototype in which players are guided by puzzle mechanics through the events and consequences of the Holocaust."
+                    ]
                 }
+            ],
+            [
+             {
+                "type": "p",
+                "content": [
+                    "The game shows an abstracted concentration camp Auschwitz at different historical moments.",
+                    "Throughout the game you'll encounter small situations that hint at the fate of the victims, as well as real photographs that are directly incorporated into the game world."
+                ]
+             }   
+            ],
+            [
+                {
+                    "type": "h4",
+                    "content": "Website"
+                },             {
+                    "type": "p",
+                    "content": [
+                        "Potential questions that may arise during exploration appear at the edge of the screen and accumulate at the bottom of the website."
+                    ]
+                } ,             {
+                    "type": "h4",
+                    "content": "Sources & Links"
+                } ,             {
+                    "type": "p",
+                    "content": [
+                        "The collected questions link directly to various online resources with more in-depth information."
+                    ]
+                }   
+            ],
+            [
+                {
+                    "type": "h4",
+                    "content": "Interactive"
+                },             {
+                    "type": "p",
+                    "content": [
+                        "Instead of clicking through a linear story, in Memory Machine you interact with mechanical elements like cranks and levers in a freely explorable diorama.",
+                        "Through its interactivity, the players determine the speed and select their personal content of interest.",
+                        "There is a selection of interviews with contemporary witnesses, photo documentaries among other things."
+                    ]
+                } ,             {
+                    "type": "h4",
+                    "content": "Educational"
+                } ,             {
+                    "type": "p",
+                    "content": [
+                        "The game is thought of as a tool to be used in classrooms. While doing so, it can not replace historical sources or other linear formats of factual knowledge.",
+                        "It offers a base structure with links to sources in various digital formats to show the full potential of freely available knowledge today.  Thereby, it becomes exemplary for teaching students the process of autonomous learning."
+                    ]
+                }   
             ]
         ]
     },
