@@ -87,6 +87,9 @@ a {
 }
 
 .skillrow-border-boxed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex-grow: 1;
     padding: 10px 20px;
     border: white 1px solid;

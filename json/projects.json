@@ -29,54 +29,60 @@
                 }
             ],
             [
-             {
-                "type": "p",
-                "content": [
-                    "The game shows an abstracted concentration camp Auschwitz at different historical moments.",
-                    "Throughout the game you'll encounter small situations that hint at the fate of the victims, as well as real photographs that are directly incorporated into the game world."
-                ]
-             }   
+                {
+                    "type": "p",
+                    "content": [
+                        "The game shows an abstracted concentration camp Auschwitz at different historical moments.",
+                        "Throughout the game you'll encounter small situations that hint at the fate of the victims, as well as real photographs that are directly incorporated into the game world."
+                    ]
+                }
             ],
             [
                 {
                     "type": "h4",
                     "content": "Website"
-                },             {
+                },
+                {
                     "type": "p",
                     "content": [
                         "Potential questions that may arise during exploration appear at the edge of the screen and accumulate at the bottom of the website."
                     ]
-                } ,             {
+                },
+                {
                     "type": "h4",
                     "content": "Sources & Links"
-                } ,             {
+                },
+                {
                     "type": "p",
                     "content": [
                         "The collected questions link directly to various online resources with more in-depth information."
                     ]
-                }   
+                }
             ],
             [
                 {
                     "type": "h4",
                     "content": "Interactive"
-                },             {
+                },
+                {
                     "type": "p",
                     "content": [
                         "Instead of clicking through a linear story, in Memory Machine you interact with mechanical elements like cranks and levers in a freely explorable diorama.",
                         "Through its interactivity, the players determine the speed and select their personal content of interest.",
                         "There is a selection of interviews with contemporary witnesses, photo documentaries among other things."
                     ]
-                } ,             {
+                },
+                {
                     "type": "h4",
                     "content": "Educational"
-                } ,             {
+                },
+                {
                     "type": "p",
                     "content": [
                         "The game is thought of as a tool to be used in classrooms. While doing so, it can not replace historical sources or other linear formats of factual knowledge.",
                         "It offers a base structure with links to sources in various digital formats to show the full potential of freely available knowledge today.  Thereby, it becomes exemplary for teaching students the process of autonomous learning."
                     ]
-                }   
+                }
             ]
         ]
     },
@@ -103,8 +109,64 @@
                 {
                     "type": "h2",
                     "content": "About:"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "Designed an app/game for Polaris Convention that enabled attendees to participate in a QR code-based scavenger hunt, earn points, and unlock real physical rewards. ",
+                        "The app provided real-time updates on convention highlights and allowed attendees to create personalized avatars, making it an immersive experience. ",
+                        "As a game designer, I was excited to enhance the convention experience with this fun and engaging digital gamification."
+                    ]
                 }
-            ]
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/polaris/app1.jpg",
+                    "description": "screenshots from the polaris app"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/polaris/app1.jpg",
+                    "description": "screenshots from the polaris app"
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "The digital persona feature accompanies players throughout the entire event, allowing them to customize their avatars with 60 different outfits and accessories. The skin and hair color can be individually adjusted to create a unique appearance.",
+                        "The feature includes different poses that add personality to the avatar. In addition, players can impress others by sharing their avatars in the photo mode.",
+                        "Overall, this feature enhances the player experience by adding a fun and customizable aspect to the event.",
+                        "During the event, players can explore the entire venue to discover 100 hidden stickers that can be unlocked using the app's scanner, including QR code stickers scattered throughout the venue.",
+                        "By scanning these stickers, players can earn new stickers and add other players as friends. The home screen of the app displays each player's personal friend QR code.",
+                        "For every new sticker and scanned friend, players earn points. These points increase the level of their avatar, unlocking new outfits and accessories.",
+                        "They can climb the leaderboard and become the player with the most points. The appearance of their avatar reflects how much they've discovered so far."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "The event app kept everyone informed about what was happening at the event, making it easy to navigate and stay on top of things.",
+                        "But playing the game on the physical venue added a whole new level of excitement, with rewards that included in-game items, real-world swag, and much more.",
+                        "With the milestone system, leveling up wasn't just about personal achievements, but also contributed to the team's progress towards its goals. The whole thing was enhanced by giant projectors showcasing recent unlocks and top players.",
+                        "The top 10 players were also recognized at the grand reward show. With special and unique gifts.",
+                        "Overall, the gameplay provided an unforgettable experience that blended the best of physical and digital games while also offering players a chance to win fantastic prizes."
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/polaris/app1.jpg",
+                    "description": "screenshots from the polaris app"
+                }
+            ],
+            []
         ]
     },
     "x5": {
@@ -136,22 +198,21 @@
                     "content": [
                         "The successful 2D browser MMO from Super Crowd. ",
                         "When covid rolled in, Super Crowd developed their version of a digital event solution.",
-                        "I joined the company as a game designer and in the process took over responsibility for the department as lead."
+                        "I joined the company as a game designer and in the process took over responsibility for the design department."
                     ]
                 }
             ],
             [
                 {
                     "type": "h4",
-                    "content": "My responsibilities: Lead Game Design"
+                    "content": "My job as lead game designer:"
                 },
                 {
                     "type": "li",
                     "content": [
-                        "Realigning the vision with Design Pillars",
-                        "Establishing workflows",
-                        "Streamlining the content pipeline",
-                        "Managing the small design department"
+                        "Developed and implemented <b>Design Pillars</b> to align project vision and ensure consistent design quality.",
+                        "Established <b>efficient workflows</b> and <b>streamlined game content pipeline</b> to optimize production.",
+                        "<b>Managed</b> a design department and acted as a <b>liaison</b> between departments."
                     ]
                 },
                 {
@@ -179,7 +240,10 @@
                 {
                     "type": "p",
                     "content": [
-                        "..."
+                        "As a game designer, I was given the task of developing an RPG variant of an existing framework.",
+                        "The project was challenging due to the complexity of the framework and the high content and feature requirements.",
+                        "I learned that it's crucial to establish clear design goals, streamline content pipeline while I established the newly-formed design department.",
+                        "This experience taught me valuable lessons that have helped me execute successful projects in the future."
                     ]
                 }
             ],
@@ -194,7 +258,10 @@
                 {
                     "type": "p",
                     "content": [
-                        "..."
+                        "As a learning from the previous project, we took the time to reevaluate the strengths and weaknesses of the framework and defined clear design pillars for future projects.",
+                        "With this foundation in place, we embarked on a collaborative project with players capturing spots on the map for their team to gain points.",
+                        "We infused the game with vibrant colors, diverse worlds, and rich content to explore.",
+                        "Through streamlined pipelines and effective project management, we delivered a polished and captivating experience that kept players engaged and entertained."
                     ]
                 }
             ],
@@ -223,7 +290,9 @@
                 {
                     "type": "p",
                     "content": [
-                        "..."
+                        "In the next project, we focused on networking features and provided our players with the ability to connect with each other using digital business cards, video calls directly in the browser, and matchmaking integration.",
+                        "The game took players on a virtual world tour of different cities.",
+                        "This project was particularly challenging, but also rewarding, as it required careful management of resources, collaboration with multiple teams, and a strong emphasis on user flow."
                     ]
                 }
             ],
@@ -238,7 +307,10 @@
                 {
                     "type": "p",
                     "content": [
-                        "..."
+                        "The most recent project within the framework involved showcasing a variety of video games in a theme centered around wrestling.",
+                        "To make the experience more accessible, we created a solo experience reusing features developed for MAG 2021.",
+                        "The grand finale was executed with smooth production and workflows, resulting in a cool collaborative team experience.",
+                        "This project highlighted the importance of focusing on user accessibility while still maintaining a high level of production quality."
                     ]
                 }
             ],
