@@ -1,0 +1,19 @@
+.idea-box {
+    padding: 2vw 5vw 1vw;
+    border-radius: 10vw;
+    margin: 2vw 0;
+
+    .idea-box-header {
+        display: flex;
+        flex-direction: row;
+        i {
+            font-style: normal;
+            margin-right: 8pt;
+
+        }
+        h2 {
+            font-size: 14pt;
+            opacity: 0.5;
+        }
+    }
+}

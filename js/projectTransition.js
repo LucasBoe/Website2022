@@ -156,6 +156,8 @@ function attachClickBehaviour() {
         return '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/' + data['url'] + '?rel=0" allowfullscreen></iframe></div>';
       case "p":
         return iterateThroughElementsAndCreate(type, data["content"]);
+      case "learning":
+        return createLearningBox(data["content"]);
       case "li":
         return '<ul>' + iterateThroughElementsAndCreate(type, data["content"]) + '</ul>';
       case "h2":
@@ -164,4 +166,14 @@ function attachClickBehaviour() {
         return createElementOpenClose(type, data["content"]);
     }
   }
+
+   function createLearningBox(content) {
+    var box = '<div class="idea-box color-background">'
+    + '<div class="idea-box-header">'
+    + '<i>💡</i>'
+    + '<h2>I learned...</h2>'
+    +'</div>'
+    + iterateThroughElementsAndCreate("p", content) + '</div>';
+    return box;
+   }
 };

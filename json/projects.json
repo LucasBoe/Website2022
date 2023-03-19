@@ -30,6 +30,12 @@
             ],
             [
                 {
+                    "type": "learning",
+                    "content": [
+                        "... how defining rules, responsibilities and borders for collaboration can reduce stress and improve effectiveness."
+                    ]
+                },
+                {
                     "type": "p",
                     "content": [
                         "The game shows an abstracted concentration camp Auschwitz at different historical moments.",
@@ -99,7 +105,7 @@
         "previewUrl": "img/polaris/polaris_preview.mp4",
         "logoUrl": "img/polaris/logo.png",
         "description": [
-            ""
+            "The app/game for Polaris Convention that enabled attendees to participate in a QR code-based scavenger hunt, earn points, and unlock real physical rewards. "
         ],
         "linkouts": {
             "website": "https://polaris-con.de/"
@@ -113,13 +119,19 @@
                 {
                     "type": "p",
                     "content": [
-                        "Designed an app/game for Polaris Convention that enabled attendees to participate in a QR code-based scavenger hunt, earn points, and unlock real physical rewards. ",
-                        "The app provided real-time updates on convention highlights and allowed attendees to create personalized avatars, making it an immersive experience. ",
+                        "The app/game for Polaris Convention that enabled attendees to participate in a QR code-based scavenger hunt, earn points, and unlock real physical rewards. ",
+                        "Real-time updates on convention highlights and allowed attendees to create personalized avatars, making it an immersive experience. ",
                         "As a game designer, I was excited to enhance the convention experience with this fun and engaging digital gamification."
                     ]
                 }
             ],
-            [
+            [                
+                {
+                    "type": "learning",
+                    "content": [
+                        "... how an effective pitch can be better at aligning the team than trying to please everyone."
+                    ]
+                },
                 {
                     "type": "img",
                     "url": "img/polaris/app1.jpg",
@@ -137,13 +149,9 @@
                 {
                     "type": "p",
                     "content": [
-                        "The digital persona feature accompanies players throughout the entire event, allowing them to customize their avatars with 60 different outfits and accessories. The skin and hair color can be individually adjusted to create a unique appearance.",
-                        "The feature includes different poses that add personality to the avatar. In addition, players can impress others by sharing their avatars in the photo mode.",
-                        "Overall, this feature enhances the player experience by adding a fun and customizable aspect to the event.",
-                        "During the event, players can explore the entire venue to discover 100 hidden stickers that can be unlocked using the app's scanner, including QR code stickers scattered throughout the venue.",
-                        "By scanning these stickers, players can earn new stickers and add other players as friends. The home screen of the app displays each player's personal friend QR code.",
-                        "For every new sticker and scanned friend, players earn points. These points increase the level of their avatar, unlocking new outfits and accessories.",
-                        "They can climb the leaderboard and become the player with the most points. The appearance of their avatar reflects how much they've discovered so far."
+                        "The digital persona feature accompanies players throughout the entire event, allowing them to customize their avatars with 60 different outfits and accessories.",
+                        "During the event, players can explore the entire venue to discover 100 hidden stickers that can be unlocked using the app's scanner, including QR code stickers scattered throughout the venue. By scanning these qr-codes, players can earn new stickers and add other players as friends.",
+                        "For every new sticker and scanned friend, players climb the leaderboard. The appearance of their avatar reflects how much they've discovered so far."
                     ]
                 }
             ],
@@ -151,11 +159,9 @@
                 {
                     "type": "p",
                     "content": [
-                        "The event app kept everyone informed about what was happening at the event, making it easy to navigate and stay on top of things.",
-                        "But playing the game on the physical venue added a whole new level of excitement, with rewards that included in-game items, real-world swag, and much more.",
-                        "With the milestone system, leveling up wasn't just about personal achievements, but also contributed to the team's progress towards its goals. The whole thing was enhanced by giant projectors showcasing recent unlocks and top players.",
-                        "The top 10 players were also recognized at the grand reward show. With special and unique gifts.",
-                        "Overall, the gameplay provided an unforgettable experience that blended the best of physical and digital games while also offering players a chance to win fantastic prizes."
+                        "In addition to keeping everyone informed, playing the game on the physical venue added a whole new level of excitement, with rewards that included in-game items as well as real-world swag.",
+                        "With the milestone system, leveling up wasn't just about personal achievements, but also contributed to the team's progress towards unique prizes. The whole thing was enhanced by giant projectors showcasing recent unlocks and top players.",
+                        "The top 10 players were individually recognized at the grand reward show. With special and personal gifts."
                     ]
                 }
             ],
@@ -203,6 +209,12 @@
                 }
             ],
             [
+                {
+                    "type": "learning",
+                    "content": [
+                        "... how to speak honestly about my concerns as they come up."
+                    ]
+                },
                 {
                     "type": "h4",
                     "content": "My job as lead game designer:"
@@ -370,6 +382,12 @@
                 }
             ],
             [
+                {
+                    "type": "learning",
+                    "content": [
+                        "... that sometimes picking a task for personal fun is a viable strategy to keep velocity and motivation."
+                    ]
+                },
                 {
                     "type": "img",
                     "url": "img/atlb/1.gif",
@@ -557,6 +575,12 @@
             ],
             [
                 {
+                    "type": "learning",
+                    "content": [
+                        "... that even in a short time-frame, getting the right people working together can lead to amazing results."
+                    ]
+                },
+                {
                     "type": "youtube",
                     "url": "TqenIA0Nj8g"
                 }
@@ -675,6 +699,12 @@
                 }
             ],
             [
+                {
+                    "type": "learning",
+                    "content": [
+                        "... that creating something playable together is more effective than any discussion, especially in bigger teams."
+                    ]
+                },
                 {
                     "type": "img",
                     "url": "img/windwalker/1.png",
@@ -858,6 +888,12 @@
             ],
             [
                 {
+                    "type": "learning",
+                    "content": [
+                        "... how the design process is more important than the result somtimes."
+                    ]
+                },
+                {
                     "type": "img",
                     "url": "img/hkw/1.jpg",
                     "description": "Opening the exhibition"
@@ -1039,6 +1075,12 @@
             ],
             [
                 {
+                    "type": "learning",
+                    "content": [
+                        "... how boundaries are the greatest of all tools for creative ideas."
+                    ]
+                },
+                {
                     "type": "youtube",
                     "url": "Jqe_kRK33qQ",
                     "description": "let's play of 'DIM'"
@@ -1112,6 +1154,12 @@
                 }
             ],
             [
+                {
+                    "type": "learning",
+                    "content": [
+                        "... how communication shapes team dynamics and results."
+                    ]
+                },
                 {
                     "type": "youtube",
                     "url": "ZMdXoRP9Aa4"
@@ -1195,6 +1243,12 @@
                 }
             ],
             [
+                {
+                    "type": "learning",
+                    "content": [
+                        "... that the creative input of everybody on a team is equally valuable."
+                    ]
+                },
                 {
                     "type": "youtube",
                     "url": "7jY1jODxCVg"
@@ -1281,6 +1335,12 @@
                 }
             ],
             [
+                {
+                    "type": "learning",
+                    "content": [
+                        "... how getting the right people for the right job is more important then personal archivements."
+                    ]
+                },
                 {
                     "type": "youtube",
                     "url": "hb5x-kVA0uA"
