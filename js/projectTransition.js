@@ -65,9 +65,9 @@ function attachClickBehaviour() {
 
     $(pWindow).animate({
       opacity: 1,
-      left: "20vw",
+      left: "10vw",
       top: "10vh",
-      width: "60vw"
+      width: "80vw"
     }, duration, function () {
 
       PROJECT_IS_OPEN = true;
