@@ -520,9 +520,8 @@ strong:before {
 }
 
 .overlay-button {
-    background: rgba(0, 0, 0, 0.3);
+    background: #111;
     border-radius: 100%;
-    opacity: 0.4;
     transition: all 0.5s ease;
 }
 
