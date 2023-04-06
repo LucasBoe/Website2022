@@ -65,9 +65,9 @@ function attachClickBehaviour() {
 
     $(pWindow).animate({
       opacity: 1,
-      left: "20vw",
-      top: "10vh",
-      width: "60vw"
+      left: "5vw",
+      top: "5vw",
+      width: "90vw"
     }, duration, function () {
 
       PROJECT_IS_OPEN = true;
@@ -167,13 +167,13 @@ function attachClickBehaviour() {
     }
   }
 
-   function createLearningBox(content) {
+  function createLearningBox(content) {
     var box = '<div class="idea-box color-background">'
-    + '<div class="idea-box-header">'
-    + '<i>💡</i>'
-    + '<h2>I learned...</h2>'
-    +'</div>'
-    + iterateThroughElementsAndCreate("p", content) + '</div>';
+      + '<div class="idea-box-header">'
+      + '<i>💡</i>'
+      + '<h2>I learned...</h2>'
+      + '</div>'
+      + iterateThroughElementsAndCreate("p", content) + '</div>';
     return box;
-   }
+  }
 };
