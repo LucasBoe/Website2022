@@ -194,6 +194,11 @@ a {
 
 #prototypeWrapper p {
     margin-bottom: 4pt;
+    font-size: small;
+}
+
+#prototypeWrapper i {
+    font-size: larger;
 }
 
 #prototypeWrapper .row {

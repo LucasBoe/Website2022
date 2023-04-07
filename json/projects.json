@@ -26,13 +26,18 @@
                     "content": [
                         "\"Memory Machine\" is an exploratory prototype in which players are guided by puzzle mechanics through the events and consequences of the Holocaust."
                     ]
+                },
+                {
+                    "type": "img",
+                    "url": "img/memory/layers.png",
+                    "description": "from game to website to linkouts"
                 }
             ],
             [
                 {
                     "type": "learning",
                     "content": [
-                        "... how defining rules, responsibilities and borders for collaboration can reduce stress and improve effectiveness."
+                        "... how defining rules, responsibilities and boundaries for collaboration can reduce stress and improve effectiveness."
                     ]
                 },
                 {
@@ -41,9 +46,7 @@
                         "The game shows an abstracted concentration camp Auschwitz at different historical moments.",
                         "Throughout the game you'll encounter small situations that hint at the fate of the victims, as well as real photographs that are directly incorporated into the game world."
                     ]
-                }
-            ],
-            [
+                },
                 {
                     "type": "h4",
                     "content": "Website"
@@ -63,9 +66,7 @@
                     "content": [
                         "The collected questions link directly to various online resources with more in-depth information."
                     ]
-                }
-            ],
-            [
+                },
                 {
                     "type": "h4",
                     "content": "Interactive"
@@ -89,6 +90,34 @@
                         "It offers a base structure with links to sources in various digital formats to show the full potential of freely available knowledge today.  Thereby, it becomes exemplary for teaching students the process of autonomous learning."
                     ]
                 }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/memory/intro.jpg",
+                    "description": "overview of a level"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/memory/synagoge.png",
+                    "description": "puuzle in the ruins of a synagogue"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/memory/park.png",
+                    "description": "memorial park in a later timeline"
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/memory/time-machine.jpg",
+                    "description": "time travel machine"
+                }
             ]
         ]
     },
@@ -110,6 +139,7 @@
         "linkouts": {
             "website": "https://polaris-con.de/"
         },
+        "awards": "img/polaris/awards/",
         "pageContent": [
             [
                 {
@@ -125,11 +155,11 @@
                     ]
                 }
             ],
-            [                
+            [
                 {
                     "type": "learning",
                     "content": [
-                        "... how an effective pitch can be better at aligning the team than trying to please everyone."
+                        "...  that an effective pitch can align the team better than if I try to please everyone individually."
                     ]
                 },
                 {
@@ -546,6 +576,9 @@
             "A young female soldier wakes up without memory on a battlefield among robot parts and human corpses.",
             "Wounded and alone, she scours the military base in search of other survivors. But what she finds makes her doubt everything she thought she knew."
         ],
+        "linkouts": {
+            "website": "https://rise-jugendkultur.de/produktion/irina-28-07-37/"
+        },
         "pageContent": [
             [
                 {

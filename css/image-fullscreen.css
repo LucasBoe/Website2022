@@ -50,11 +50,7 @@
 }
 
 #image-fullscreen-overlay .wrapper .button-container #button-back {
-    position: relative;
-    top: 5%;
-    right: -85%;
-}
-
-#image-fullscreen-overlay .wrapper .button-container .image-button {
-    font-size: 64pt;
+    position: absolute;
+    top: 2%;
+    right: 10%;
 }

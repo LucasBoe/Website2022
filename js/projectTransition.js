@@ -51,10 +51,21 @@ function attachClickBehaviour() {
     clone.css("width", "100%")
     $(from).find(".title").clone().appendTo($(pWindow).find(".logo-holder"));
 
+    let folder = projectsData[id]["awards"];
+
+    $.ajax({
+      url: folder,
+      success: function (data) {
+        $(data).find("a:contains('.png')").each(function () {
+          var filename = $(this).attr("href");
+          $("<img>").attr("src", filename).appendTo(".awards");
+        });
+      }
+    });
+
     sPos = $(from).position();
     sWidth = $(from).width() * 1.2;
     sHeight = $(from).height() * 1.2;
-
 
     $(pWindow).css({ width: sWidth, top: sPos.top, left: sPos.left });
 
@@ -102,6 +113,7 @@ function attachClickBehaviour() {
       $(this).hide();
       $(pWindow).find(".preview").empty();
       $(pWindow).find(".logo-holder").empty();
+      $(pWindow).find(".awards").empty();
       $("#project-holder").empty();
       blend.hide();
       setBackgroundBlurred(false);

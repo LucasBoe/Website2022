@@ -34,7 +34,7 @@ $(() => {
                 //load links
                 var description = $(instance).find(".links");
                 $.each(prototype["linkouts"], function (index, link) {
-                    $(description).append($(['<li><a href="', link["link"], '" class="button">', link["text"], '</a></li>'].join("")))
+                    $(description).append($(['<li><a href="', link["link"], '" target="_blank" rel="noopener noreferrer" class="button"><i class="icon cil-external-link"></i><p>', link["text"], '</p></a></li>'].join("")))
                 });
 
                 //load thumbnail
