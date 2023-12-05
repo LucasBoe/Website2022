@@ -21,7 +21,7 @@ $(document).ready(function () {
       }
 
       //update the projetcs which are shown
-      var projects = $("#projects").children()
+      var projects = $("#projectList").children()
       var activeTags = $(".activeTag");
 
       //loop trough each project

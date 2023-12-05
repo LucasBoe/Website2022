@@ -17,9 +17,9 @@ $(() => {
                 url: 'components/projectTemplate.html',
                 async: false
             }).done((data) => {
-                $(data).appendTo('#projects');
+                $(data).appendTo('#projectList');
 
-                var instance = $("#projects").children().last();
+                var instance = $("#projectList").children().last();
 
                 $(instance).children().last().attr("id", key);
 

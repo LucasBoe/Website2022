@@ -227,7 +227,7 @@ a {
 
 
 
-#projects {
+#projectWrapper {
     padding: 0 0 10%;
 }
 
@@ -341,11 +341,6 @@ a {
 .project-preview .center img,
 .project-preview .center video {
     height: inherit;
-}
-
-.project-tabs {
-    /*border-bottom: var(--highlight-color) 8px solid;*/
-    /*transform: translateY(50%);*/
 }
 
 .project-tab-divider {

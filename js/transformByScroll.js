@@ -66,7 +66,7 @@ function rotateByScroll(amount) {
 
 function transformByScroll(amount) {
     $(".on-scroll-transform-projects").each(function () {
-        var border = $("#procject-section").offset().top + $(window).height() * 0.1;
+        var border = $("#projects").offset().top + $(window).height() * 0.1;
 
         var strength = Math.pow(Math.min((amount - border), 0) * -0.0021, 0.5);
 
