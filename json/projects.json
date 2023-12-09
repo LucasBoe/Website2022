@@ -1,4 +1,84 @@
 {
+    "fritz": {
+        "name": "fritz kola arkade",
+        "tags": [
+            "Game",
+            "2D"
+        ],
+        "thumbnailUrl": "img/fritz/thumbnail.jpg",
+        "previewType": "gif",
+        "previewUrl": "img/fritz/preview.gif",
+        "logoUrl": "img/fritz/logo.png",
+        "description": [
+            ""
+        ],
+        "linkouts": {
+            "website": "https://memorymachine.de/landing-page"
+        },
+        "pageContent": [
+            [
+                {
+                    "type": "h2",
+                    "content": "About:"
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "Text"
+                    ]
+                },
+                {
+                    "type": "img",
+                    "url": "img/fritz/stamm-art.png",
+                    "description": "Illustrations of Sebastian Stamm that served as inspiration for the look."
+                }
+            ],
+            [
+                {
+                    "type": "learning",
+                    "content": [
+                        "... how fun it is to take a small idea from concept to playable state in just a few weeks."
+                    ]
+                },
+                {
+                    "type": "p",
+                    "content": [
+                        "Text"
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "Text"
+                    ]
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/fritz/first-level-idea.png",
+                    "description": "some VERY rough mockup to align everybody on how the gameplay would work."
+                }
+            ],
+            [
+                {
+                    "type": "img",
+                    "url": "img/fritz/level-ideas.png",
+                    "description": "Ideas and concepts for levels with increasing difficulty, obstacles, collectibles and optimal flight paths."
+                }
+            ],
+            [
+                {
+                    "type": "p",
+                    "content": [
+                        "Text"
+                    ]
+                }
+            ]
+        ]
+    },
     "memory": {
         "name": "The Memory Machine",
         "tags": [
@@ -13,7 +93,7 @@
             ""
         ],
         "linkouts": {
-            "website": "https://memorymachine.de/landing-page"
+            "website": "https://memorymachine.de/"
         },
         "pageContent": [
             [
