@@ -24,7 +24,9 @@
                 {
                     "type": "p",
                     "content": [
-                        "Text"
+                        "This small arcade game was commissioned by the beverage company fritz.",
+                        " In a small team, me as <strong>designer and programmer</strong>, we led the customer with several feedback loops to the finished product in a short time, which was handed over together with several specially built arcade machines.",
+                        "The game can be played at events such as Gamescom."
                     ]
                 },
                 {
@@ -43,7 +45,9 @@
                 {
                     "type": "p",
                     "content": [
-                        "Text"
+                        "The inspiration for the world and the concept came from Sebastian's great illustrations, which he had already done for fritz.",
+                        "It was a great pleasure to bring them to life, due to his games background, little communication was necessary and yet all graphics were optimized for animatability.",
+                        "The humorous drawings gave the game a lot of character and also inspired me to go a little crazy with the sound design."
                     ]
                 }
             ],
@@ -51,7 +55,12 @@
                 {
                     "type": "p",
                     "content": [
-                        "Text"
+                        "In projects with customers as stakeholders, early communication is integral. No matter how much you like your own idea, if the customer is not brought on board early on, the whole project is on shaky ground.",
+                        "In the beginning, there were many ideas, inspirations and suggestions as to what the gameplay could look and how the <strong>brand integration</strong> would not be something that would end up being visually imposed, but an <strong>integral part of the core gameplay and identity</strong> of the game itself. Games can do this very well <strong>without being screaming advertisements</strong>.",
+                        "The key to creating a simple, easy-to-understand arcade game is to simplify the idea until only the core is left.",
+                        "In our case, the movement mechanics, the up and down stick control. Only when this is balanced, polished and fun, are the other layers added that add <strong>(A) difficulty</strong>:",
+                        " In our case the ever increasing speed and the tighter level sections, and <strong>(B) rewards</strong> that encourage the player to take a risk:",
+                        " in our case coin-like collectibles in more dangerous locations and power-ups that turn the game upside down for a short time."
                     ]
                 }
             ],
@@ -73,7 +82,10 @@
                 {
                     "type": "p",
                     "content": [
-                        "Text"
+                        "In the final phase, it was about working out the actual content and the level sections. The original concepts envisioned a gradual increase in difficulty over 4 stages.",
+                        "To smooth the transition, I built the algorithm that constructs the levels so that the chance for a level section of the next harder stage gradually increases until the chance briefly reaches 100%, after which the same game continues with the next difficulty.",
+                        "This phase was characterized by a lot of balancing, iterations and feedback, I was glad to have a level designer with me, because giving yourself feedback is challenging in its own way.",
+                        "Due to the simplicity of the concept, everything came together well in the end and I lost myself (too) often in a short test trying to get a high score. After adding the high score, extra Juice for scoring and a Juicy soundtrack, even I, as an arcade grump, found it hard to put the game down."
                     ]
                 }
             ]
