@@ -1,4 +1,281 @@
 {
+    "spacesprouts": {
+        "name": "Space Sprouts",
+        "tags": [
+        "Game",
+        "2D"
+        ],
+        "thumbnailUrl": "img/spacesprouts/thumbnail.jpg",
+        "previewType": "mp4",
+        "previewUrl": "img/spacesprouts/preview.mp4",
+        "logoUrl": "img/spacesprouts/logo.png",
+        "description": [
+        "A chaotic spaceship time‑loop adventure where physics-driven gadgets, limited time and cozy solar‑punk vibes collide.",
+        "Status: Released on Steam with glowing player feedback."
+        ],
+        "linkouts": {
+        "steam": "https://store.steampowered.com/app/2790020/Space_Sprouts/",
+        "trailer": "https://www.youtube.com/watch?v=Q1HqECb8bu4"
+        },
+        "pageContent": [
+        [
+            {
+            "type": "h2",
+            "content": "About:"
+            },
+            {
+            "type": "p",
+            "content": [
+                "Launch into a chaotic spaceship adventure: bend the rules of physics, experiment with unusual gadgets and toss everything around.",
+                "Each run gives you limited time to uncover memories and secrets aboard a solar‑punk craft before returning home—what will you discover this time?"
+            ]
+            }
+        ],
+        [
+            {
+            "type": "learning",
+            "content": [
+                "... seeing a project's entire lifecycle—from concept to funding to prototyping and production—provides invaluable learnings."
+            ]
+            },
+            {
+            "type": "p",
+            "content": [
+                "From the first idea to the public release, I experienced how momentum is something you can create yourself—if you really want something, you can make it happen."
+            ]
+            }
+        ],
+        [
+            {
+            "type": "h2",
+            "content": "My Part:"
+            },
+            {
+            "type": "li",
+            "content": [
+                "Co‑Founder & CEO of Schleuder Games",
+                "Game Design (pillars, systems, physics sandbox, time‑loop structure)",
+                "Unity C# development for all core gameplay and internal tools",
+                "Funding acquisition & company setup",
+                "Hiring and leading a small core team (+ freelancers)",
+                "Self‑publishing, early marketing & community groundwork"
+            ]
+            }
+        ],
+        [
+            {
+            "type": "h3",
+            "content": "Design Highlights"
+            },
+            {
+            "type": "p",
+            "content": [
+                "Physics-first gameplay: everything is simulated, so chaos feels earned and delightful.",
+                "Time-loop structure that rewards knowledge: unlock memories to extend future runs.",
+                "Systemic ship layout: ~20 hand-crafted rooms linked by hazards, shortcuts and secrets.",
+                "Wordless onboarding: environmental hints instead of walls of text."
+            ]
+            }
+        ],
+        [
+            {
+            "type": "h3",
+            "content": "Production & Launch"
+            },
+            {
+            "type": "p",
+            "content": [
+                "Team of three (+ freelancers) over two years, built in Unity.",
+                "Featured at Indie Arena Booth @ gamescom 2024 and other events.",
+                "Released on Steam with 100% positive reviews at launch."
+            ]
+            }
+        ],
+        [
+            {
+            "type": "youtube",
+            "url": "Q1HqECb8bu4",
+            "description": "Launch trailer"
+            }
+        ],
+        [
+            {
+            "type": "img",
+            "url": "img/spacesprouts/indie-arena-booth.jpg",
+            "description": "Showcasing Space Sprouts at Indie Arena Booth, gamescom."
+            }
+        ],
+        [
+            {
+            "type": "img",
+            "url": "img/spacesprouts/physics-chaos.gif",
+            "description": "Physics chaos mid-run."
+            }
+        ],
+        [
+            {
+            "type": "img",
+            "url": "img/spacesprouts/memory-wall.jpg",
+            "description": "The memory system UI between loops."
+            }
+        ]
+        ]
+    },
+    "vivaland": {
+        "name": "Vivaland: Dreamhouse",
+        "tags": [
+        "Game",
+        "3D"
+        ],
+        "thumbnailUrl": "img/vivaland/thumbnail.jpg",
+        "previewType": "mp4",
+        "previewUrl": "img/vivaland/preview.mp4",
+        "logoUrl": "img/vivaland/logo.png",
+        "description": [
+        "Free prologue of the co‑op life sim Vivaland, focused on an ultra-flexible multiplayer build mode."
+        ],
+        "linkouts": {
+        "steam": "https://store.steampowered.com/app/2606170/Vivaland_Dream_House/",
+        "trailer": "https://www.youtube.com/watch?v=0KYmOfJcq9g"
+        },
+        "pageContent": [
+        [
+            {
+            "type": "h2",
+            "content": "About:"
+            },
+            {
+            "type": "p",
+            "content": [
+                "Dreamhouse is the freely playable build-mode slice of Vivaland, a cooperative life-simulation game.",
+                "Players can construct and furnish homes solo or together online, testing the creative tools that will power the full experience."
+            ]
+            }
+        ],
+        [
+            {
+            "type": "learning",
+            "content": [
+                "... big teams can pull off what seems impossible for an individual—if everyone rallies around a shared vision."
+            ]
+            },
+            {
+            "type": "p",
+            "content": [
+                "Creating alignment in an international team taught me how powerful clear pillars, honest communication and fast iteration are when deadlines loom."
+            ]
+            }
+        ],
+        [
+            {
+            "type": "h2",
+            "content": "My Part:"
+            },
+            {
+            "type": "li",
+            "content": [
+                "Lead Game Designer (team of 4 designers + cross-department oversight)",
+                "Ran vision workshops: brand definition, USPs, core pillars & target audience",
+                "Bridged design with dev, art, QA, UI and marketing; managed stakeholder expectations (publishers, community)",
+                "Designed & specified dynamic build tools (intelligent snapping, magnetic placement, adaptive stairs, organic paths, fully free-form room shapes)",
+                "Hosted community Q&A and supported communication efforts"
+            ]
+            }
+        ],
+        [
+            {
+            "type": "youtube",
+            "url": "0KYmOfJcq9g",
+            "description": "Community build-mode overview"
+            }
+        ],
+        [
+            {
+            "type": "img",
+            "url": "img/vivaland/player-types.jpg",
+            "description": "Target group, player type differentiation"
+            }
+        ],
+        [
+            {
+            "type": "h3",
+            "content": "Build Mode Philosophy"
+            },
+            {
+            "type": "p",
+            "content": [
+                "Freedom first: any room shape, any angle.",
+                "Consistency across tools: fences, stairs and paths are as dynamic as walls.",
+                "Multiplayer-ready: every placement and edit synchronizes smoothly online."
+            ]
+            },
+            {
+            "type": "h3",
+            "content": "Vision & Alignment"
+            },
+            {
+            "type": "p",
+            "content": [
+                "When I joined, everyone had a different mental image of Vivaland.",
+                "Through structured workshops and living documents, we converged on a clear direction and shared vocabulary."
+            ]
+            }
+        ],
+        [
+            {
+            "type": "h3",
+            "content": "Headline"
+            },
+            {
+            "type": "p",
+            "content": [
+                "Text1",
+                "Text2"
+            ]
+            }
+        ],
+        [
+            {
+            "type": "img",
+            "url": "img/vivaland/grid.jpg",
+            "description": "Dynamic walls and snapping documentation"
+            }
+        ],
+        [
+            {
+            "type": "img",
+            "url": "img/vivaland/menues.jpg",
+            "description": "Core game mode differentiation and core feature overview"
+            }
+        ],
+                [
+            {
+            "type": "h3",
+            "content": "Headline"
+            },
+            {
+            "type": "p",
+            "content": [
+                "Text1",
+                "Text2"
+            ]
+            }
+        ],        
+        [
+            {
+            "type": "img",
+            "url": "img/vivaland/life-mode1.jpg",
+            "description": "Additional design and concepts for life mode"
+            }
+        ],
+        [
+            {
+            "type": "img",
+            "url": "img/vivaland/life-mode2.jpg"
+            }
+        ]
+        ]
+    },
     "fritz": {
         "name": "fritz kola arkade",
         "tags": [
@@ -241,7 +518,11 @@
                     "content": [
                         "The app/game for Polaris Convention that enabled attendees to participate in a QR code-based scavenger hunt, earn points, and unlock real physical rewards. ",
                         "Real-time updates on convention highlights and allowed attendees to create personalized avatars, making it an immersive experience. ",
-                        "As a game designer, I was excited to enhance the convention experience with this fun and engaging digital gamification."
+                        "As a game designer, I was excited to enhance the convention experience with this fun and engaging digital gamification.",
+                        "<br>",
+                        "The digital persona feature accompanies players throughout the entire event, allowing them to customize their avatars with 60 different outfits and accessories.",
+                        "During the event, players can explore the entire venue to discover 100 hidden stickers that can be unlocked using the app's scanner, including QR code stickers scattered throughout the venue. By scanning these qr-codes, players can earn new stickers and add other players as friends.",
+                        "For every new sticker and scanned friend, players climb the leaderboard. The appearance of their avatar reflects how much they've discovered so far."
                     ]
                 }
             ],
@@ -261,18 +542,8 @@
             [
                 {
                     "type": "img",
-                    "url": "img/polaris/app1.jpg",
+                    "url": "img/polaris/app2.jpg",
                     "description": "screenshots from the polaris app"
-                }
-            ],
-            [
-                {
-                    "type": "p",
-                    "content": [
-                        "The digital persona feature accompanies players throughout the entire event, allowing them to customize their avatars with 60 different outfits and accessories.",
-                        "During the event, players can explore the entire venue to discover 100 hidden stickers that can be unlocked using the app's scanner, including QR code stickers scattered throughout the venue. By scanning these qr-codes, players can earn new stickers and add other players as friends.",
-                        "For every new sticker and scanned friend, players climb the leaderboard. The appearance of their avatar reflects how much they've discovered so far."
-                    ]
                 }
             ],
             [
@@ -284,15 +555,7 @@
                         "The top 10 players were individually recognized at the grand reward show. With special and personal gifts."
                     ]
                 }
-            ],
-            [
-                {
-                    "type": "img",
-                    "url": "img/polaris/app1.jpg",
-                    "description": "screenshots from the polaris app"
-                }
-            ],
-            []
+            ]
         ]
     },
     "x5": {
@@ -1491,7 +1754,7 @@
                     "content": [
                         "I spend a lot of time on the project overseeing the general direction but also had to put in a lot of work in the visual style.",
                         "Since I'm not that experienced in creating new art styles for games, I had to invest some time in understanding and developing our the visual language of the game.",
-                        "The final style lives on a small brink between communicating interactivity as well as importance and presenting the general mood they wished for."
+                        "The final style lives on a small brink between communicating interactivity as well as importance and presenting the general mood the client wished for."
                     ]
                 }
             ],

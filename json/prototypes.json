@@ -1,4 +1,18 @@
 {
+    "shepherd": {
+        "name": "Sherpherds Path",
+        "description": [
+            "This prototype is more of a technical demo for a dynamic RTS fog of war system where trees, slopes, and other factors affect the shape of the cone of vision.",
+            "Guide as many sheep as possible to the mountain pasture. Let them graze along the way to keep them healthy and happy, but beware of the lurking wolf!"
+        ],
+        "thumbnailUrl": "img/prototypes/shepherd.jpg",
+        "linkouts": [
+            {
+                "text": "See my reddit post",
+                "link": "https://www.reddit.com/r/Unity3D/comments/x4uibe/i_created_a_dynamic_rts_fogofwar_system_where/"
+            }
+        ]
+    },
     "dynamic-view": {
         "name": "Dynamic RTS Fog-of-war",
         "description": [

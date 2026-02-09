@@ -106,6 +106,7 @@
 }
 #project-window .project-body .embed-responsive {
   display: block;
+  min-height: 40vh;
 }
 #project-window .row .col-xl-6 {
   padding: 2% 2%;
